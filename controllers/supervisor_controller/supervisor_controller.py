@@ -34,8 +34,8 @@ num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
     num_loops += 1
     # if( num_loops % 125 == 0):
-    print("Changing light source")
-    direction_field.setSFVec3f([-num_loops / 125.0,-1,0])
+    print("Changing light source now")
+    direction_field.setSFVec3f([-num_loops / 125.0 + 10,-1,0])
         
         
     # print((Robot)self_robot.getTime())

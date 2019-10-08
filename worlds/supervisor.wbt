@@ -6,16 +6,19 @@ WorldInfo {
   title "Supervisor Programming"
 }
 Viewpoint {
-  orientation 0.2782584649363033 0.9172292942406506 0.28506604230965504 4.596574200576427
-  position -1.4796025594419664 0.8713084390279616 -0.0422367789556813
+  orientation 0.2731260044133278 0.9212842210745048 0.2768349141859706 4.638448943811129
+  position -1.48019950580242 0.9252990272878108 0.020879043670596287
 }
 DirectionalLight {
-  direction -5.344 -1 0
+  direction -7.280000000000001 -1 0
   intensity 5
+  castShadows TRUE
 }
 TexturedBackground {
 }
 RectangleArena {
+}
+Rock10cm {
 }
 Robot {
   controller "supervisor_controller"
