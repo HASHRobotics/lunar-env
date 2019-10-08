@@ -1,0 +1,23 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+  info [
+    "Example use of a Supervisor to manipulate the world."
+  ]
+  title "Supervisor Programming"
+}
+Viewpoint {
+  orientation 0.2782584649363033 0.9172292942406506 0.28506604230965504 4.596574200576427
+  position -1.4796025594419664 0.8713084390279616 -0.0422367789556813
+}
+DirectionalLight {
+  direction -5.344 -1 0
+  intensity 5
+}
+TexturedBackground {
+}
+RectangleArena {
+}
+Robot {
+  controller "supervisor_controller"
+  supervisor TRUE
+}
