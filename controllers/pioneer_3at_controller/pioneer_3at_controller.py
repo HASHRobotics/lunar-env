@@ -81,7 +81,7 @@ backleftwheel.setVelocity(velocity)
 frontrigthwheel.setVelocity(velocity)
 frontleftwheel.setVelocity(velocity)
 
-message = ''
+message = 1
 # print('Initializing ROS: connecting to ' + os.environ['ROS_MASTER_URI'])
 robot.step(timeStep)
 # rospy.init_node('listener', anonymous=True)
@@ -99,7 +99,7 @@ while robot.step(timeStep) != -1:
     print('Published sensor1 value: ', sensor1.getValue())
     if message:
         print(message)
-        message = ''
+        message = 1
         backrightwheel.setVelocity(5)
         backleftwheel.setVelocity(5)
         frontrigthwheel.setVelocity(5)
