@@ -1,0 +1,62 @@
+#VRML_SIM R2019b utf8
+# license: Creative Commons Attribution 4.0 International License.
+# license url: https://creativecommons.org/licenses/by/4.0/legalcode
+# documentation url: https://www.cyberbotics.com/doc/guide/object-chairs
+# A two-color chair
+
+PROTO TwoColorChair [
+  field SFVec3f    translation       0 0.91 0
+  field SFRotation rotation          0 1 0 0
+  field SFString   name              "two-color chair"
+  field SFColor    legColor          1 1 0
+  field SFColor    seatColor         1 0.65 0
+  field SFNode     seatGeometry      NULL
+  field MFNode     seatExtensionSlot []
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Transform {
+        translation 0 0 -0.27
+        children IS seatExtensionSlot
+      }
+      Transform {
+        translation 0 -0.35 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material { diffuseColor IS seatColor }
+            }
+            geometry IS seatGeometry
+          }
+        ]
+      }
+      Transform {
+        translation 0.25 -0.65 -0.23
+        children [
+          DEF LEG_SHAPE Shape {
+            appearance Appearance {
+              material Material { diffuseColor IS legColor }
+            }
+            geometry Box { size 0.075 0.52 0.075 }
+          }
+        ]
+      }
+      Transform {
+        translation -0.25 -0.65 -0.23
+        children [ USE LEG_SHAPE ]
+      }
+      Transform {
+        translation 0.25 -0.65 0.2
+        children [ USE LEG_SHAPE ]
+      }
+      Transform {
+        translation -0.25 -0.65 0.2
+        children [ USE LEG_SHAPE ]
+      }
+    ]
+    name IS name
+  }
+}
