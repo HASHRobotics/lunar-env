@@ -1,9 +1,13 @@
+#!/usr/bin/python3
 """supervisor_controller controller."""
 
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
 
 from controller import Supervisor, Robot
+
+from scipy.io import loadmat
+import numpy as np
 
 # import time
 TIME_STEP = 32
@@ -30,13 +34,22 @@ for i in range(n):
 light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
+spice_data = loadmat("../../data/moon_rel_positions.mat")
+dir_sunlight = -spice_data['U_sun_point_me']
+
+rotation_matrix = np.array([[1,0,0],[0,0,-1],[0,1,0]])
+
+dir_sunlight = rotation_matrix@dir_sunlight
+
 num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
-    num_loops += 1
     # if( num_loops % 125 == 0):
-    print("Changing light source now")
-    direction_field.setSFVec3f([-num_loops / 125.0 + 10,-1,0])
-        
+    # print("Changing light source now")
+    direction_field.setSFVec3f((dir_sunlight[:,num_loops]).tolist())
+    num_loops += 1
+    if(num_loops == dir_sunlight.shape[1]):
+        print("Done with one day")
+        break
         
     # print((Robot)self_robot.getTime())
     # 

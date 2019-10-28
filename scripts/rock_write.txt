@@ -1,0 +1,4001 @@
+Rock10cmCustom {
+  translation 47.5292423991 0 -17.2796982089
+  rotation 0 -1 0 5.32771792414
+  name "rock 10 cm(0)"
+}Rock10cmCustom {
+  translation -4.77115017124 0 -24.0771142094
+  rotation 0 -1 0 1.60369213161
+  name "rock 10 cm(1)"
+}Rock10cmCustom {
+  translation -30.3127479096 0 45.9469335676
+  rotation 0 -1 0 0.539388672042
+  name "rock 10 cm(2)"
+}Rock10cmCustom {
+  translation -7.70708720169 0 -49.1629362722
+  rotation 0 -1 0 5.47229651204
+  name "rock 10 cm(3)"
+}Rock10cmCustom {
+  translation 0.311354265778 0 43.0883593166
+  rotation 0 -1 0 5.4936743996
+  name "rock 10 cm(4)"
+}Rock10cmCustom {
+  translation -10.6608572005 0 -0.789146568913
+  rotation 0 -1 0 0.0611497996765
+  name "rock 10 cm(5)"
+}Rock10cmCustom {
+  translation 49.0785260111 0 47.4635612655
+  rotation 0 -1 0 4.24925240332
+  name "rock 10 cm(6)"
+}Rock10cmCustom {
+  translation 30.1935374173 0 -12.0676488483
+  rotation 0 -1 0 2.15372987306
+  name "rock 10 cm(7)"
+}Rock10cmCustom {
+  translation -17.8722605038 0 -9.94701565216
+  rotation 0 -1 0 3.36638092542
+  name "rock 10 cm(8)"
+}Rock10cmCustom {
+  translation 47.2767182002 0 -11.6850387945
+  rotation 0 -1 0 4.55547140693
+  name "rock 10 cm(9)"
+}Rock10cmCustom {
+  translation 45.6581192872 0 33.7976462771
+  rotation 0 -1 0 5.52376646201
+  name "rock 10 cm(10)"
+}Rock10cmCustom {
+  translation 41.211139989 0 19.5695840709
+  rotation 0 -1 0 6.172502952
+  name "rock 10 cm(11)"
+}Rock10cmCustom {
+  translation -15.2606210461 0 48.3820812307
+  rotation 0 -1 0 5.96457176352
+  name "rock 10 cm(12)"
+}Rock10cmCustom {
+  translation 2.26698084597 0 -46.4193525582
+  rotation 0 -1 0 0.303617377891
+  name "rock 10 cm(13)"
+}Rock10cmCustom {
+  translation -8.84166911599 0 31.7360210565
+  rotation 0 -1 0 1.97211664376
+  name "rock 10 cm(14)"
+}Rock10cmCustom {
+  translation -45.8413400764 0 -48.2354766803
+  rotation 0 -1 0 1.07950422156
+  name "rock 10 cm(15)"
+}Rock10cmCustom {
+  translation -6.49146831314 0 -13.1842643648
+  rotation 0 -1 0 3.713103267
+  name "rock 10 cm(16)"
+}Rock10cmCustom {
+  translation -27.7608514362 0 37.7333021517
+  rotation 0 -1 0 0.333134115325
+  name "rock 10 cm(17)"
+}Rock10cmCustom {
+  translation 8.28624662724 0 -22.0630990224
+  rotation 0 -1 0 1.56320698635
+  name "rock 10 cm(18)"
+}Rock10cmCustom {
+  translation -20.2262708593 0 -10.3254269528
+  rotation 0 -1 0 5.68333866306
+  name "rock 10 cm(19)"
+}Rock10cmCustom {
+  translation 15.676424008 0 -3.42164802506
+  rotation 0 -1 0 2.61586371781
+  name "rock 10 cm(20)"
+}Rock10cmCustom {
+  translation 8.40721589629 0 -6.70021966055
+  rotation 0 -1 0 1.48332141797
+  name "rock 10 cm(21)"
+}Rock10cmCustom {
+  translation 7.45620642189 0 -13.1997796724
+  rotation 0 -1 0 5.90723394204
+  name "rock 10 cm(22)"
+}Rock10cmCustom {
+  translation -47.1939077484 0 -44.7641190169
+  rotation 0 -1 0 5.99077280609
+  name "rock 10 cm(23)"
+}Rock10cmCustom {
+  translation 31.2816270901 0 36.6309897522
+  rotation 0 -1 0 0.381522368041
+  name "rock 10 cm(24)"
+}Rock10cmCustom {
+  translation 31.4855302044 0 40.7221356912
+  rotation 0 -1 0 3.35725851719
+  name "rock 10 cm(25)"
+}Rock10cmCustom {
+  translation 5.08556195648 0 30.099501536
+  rotation 0 -1 0 2.38838642114
+  name "rock 10 cm(26)"
+}Rock10cmCustom {
+  translation -27.3908457667 0 31.957719204
+  rotation 0 -1 0 3.4335133989
+  name "rock 10 cm(27)"
+}Rock10cmCustom {
+  translation -34.3067015678 0 46.6612572204
+  rotation 0 -1 0 3.93564659063
+  name "rock 10 cm(28)"
+}Rock10cmCustom {
+  translation -32.6928880088 0 -8.67751692073
+  rotation 0 -1 0 6.26030147902
+  name "rock 10 cm(29)"
+}Rock10cmCustom {
+  translation -10.5772272601 0 37.9838629971
+  rotation 0 -1 0 4.68846278414
+  name "rock 10 cm(30)"
+}Rock10cmCustom {
+  translation -47.584665749 0 20.966976954
+  rotation 0 -1 0 4.73963994897
+  name "rock 10 cm(31)"
+}Rock10cmCustom {
+  translation 10.2776475902 0 -36.5759191946
+  rotation 0 -1 0 0.140586861455
+  name "rock 10 cm(32)"
+}Rock10cmCustom {
+  translation 46.9132317516 0 -48.977709315
+  rotation 0 -1 0 0.717810216359
+  name "rock 10 cm(33)"
+}Rock10cmCustom {
+  translation -11.7042712621 0 -23.5756970352
+  rotation 0 -1 0 0.986159919911
+  name "rock 10 cm(34)"
+}Rock10cmCustom {
+  translation 11.1516158677 0 5.72266834653
+  rotation 0 -1 0 0.423904525089
+  name "rock 10 cm(35)"
+}Rock10cmCustom {
+  translation 34.2840462494 0 -35.8731826279
+  rotation 0 -1 0 5.98084662615
+  name "rock 10 cm(36)"
+}Rock10cmCustom {
+  translation -18.3347511664 0 20.5422427808
+  rotation 0 -1 0 4.59235107331
+  name "rock 10 cm(37)"
+}Rock10cmCustom {
+  translation -25.1944696488 0 -39.0889154231
+  rotation 0 -1 0 0.826223162152
+  name "rock 10 cm(38)"
+}Rock10cmCustom {
+  translation 32.8308199282 0 31.4396533488
+  rotation 0 -1 0 6.16451859929
+  name "rock 10 cm(39)"
+}Rock10cmCustom {
+  translation -27.291202732 0 -36.5925183233
+  rotation 0 -1 0 4.42948051346
+  name "rock 10 cm(40)"
+}Rock10cmCustom {
+  translation 22.2755142706 0 -26.4027994143
+  rotation 0 -1 0 1.95872308101
+  name "rock 10 cm(41)"
+}Rock10cmCustom {
+  translation -36.82515628 0 39.6395498749
+  rotation 0 -1 0 2.36215983179
+  name "rock 10 cm(42)"
+}Rock10cmCustom {
+  translation -33.2726412596 0 -6.30920189438
+  rotation 0 -1 0 3.86346778937
+  name "rock 10 cm(43)"
+}Rock10cmCustom {
+  translation 41.3498497482 0 16.8506348116
+  rotation 0 -1 0 1.02737551447
+  name "rock 10 cm(44)"
+}Rock10cmCustom {
+  translation -8.56849865619 0 45.3569567167
+  rotation 0 -1 0 0.13480865487
+  name "rock 10 cm(45)"
+}Rock10cmCustom {
+  translation 1.72097091742 0 46.7139552379
+  rotation 0 -1 0 3.49108398612
+  name "rock 10 cm(46)"
+}Rock10cmCustom {
+  translation 28.4173075482 0 -6.48686473788
+  rotation 0 -1 0 1.97833711351
+  name "rock 10 cm(47)"
+}Rock10cmCustom {
+  translation -6.69543889633 0 0.0340961947416
+  rotation 0 -1 0 5.07494329299
+  name "rock 10 cm(48)"
+}Rock10cmCustom {
+  translation -44.4856993648 0 -18.1918065744
+  rotation 0 -1 0 1.2305895902
+  name "rock 10 cm(49)"
+}Rock10cmCustom {
+  translation 7.57459876392 0 -12.6759057459
+  rotation 0 -1 0 4.8894355313
+  name "rock 10 cm(50)"
+}Rock10cmCustom {
+  translation -18.9829977125 0 -6.47968032314
+  rotation 0 -1 0 5.28810667347
+  name "rock 10 cm(51)"
+}Rock10cmCustom {
+  translation -16.0729321497 0 -12.6250589989
+  rotation 0 -1 0 3.13529861646
+  name "rock 10 cm(52)"
+}Rock10cmCustom {
+  translation 46.437852211 0 -17.2813265533
+  rotation 0 -1 0 0.836873650021
+  name "rock 10 cm(53)"
+}Rock10cmCustom {
+  translation 9.84653208148 0 -7.87944779709
+  rotation 0 -1 0 3.36634662607
+  name "rock 10 cm(54)"
+}Rock10cmCustom {
+  translation 30.7123192607 0 31.2050368483
+  rotation 0 -1 0 0.205543441129
+  name "rock 10 cm(55)"
+}Rock10cmCustom {
+  translation -0.358855348488 0 -0.595787891317
+  rotation 0 -1 0 2.92479030028
+  name "rock 10 cm(56)"
+}Rock10cmCustom {
+  translation 39.157210053 0 18.8890246464
+  rotation 0 -1 0 3.09686652614
+  name "rock 10 cm(57)"
+}Rock10cmCustom {
+  translation -17.6823077431 0 -10.5309548366
+  rotation 0 -1 0 1.02242264909
+  name "rock 10 cm(58)"
+}Rock10cmCustom {
+  translation 42.7587663949 0 -48.2992332188
+  rotation 0 -1 0 4.92880338545
+  name "rock 10 cm(59)"
+}Rock10cmCustom {
+  translation 4.89364540411 0 -28.6557815391
+  rotation 0 -1 0 2.22920446256
+  name "rock 10 cm(60)"
+}Rock10cmCustom {
+  translation -27.2886352655 0 -49.6571618252
+  rotation 0 -1 0 0.963079274585
+  name "rock 10 cm(61)"
+}Rock10cmCustom {
+  translation -49.8235528779 0 -23.0937923029
+  rotation 0 -1 0 4.67841153814
+  name "rock 10 cm(62)"
+}Rock10cmCustom {
+  translation 7.05098915204 0 6.27074283924
+  rotation 0 -1 0 0.357320717662
+  name "rock 10 cm(63)"
+}Rock10cmCustom {
+  translation 24.3729756548 0 -46.9191159211
+  rotation 0 -1 0 3.93018047798
+  name "rock 10 cm(64)"
+}Rock10cmCustom {
+  translation 44.0104578704 0 20.8584690954
+  rotation 0 -1 0 4.92289066421
+  name "rock 10 cm(65)"
+}Rock10cmCustom {
+  translation 48.6862938801 0 26.6018640041
+  rotation 0 -1 0 2.75557270412
+  name "rock 10 cm(66)"
+}Rock10cmCustom {
+  translation -41.910258101 0 -27.2713951118
+  rotation 0 -1 0 4.52923690167
+  name "rock 10 cm(67)"
+}Rock10cmCustom {
+  translation -0.210604709662 0 -24.4522586859
+  rotation 0 -1 0 5.96008376749
+  name "rock 10 cm(68)"
+}Rock10cmCustom {
+  translation -22.5912479193 0 24.4145270616
+  rotation 0 -1 0 2.84455866555
+  name "rock 10 cm(69)"
+}Rock10cmCustom {
+  translation -6.59048800471 0 8.41004765344
+  rotation 0 -1 0 6.06824921145
+  name "rock 10 cm(70)"
+}Rock10cmCustom {
+  translation -33.3367304381 0 -18.0846210633
+  rotation 0 -1 0 2.12647484844
+  name "rock 10 cm(71)"
+}Rock10cmCustom {
+  translation 24.0900966442 0 7.77908562315
+  rotation 0 -1 0 1.18242777078
+  name "rock 10 cm(72)"
+}Rock10cmCustom {
+  translation 38.8514381375 0 -40.4432875605
+  rotation 0 -1 0 3.01698540462
+  name "rock 10 cm(73)"
+}Rock10cmCustom {
+  translation -18.8824941407 0 -9.40749468453
+  rotation 0 -1 0 5.3040929862
+  name "rock 10 cm(74)"
+}Rock10cmCustom {
+  translation -1.44076422701 0 -40.2836248266
+  rotation 0 -1 0 1.43587548142
+  name "rock 10 cm(75)"
+}Rock10cmCustom {
+  translation 46.6497608629 0 47.0083627564
+  rotation 0 -1 0 3.3965505239
+  name "rock 10 cm(76)"
+}Rock10cmCustom {
+  translation 49.9986383214 0 12.2923130581
+  rotation 0 -1 0 4.41764029353
+  name "rock 10 cm(77)"
+}Rock10cmCustom {
+  translation -43.9816631946 0 40.4083842737
+  rotation 0 -1 0 0.723824704983
+  name "rock 10 cm(78)"
+}Rock10cmCustom {
+  translation -8.43820469483 0 24.7439525107
+  rotation 0 -1 0 0.513790637858
+  name "rock 10 cm(79)"
+}Rock10cmCustom {
+  translation -18.968600896 0 40.8472494069
+  rotation 0 -1 0 2.15409219283
+  name "rock 10 cm(80)"
+}Rock10cmCustom {
+  translation -10.1790791266 0 44.8022287305
+  rotation 0 -1 0 2.99875208126
+  name "rock 10 cm(81)"
+}Rock10cmCustom {
+  translation 20.5670154532 0 -1.00151814244
+  rotation 0 -1 0 1.26902797501
+  name "rock 10 cm(82)"
+}Rock10cmCustom {
+  translation 13.6117089703 0 -25.6126292188
+  rotation 0 -1 0 1.05769984484
+  name "rock 10 cm(83)"
+}Rock10cmCustom {
+  translation -25.4620652756 0 16.4439920775
+  rotation 0 -1 0 4.76574610863
+  name "rock 10 cm(84)"
+}Rock10cmCustom {
+  translation 30.59023886 0 2.85841070288
+  rotation 0 -1 0 6.07020623284
+  name "rock 10 cm(85)"
+}Rock10cmCustom {
+  translation 22.9555226346 0 17.5509175574
+  rotation 0 -1 0 3.27755758139
+  name "rock 10 cm(86)"
+}Rock10cmCustom {
+  translation -30.8256511682 0 3.89721349534
+  rotation 0 -1 0 0.750555419788
+  name "rock 10 cm(87)"
+}Rock10cmCustom {
+  translation -49.8621440059 0 -27.9660883357
+  rotation 0 -1 0 4.17349247056
+  name "rock 10 cm(88)"
+}Rock10cmCustom {
+  translation -37.7829451969 0 36.1962376081
+  rotation 0 -1 0 2.98800148092
+  name "rock 10 cm(89)"
+}Rock10cmCustom {
+  translation 29.080479618 0 -5.21152317835
+  rotation 0 -1 0 3.81895536307
+  name "rock 10 cm(90)"
+}Rock10cmCustom {
+  translation -45.2437345472 0 -42.0402430388
+  rotation 0 -1 0 6.06327800817
+  name "rock 10 cm(91)"
+}Rock10cmCustom {
+  translation -26.6519534584 0 -21.2030118811
+  rotation 0 -1 0 4.40575675356
+  name "rock 10 cm(92)"
+}Rock10cmCustom {
+  translation -11.0300576938 0 -19.2012947152
+  rotation 0 -1 0 0.416117454542
+  name "rock 10 cm(93)"
+}Rock10cmCustom {
+  translation 26.6559178096 0 40.8410779427
+  rotation 0 -1 0 5.1565468734
+  name "rock 10 cm(94)"
+}Rock10cmCustom {
+  translation 35.8108040081 0 -32.8873381281
+  rotation 0 -1 0 4.59352314608
+  name "rock 10 cm(95)"
+}Rock10cmCustom {
+  translation 41.6978721033 0 -16.6885148658
+  rotation 0 -1 0 0.0709096719104
+  name "rock 10 cm(96)"
+}Rock10cmCustom {
+  translation -6.05281577889 0 10.4848138694
+  rotation 0 -1 0 0.923843641311
+  name "rock 10 cm(97)"
+}Rock10cmCustom {
+  translation 10.7821046824 0 -48.3909221875
+  rotation 0 -1 0 3.41449609019
+  name "rock 10 cm(98)"
+}Rock10cmCustom {
+  translation 37.2878457843 0 29.3186991226
+  rotation 0 -1 0 5.69985691546
+  name "rock 10 cm(99)"
+}Rock10cmCustom {
+  translation 28.2595768265 0 -26.5958009936
+  rotation 0 -1 0 2.22395188413
+  name "rock 10 cm(100)"
+}Rock10cmCustom {
+  translation 46.6259164426 0 3.58927973801
+  rotation 0 -1 0 2.27947415712
+  name "rock 10 cm(101)"
+}Rock10cmCustom {
+  translation -24.2438481259 0 0.16328567514
+  rotation 0 -1 0 3.65977130386
+  name "rock 10 cm(102)"
+}Rock10cmCustom {
+  translation 17.3766785274 0 -33.7460975294
+  rotation 0 -1 0 3.57493171538
+  name "rock 10 cm(103)"
+}Rock10cmCustom {
+  translation -39.0971330609 0 38.0103453747
+  rotation 0 -1 0 1.19821481119
+  name "rock 10 cm(104)"
+}Rock10cmCustom {
+  translation 8.91637011138 0 -8.65370425281
+  rotation 0 -1 0 3.40191575343
+  name "rock 10 cm(105)"
+}Rock10cmCustom {
+  translation 33.539229096 0 -11.5637760144
+  rotation 0 -1 0 0.0460593397743
+  name "rock 10 cm(106)"
+}Rock10cmCustom {
+  translation -39.3915564962 0 27.4546300324
+  rotation 0 -1 0 5.66423086505
+  name "rock 10 cm(107)"
+}Rock10cmCustom {
+  translation -42.2774997061 0 -49.8421887629
+  rotation 0 -1 0 4.71040195997
+  name "rock 10 cm(108)"
+}Rock10cmCustom {
+  translation 44.2528183032 0 -33.4436105752
+  rotation 0 -1 0 1.32737185202
+  name "rock 10 cm(109)"
+}Rock10cmCustom {
+  translation 42.2888028325 0 27.3852580049
+  rotation 0 -1 0 3.83728008673
+  name "rock 10 cm(110)"
+}Rock10cmCustom {
+  translation 31.6797157002 0 31.0046482205
+  rotation 0 -1 0 2.71205008989
+  name "rock 10 cm(111)"
+}Rock10cmCustom {
+  translation -19.9930221224 0 4.39215315086
+  rotation 0 -1 0 4.27074009431
+  name "rock 10 cm(112)"
+}Rock10cmCustom {
+  translation -1.64850837179 0 4.89398839784
+  rotation 0 -1 0 0.226034099927
+  name "rock 10 cm(113)"
+}Rock10cmCustom {
+  translation -43.7969821088 0 -42.0203319682
+  rotation 0 -1 0 6.21368039977
+  name "rock 10 cm(114)"
+}Rock10cmCustom {
+  translation -14.3557248839 0 -42.8779057255
+  rotation 0 -1 0 2.86661656589
+  name "rock 10 cm(115)"
+}Rock10cmCustom {
+  translation 33.8941074848 0 34.6780854112
+  rotation 0 -1 0 2.51022719767
+  name "rock 10 cm(116)"
+}Rock10cmCustom {
+  translation 3.7783578652 0 10.2697235781
+  rotation 0 -1 0 1.11706865454
+  name "rock 10 cm(117)"
+}Rock10cmCustom {
+  translation 23.2939549794 0 -4.50118436655
+  rotation 0 -1 0 5.76281224796
+  name "rock 10 cm(118)"
+}Rock10cmCustom {
+  translation -8.16086121881 0 -20.8434276791
+  rotation 0 -1 0 4.45901327646
+  name "rock 10 cm(119)"
+}Rock10cmCustom {
+  translation 36.4249805143 0 -3.91789147047
+  rotation 0 -1 0 0.572134741565
+  name "rock 10 cm(120)"
+}Rock10cmCustom {
+  translation 10.9108155595 0 -27.8967002863
+  rotation 0 -1 0 2.48910490412
+  name "rock 10 cm(121)"
+}Rock10cmCustom {
+  translation -40.9364876971 0 15.1508845207
+  rotation 0 -1 0 0.389591931247
+  name "rock 10 cm(122)"
+}Rock10cmCustom {
+  translation -26.5147425843 0 -31.4321905433
+  rotation 0 -1 0 4.20611551246
+  name "rock 10 cm(123)"
+}Rock10cmCustom {
+  translation 9.15759392507 0 -14.8658810303
+  rotation 0 -1 0 2.56949104117
+  name "rock 10 cm(124)"
+}Rock10cmCustom {
+  translation -5.32969073429 0 49.2628258611
+  rotation 0 -1 0 2.01310256639
+  name "rock 10 cm(125)"
+}Rock10cmCustom {
+  translation -5.23926702294 0 39.9362519549
+  rotation 0 -1 0 4.26686533843
+  name "rock 10 cm(126)"
+}Rock10cmCustom {
+  translation 19.8454031395 0 -4.9412121593
+  rotation 0 -1 0 3.81051955045
+  name "rock 10 cm(127)"
+}Rock10cmCustom {
+  translation 47.5933823259 0 43.3570124837
+  rotation 0 -1 0 1.58664804648
+  name "rock 10 cm(128)"
+}Rock10cmCustom {
+  translation -33.6987987812 0 -48.401616357
+  rotation 0 -1 0 1.70176117646
+  name "rock 10 cm(129)"
+}Rock10cmCustom {
+  translation 1.82190132008 0 -11.3447234523
+  rotation 0 -1 0 2.18517686036
+  name "rock 10 cm(130)"
+}Rock10cmCustom {
+  translation -32.1878855692 0 -0.0848916071064
+  rotation 0 -1 0 2.12016520244
+  name "rock 10 cm(131)"
+}Rock10cmCustom {
+  translation 45.1094084699 0 -23.2068543
+  rotation 0 -1 0 3.799806448
+  name "rock 10 cm(132)"
+}Rock10cmCustom {
+  translation 45.5907367814 0 -36.0032134601
+  rotation 0 -1 0 3.49685210388
+  name "rock 10 cm(133)"
+}Rock10cmCustom {
+  translation 3.54875264304 0 34.608505577
+  rotation 0 -1 0 0.764197289665
+  name "rock 10 cm(134)"
+}Rock10cmCustom {
+  translation -31.9201936305 0 28.0451808914
+  rotation 0 -1 0 4.82807082048
+  name "rock 10 cm(135)"
+}Rock10cmCustom {
+  translation -49.783654721 0 38.3965880583
+  rotation 0 -1 0 2.50538214452
+  name "rock 10 cm(136)"
+}Rock10cmCustom {
+  translation -23.7699196566 0 6.49881339497
+  rotation 0 -1 0 3.13801634586
+  name "rock 10 cm(137)"
+}Rock10cmCustom {
+  translation 16.4713188202 0 37.0495667565
+  rotation 0 -1 0 0.933403682678
+  name "rock 10 cm(138)"
+}Rock10cmCustom {
+  translation -28.7777130725 0 -8.75699832421
+  rotation 0 -1 0 2.68627816383
+  name "rock 10 cm(139)"
+}Rock10cmCustom {
+  translation -14.9365651302 0 3.0620672973
+  rotation 0 -1 0 4.46979321725
+  name "rock 10 cm(140)"
+}Rock10cmCustom {
+  translation -2.24050546264 0 -32.031189729
+  rotation 0 -1 0 4.47342337211
+  name "rock 10 cm(141)"
+}Rock10cmCustom {
+  translation -1.12319967822 0 -44.9282000817
+  rotation 0 -1 0 2.5190867696
+  name "rock 10 cm(142)"
+}Rock10cmCustom {
+  translation 49.7269003479 0 -0.276060060086
+  rotation 0 -1 0 0.77743999531
+  name "rock 10 cm(143)"
+}Rock10cmCustom {
+  translation -8.96959003104 0 -35.1327763315
+  rotation 0 -1 0 5.09214792711
+  name "rock 10 cm(144)"
+}Rock10cmCustom {
+  translation -40.173865202 0 34.5919315033
+  rotation 0 -1 0 3.56402366268
+  name "rock 10 cm(145)"
+}Rock10cmCustom {
+  translation -16.9884551303 0 4.99298968819
+  rotation 0 -1 0 0.0937928795574
+  name "rock 10 cm(146)"
+}Rock10cmCustom {
+  translation 40.9983203312 0 -1.1565358755
+  rotation 0 -1 0 1.22781704972
+  name "rock 10 cm(147)"
+}Rock10cmCustom {
+  translation -16.8827813073 0 -30.3898704055
+  rotation 0 -1 0 0.110848992175
+  name "rock 10 cm(148)"
+}Rock10cmCustom {
+  translation -42.4863333431 0 -49.0078028653
+  rotation 0 -1 0 2.93769385505
+  name "rock 10 cm(149)"
+}Rock10cmCustom {
+  translation -42.1547603093 0 -10.4918165125
+  rotation 0 -1 0 2.62318349131
+  name "rock 10 cm(150)"
+}Rock10cmCustom {
+  translation -5.31757977458 0 -15.649746747
+  rotation 0 -1 0 3.15935828553
+  name "rock 10 cm(151)"
+}Rock10cmCustom {
+  translation 18.4153275968 0 35.803292882
+  rotation 0 -1 0 3.99337385617
+  name "rock 10 cm(152)"
+}Rock10cmCustom {
+  translation 3.27595757251 0 -19.1910831838
+  rotation 0 -1 0 0.493482425156
+  name "rock 10 cm(153)"
+}Rock10cmCustom {
+  translation 1.37152373606 0 47.3916976768
+  rotation 0 -1 0 0.646471724603
+  name "rock 10 cm(154)"
+}Rock10cmCustom {
+  translation -17.6623420904 0 31.9165239536
+  rotation 0 -1 0 2.51970346502
+  name "rock 10 cm(155)"
+}Rock10cmCustom {
+  translation 27.9497755142 0 19.8827110922
+  rotation 0 -1 0 0.678902680608
+  name "rock 10 cm(156)"
+}Rock10cmCustom {
+  translation 39.8978816727 0 26.3809893039
+  rotation 0 -1 0 2.05790641354
+  name "rock 10 cm(157)"
+}Rock10cmCustom {
+  translation -23.9644566383 0 35.0451448557
+  rotation 0 -1 0 3.28771311777
+  name "rock 10 cm(158)"
+}Rock10cmCustom {
+  translation 5.83635869578 0 8.28154995727
+  rotation 0 -1 0 0.0401428143085
+  name "rock 10 cm(159)"
+}Rock10cmCustom {
+  translation -31.9441028679 0 -30.8980911212
+  rotation 0 -1 0 4.46227275961
+  name "rock 10 cm(160)"
+}Rock10cmCustom {
+  translation 17.9833037751 0 -2.17889745914
+  rotation 0 -1 0 1.653770761
+  name "rock 10 cm(161)"
+}Rock10cmCustom {
+  translation -16.0349598819 0 -49.7914809531
+  rotation 0 -1 0 4.67536135673
+  name "rock 10 cm(162)"
+}Rock10cmCustom {
+  translation -9.1470842159 0 -7.01453741446
+  rotation 0 -1 0 1.69045156222
+  name "rock 10 cm(163)"
+}Rock10cmCustom {
+  translation 21.0136599884 0 -36.5981947325
+  rotation 0 -1 0 5.85034670458
+  name "rock 10 cm(164)"
+}Rock10cmCustom {
+  translation 32.5188956397 0 10.3844404223
+  rotation 0 -1 0 4.73463169208
+  name "rock 10 cm(165)"
+}Rock10cmCustom {
+  translation -40.9329674008 0 -39.9960940695
+  rotation 0 -1 0 0.954731290716
+  name "rock 10 cm(166)"
+}Rock10cmCustom {
+  translation -49.315544664 0 43.569228825
+  rotation 0 -1 0 0.972046083908
+  name "rock 10 cm(167)"
+}Rock10cmCustom {
+  translation 29.2925862985 0 -40.8114926379
+  rotation 0 -1 0 0.150452354965
+  name "rock 10 cm(168)"
+}Rock10cmCustom {
+  translation 43.268068665 0 -2.99552930235
+  rotation 0 -1 0 5.36232758764
+  name "rock 10 cm(169)"
+}Rock10cmCustom {
+  translation 45.2088294212 0 1.53950074657
+  rotation 0 -1 0 2.97318540917
+  name "rock 10 cm(170)"
+}Rock10cmCustom {
+  translation -35.2540045288 0 -48.8923505497
+  rotation 0 -1 0 3.5118844406
+  name "rock 10 cm(171)"
+}Rock10cmCustom {
+  translation -12.2424372342 0 -9.18130672103
+  rotation 0 -1 0 2.60246639651
+  name "rock 10 cm(172)"
+}Rock10cmCustom {
+  translation 48.3671577764 0 -42.7286882307
+  rotation 0 -1 0 0.936675282239
+  name "rock 10 cm(173)"
+}Rock10cmCustom {
+  translation 39.0034467869 0 3.10915407313
+  rotation 0 -1 0 3.63597991946
+  name "rock 10 cm(174)"
+}Rock10cmCustom {
+  translation 7.11167951861 0 21.4261583916
+  rotation 0 -1 0 3.64758738261
+  name "rock 10 cm(175)"
+}Rock10cmCustom {
+  translation 35.3151273354 0 9.85685505914
+  rotation 0 -1 0 5.93357952046
+  name "rock 10 cm(176)"
+}Rock10cmCustom {
+  translation 29.0340683242 0 -22.5209096039
+  rotation 0 -1 0 4.83636004652
+  name "rock 10 cm(177)"
+}Rock10cmCustom {
+  translation 16.5640247495 0 -2.01095531117
+  rotation 0 -1 0 2.83025475645
+  name "rock 10 cm(178)"
+}Rock10cmCustom {
+  translation 28.9746496741 0 -10.8068403429
+  rotation 0 -1 0 0.433015236092
+  name "rock 10 cm(179)"
+}Rock10cmCustom {
+  translation -5.89838888026 0 -6.92859985839
+  rotation 0 -1 0 2.43240144882
+  name "rock 10 cm(180)"
+}Rock10cmCustom {
+  translation -6.04976314859 0 -27.3618529339
+  rotation 0 -1 0 1.26741135281
+  name "rock 10 cm(181)"
+}Rock10cmCustom {
+  translation 26.0791355107 0 3.52702816652
+  rotation 0 -1 0 1.87616251065
+  name "rock 10 cm(182)"
+}Rock10cmCustom {
+  translation 47.2102778567 0 7.5975158666
+  rotation 0 -1 0 1.98961035898
+  name "rock 10 cm(183)"
+}Rock10cmCustom {
+  translation -37.1465329611 0 48.4362209997
+  rotation 0 -1 0 3.74462591827
+  name "rock 10 cm(184)"
+}Rock10cmCustom {
+  translation -44.8058463849 0 29.7924450657
+  rotation 0 -1 0 0.734905641076
+  name "rock 10 cm(185)"
+}Rock10cmCustom {
+  translation -5.76643160479 0 -34.3686492412
+  rotation 0 -1 0 4.37018823092
+  name "rock 10 cm(186)"
+}Rock10cmCustom {
+  translation -7.16774186811 0 12.0002839857
+  rotation 0 -1 0 0.986755146754
+  name "rock 10 cm(187)"
+}Rock10cmCustom {
+  translation 14.7835361939 0 -42.2300786205
+  rotation 0 -1 0 0.70175482259
+  name "rock 10 cm(188)"
+}Rock10cmCustom {
+  translation -1.80652661947 0 12.6612536958
+  rotation 0 -1 0 5.78600740087
+  name "rock 10 cm(189)"
+}Rock10cmCustom {
+  translation -29.7929096938 0 -29.3120409903
+  rotation 0 -1 0 5.81122103782
+  name "rock 10 cm(190)"
+}Rock10cmCustom {
+  translation -28.8217816731 0 25.2789885093
+  rotation 0 -1 0 4.88943751445
+  name "rock 10 cm(191)"
+}Rock10cmCustom {
+  translation 8.29710350165 0 -48.7093768292
+  rotation 0 -1 0 4.69286792781
+  name "rock 10 cm(192)"
+}Rock10cmCustom {
+  translation -10.0768112163 0 -15.588744036
+  rotation 0 -1 0 2.89553817062
+  name "rock 10 cm(193)"
+}Rock10cmCustom {
+  translation 42.9195278548 0 -30.3109700339
+  rotation 0 -1 0 4.30189492921
+  name "rock 10 cm(194)"
+}Rock10cmCustom {
+  translation -34.0868276813 0 36.2004941569
+  rotation 0 -1 0 2.79641120706
+  name "rock 10 cm(195)"
+}Rock10cmCustom {
+  translation 20.2966729552 0 34.2550946971
+  rotation 0 -1 0 4.9235023589
+  name "rock 10 cm(196)"
+}Rock10cmCustom {
+  translation 2.87530791262 0 -41.1199801374
+  rotation 0 -1 0 3.56892586937
+  name "rock 10 cm(197)"
+}Rock10cmCustom {
+  translation -11.5758503898 0 -46.5700811358
+  rotation 0 -1 0 0.289698842974
+  name "rock 10 cm(198)"
+}Rock10cmCustom {
+  translation -44.0058896535 0 -24.3297293563
+  rotation 0 -1 0 4.167620973
+  name "rock 10 cm(199)"
+}Rock10cmCustom {
+  translation -16.6685781797 0 33.4635201075
+  rotation 0 -1 0 4.68443566184
+  name "rock 10 cm(200)"
+}Rock10cmCustom {
+  translation -36.4322074504 0 -49.3442902055
+  rotation 0 -1 0 4.21820097061
+  name "rock 10 cm(201)"
+}Rock10cmCustom {
+  translation -20.6240612385 0 39.8728208991
+  rotation 0 -1 0 5.19853807416
+  name "rock 10 cm(202)"
+}Rock10cmCustom {
+  translation -37.6070442382 0 29.3365267846
+  rotation 0 -1 0 5.44438730722
+  name "rock 10 cm(203)"
+}Rock10cmCustom {
+  translation 26.041583843 0 25.7675231416
+  rotation 0 -1 0 0.650098934815
+  name "rock 10 cm(204)"
+}Rock10cmCustom {
+  translation -25.1490266197 0 -21.9625996489
+  rotation 0 -1 0 5.33049275493
+  name "rock 10 cm(205)"
+}Rock10cmCustom {
+  translation 36.6545539819 0 -32.2056620872
+  rotation 0 -1 0 5.6526460332
+  name "rock 10 cm(206)"
+}Rock10cmCustom {
+  translation 2.76015296556 0 -25.8053972463
+  rotation 0 -1 0 3.344830525
+  name "rock 10 cm(207)"
+}Rock10cmCustom {
+  translation -41.2210315439 0 17.5618385285
+  rotation 0 -1 0 3.55900283181
+  name "rock 10 cm(208)"
+}Rock10cmCustom {
+  translation 35.2930833743 0 27.504436215
+  rotation 0 -1 0 3.00467468219
+  name "rock 10 cm(209)"
+}Rock10cmCustom {
+  translation 11.0465586699 0 0.948976189179
+  rotation 0 -1 0 4.97342803939
+  name "rock 10 cm(210)"
+}Rock10cmCustom {
+  translation -35.3770415522 0 -43.6229371347
+  rotation 0 -1 0 1.8696741934
+  name "rock 10 cm(211)"
+}Rock10cmCustom {
+  translation -8.66938084414 0 -9.94545138329
+  rotation 0 -1 0 1.63088435588
+  name "rock 10 cm(212)"
+}Rock10cmCustom {
+  translation -30.6571093483 0 -47.0351412471
+  rotation 0 -1 0 1.24348501101
+  name "rock 10 cm(213)"
+}Rock10cmCustom {
+  translation -39.0721389016 0 15.0918712326
+  rotation 0 -1 0 3.61676965119
+  name "rock 10 cm(214)"
+}Rock10cmCustom {
+  translation 24.9771132275 0 17.0982897622
+  rotation 0 -1 0 2.30629389056
+  name "rock 10 cm(215)"
+}Rock10cmCustom {
+  translation 31.0341433462 0 1.38129990701
+  rotation 0 -1 0 5.27867941998
+  name "rock 10 cm(216)"
+}Rock10cmCustom {
+  translation 18.6116030773 0 0.812392161669
+  rotation 0 -1 0 1.37581197866
+  name "rock 10 cm(217)"
+}Rock10cmCustom {
+  translation 4.78766635724 0 -12.2649410097
+  rotation 0 -1 0 0.808421351009
+  name "rock 10 cm(218)"
+}Rock10cmCustom {
+  translation -46.3203825248 0 -42.5908429964
+  rotation 0 -1 0 4.40990500804
+  name "rock 10 cm(219)"
+}Rock10cmCustom {
+  translation -31.0200245415 0 28.9636456228
+  rotation 0 -1 0 4.7627437614
+  name "rock 10 cm(220)"
+}Rock10cmCustom {
+  translation -6.64962472216 0 39.0018321386
+  rotation 0 -1 0 0.226017044476
+  name "rock 10 cm(221)"
+}Rock10cmCustom {
+  translation 31.7709941971 0 -23.0617467246
+  rotation 0 -1 0 6.25061789004
+  name "rock 10 cm(222)"
+}Rock10cmCustom {
+  translation -33.6307611525 0 27.4529326022
+  rotation 0 -1 0 1.14081100484
+  name "rock 10 cm(223)"
+}Rock10cmCustom {
+  translation 14.0479491474 0 -14.1424504041
+  rotation 0 -1 0 5.20527907198
+  name "rock 10 cm(224)"
+}Rock10cmCustom {
+  translation 47.6317253791 0 -37.0323004831
+  rotation 0 -1 0 5.56837642385
+  name "rock 10 cm(225)"
+}Rock10cmCustom {
+  translation -44.2104478045 0 13.2517794578
+  rotation 0 -1 0 1.93547417105
+  name "rock 10 cm(226)"
+}Rock10cmCustom {
+  translation 46.6879201348 0 -27.8518069957
+  rotation 0 -1 0 3.68267086297
+  name "rock 10 cm(227)"
+}Rock10cmCustom {
+  translation -45.9983824736 0 -43.607419659
+  rotation 0 -1 0 0.466199183829
+  name "rock 10 cm(228)"
+}Rock10cmCustom {
+  translation -39.5967811691 0 -48.4885106841
+  rotation 0 -1 0 1.25760333885
+  name "rock 10 cm(229)"
+}Rock10cmCustom {
+  translation 36.8069922534 0 -16.2429432241
+  rotation 0 -1 0 3.27608537043
+  name "rock 10 cm(230)"
+}Rock10cmCustom {
+  translation -12.7240625823 0 19.4499359226
+  rotation 0 -1 0 1.46796217028
+  name "rock 10 cm(231)"
+}Rock10cmCustom {
+  translation -43.3225477447 0 23.5662683328
+  rotation 0 -1 0 5.35486023854
+  name "rock 10 cm(232)"
+}Rock10cmCustom {
+  translation -2.37612416545 0 -4.57085638292
+  rotation 0 -1 0 0.951258477975
+  name "rock 10 cm(233)"
+}Rock10cmCustom {
+  translation 18.8587045216 0 -18.0625372641
+  rotation 0 -1 0 1.81801470096
+  name "rock 10 cm(234)"
+}Rock10cmCustom {
+  translation -2.32126679437 0 -27.013225806
+  rotation 0 -1 0 1.91953054531
+  name "rock 10 cm(235)"
+}Rock10cmCustom {
+  translation -36.0150350432 0 -15.2121636885
+  rotation 0 -1 0 5.70615513736
+  name "rock 10 cm(236)"
+}Rock10cmCustom {
+  translation 21.9554409006 0 3.84703615756
+  rotation 0 -1 0 5.99307090789
+  name "rock 10 cm(237)"
+}Rock10cmCustom {
+  translation -24.3963418506 0 11.763612199
+  rotation 0 -1 0 4.61339599386
+  name "rock 10 cm(238)"
+}Rock10cmCustom {
+  translation 42.7321428473 0 -5.86443307014
+  rotation 0 -1 0 4.31852756966
+  name "rock 10 cm(239)"
+}Rock10cmCustom {
+  translation 22.9100001673 0 44.2760839918
+  rotation 0 -1 0 1.86691312252
+  name "rock 10 cm(240)"
+}Rock10cmCustom {
+  translation 33.3619208118 0 -46.3904977502
+  rotation 0 -1 0 5.36890724713
+  name "rock 10 cm(241)"
+}Rock10cmCustom {
+  translation -14.7976661632 0 -20.3597327679
+  rotation 0 -1 0 3.81976753951
+  name "rock 10 cm(242)"
+}Rock10cmCustom {
+  translation -11.0747302468 0 44.9009938202
+  rotation 0 -1 0 5.06130043561
+  name "rock 10 cm(243)"
+}Rock10cmCustom {
+  translation -35.9507442331 0 8.64151714465
+  rotation 0 -1 0 5.18240480733
+  name "rock 10 cm(244)"
+}Rock10cmCustom {
+  translation -43.1139834082 0 -34.6353226643
+  rotation 0 -1 0 1.31821564962
+  name "rock 10 cm(245)"
+}Rock10cmCustom {
+  translation 29.777755951 0 -36.5943174567
+  rotation 0 -1 0 4.70029794126
+  name "rock 10 cm(246)"
+}Rock10cmCustom {
+  translation 41.1215649173 0 -14.3791147656
+  rotation 0 -1 0 0.854213025266
+  name "rock 10 cm(247)"
+}Rock10cmCustom {
+  translation 1.26810088821 0 -32.2215049327
+  rotation 0 -1 0 4.39739637836
+  name "rock 10 cm(248)"
+}Rock10cmCustom {
+  translation 48.8910801737 0 -31.2029475446
+  rotation 0 -1 0 2.69787190742
+  name "rock 10 cm(249)"
+}Rock10cmCustom {
+  translation -15.0365400351 0 49.7697948798
+  rotation 0 -1 0 1.66771314662
+  name "rock 10 cm(250)"
+}Rock10cmCustom {
+  translation -49.5361084755 0 -3.48342821408
+  rotation 0 -1 0 0.96644773269
+  name "rock 10 cm(251)"
+}Rock10cmCustom {
+  translation -8.00254071021 0 -20.619399037
+  rotation 0 -1 0 3.44093236517
+  name "rock 10 cm(252)"
+}Rock10cmCustom {
+  translation 10.7063775793 0 13.3169788398
+  rotation 0 -1 0 5.04911354413
+  name "rock 10 cm(253)"
+}Rock10cmCustom {
+  translation -19.1170285715 0 31.5008635714
+  rotation 0 -1 0 1.92072713726
+  name "rock 10 cm(254)"
+}Rock10cmCustom {
+  translation -22.1447861805 0 33.4467321741
+  rotation 0 -1 0 5.20275478336
+  name "rock 10 cm(255)"
+}Rock10cmCustom {
+  translation 48.6996704454 0 -41.921729851
+  rotation 0 -1 0 1.7942910857
+  name "rock 10 cm(256)"
+}Rock10cmCustom {
+  translation 40.9362496145 0 49.5374673918
+  rotation 0 -1 0 2.07093413265
+  name "rock 10 cm(257)"
+}Rock10cmCustom {
+  translation -0.346968265643 0 -23.70503858
+  rotation 0 -1 0 1.0453115198
+  name "rock 10 cm(258)"
+}Rock10cmCustom {
+  translation -14.0415873172 0 -25.2492220317
+  rotation 0 -1 0 5.2939485202
+  name "rock 10 cm(259)"
+}Rock10cmCustom {
+  translation -46.7097076672 0 46.4411671299
+  rotation 0 -1 0 1.29912469461
+  name "rock 10 cm(260)"
+}Rock10cmCustom {
+  translation 5.4941352438 0 -16.740076827
+  rotation 0 -1 0 0.140030556732
+  name "rock 10 cm(261)"
+}Rock10cmCustom {
+  translation 34.2657319929 0 -30.2939350614
+  rotation 0 -1 0 0.164845412867
+  name "rock 10 cm(262)"
+}Rock10cmCustom {
+  translation -46.6776456982 0 34.0663609082
+  rotation 0 -1 0 5.78107276214
+  name "rock 10 cm(263)"
+}Rock10cmCustom {
+  translation -46.2325222191 0 -16.5656275105
+  rotation 0 -1 0 5.05346707063
+  name "rock 10 cm(264)"
+}Rock10cmCustom {
+  translation -0.0918896481232 0 34.5018484061
+  rotation 0 -1 0 1.68212955892
+  name "rock 10 cm(265)"
+}Rock10cmCustom {
+  translation -18.7098263075 0 24.6281490487
+  rotation 0 -1 0 6.17569654209
+  name "rock 10 cm(266)"
+}Rock10cmCustom {
+  translation 24.004317597 0 -37.5326926722
+  rotation 0 -1 0 0.403233543246
+  name "rock 10 cm(267)"
+}Rock10cmCustom {
+  translation -1.31890613934 0 -27.3254081186
+  rotation 0 -1 0 4.63222905785
+  name "rock 10 cm(268)"
+}Rock10cmCustom {
+  translation 32.130184576 0 -25.2280769944
+  rotation 0 -1 0 4.40415122835
+  name "rock 10 cm(269)"
+}Rock10cmCustom {
+  translation 37.717687032 0 -5.47805662608
+  rotation 0 -1 0 4.87506075622
+  name "rock 10 cm(270)"
+}Rock10cmCustom {
+  translation 41.2798011182 0 16.9057965018
+  rotation 0 -1 0 0.987859868503
+  name "rock 10 cm(271)"
+}Rock10cmCustom {
+  translation 25.2814377551 0 48.9619663928
+  rotation 0 -1 0 5.7741243847
+  name "rock 10 cm(272)"
+}Rock10cmCustom {
+  translation 13.4510632264 0 10.3507255668
+  rotation 0 -1 0 1.15382032174
+  name "rock 10 cm(273)"
+}Rock10cmCustom {
+  translation -19.9777483478 0 -34.2259881174
+  rotation 0 -1 0 4.55874206236
+  name "rock 10 cm(274)"
+}Rock10cmCustom {
+  translation 3.52516013963 0 -8.76904184662
+  rotation 0 -1 0 1.1016011853
+  name "rock 10 cm(275)"
+}Rock10cmCustom {
+  translation 24.3129800542 0 -39.1466153353
+  rotation 0 -1 0 0.703709813847
+  name "rock 10 cm(276)"
+}Rock10cmCustom {
+  translation -35.3173483859 0 37.1086255375
+  rotation 0 -1 0 5.50411974718
+  name "rock 10 cm(277)"
+}Rock10cmCustom {
+  translation 3.45824315419 0 -29.9906283037
+  rotation 0 -1 0 1.19939253084
+  name "rock 10 cm(278)"
+}Rock10cmCustom {
+  translation 33.34462166 0 -25.0564930295
+  rotation 0 -1 0 2.11606553793
+  name "rock 10 cm(279)"
+}Rock10cmCustom {
+  translation -25.9245095537 0 31.1435108017
+  rotation 0 -1 0 0.402840387194
+  name "rock 10 cm(280)"
+}Rock10cmCustom {
+  translation -12.3954421653 0 -13.2074911222
+  rotation 0 -1 0 1.32595492639
+  name "rock 10 cm(281)"
+}Rock10cmCustom {
+  translation -35.2499201084 0 23.3096730772
+  rotation 0 -1 0 6.07864596479
+  name "rock 10 cm(282)"
+}Rock10cmCustom {
+  translation -24.5341241711 0 46.6843937295
+  rotation 0 -1 0 1.9600133853
+  name "rock 10 cm(283)"
+}Rock10cmCustom {
+  translation 42.1380368759 0 30.710394418
+  rotation 0 -1 0 1.60101519527
+  name "rock 10 cm(284)"
+}Rock10cmCustom {
+  translation 36.7888201592 0 19.0768034754
+  rotation 0 -1 0 4.30632154498
+  name "rock 10 cm(285)"
+}Rock10cmCustom {
+  translation -2.53547059645 0 17.3293459531
+  rotation 0 -1 0 4.49953741878
+  name "rock 10 cm(286)"
+}Rock10cmCustom {
+  translation -40.2697834512 0 -6.39072745784
+  rotation 0 -1 0 6.2266592368
+  name "rock 10 cm(287)"
+}Rock10cmCustom {
+  translation -19.3494439769 0 26.0350939993
+  rotation 0 -1 0 3.33055180188
+  name "rock 10 cm(288)"
+}Rock10cmCustom {
+  translation -19.5231177586 0 -17.8262324797
+  rotation 0 -1 0 3.8368476622
+  name "rock 10 cm(289)"
+}Rock10cmCustom {
+  translation 2.47868769505 0 30.6272598235
+  rotation 0 -1 0 4.29802285861
+  name "rock 10 cm(290)"
+}Rock10cmCustom {
+  translation 25.0213174501 0 15.2023955166
+  rotation 0 -1 0 3.26648784808
+  name "rock 10 cm(291)"
+}Rock10cmCustom {
+  translation 29.7890272222 0 -20.4048953644
+  rotation 0 -1 0 3.44388585441
+  name "rock 10 cm(292)"
+}Rock10cmCustom {
+  translation -33.7303936761 0 -12.281794938
+  rotation 0 -1 0 5.07220232429
+  name "rock 10 cm(293)"
+}Rock10cmCustom {
+  translation -48.0810222242 0 -49.2955221839
+  rotation 0 -1 0 4.43774233886
+  name "rock 10 cm(294)"
+}Rock10cmCustom {
+  translation 47.2211053078 0 -49.039169341
+  rotation 0 -1 0 0.258843372541
+  name "rock 10 cm(295)"
+}Rock10cmCustom {
+  translation -34.2707701875 0 -20.9274590622
+  rotation 0 -1 0 1.87643696955
+  name "rock 10 cm(296)"
+}Rock10cmCustom {
+  translation -8.4822592793 0 17.1176155086
+  rotation 0 -1 0 1.35723756996
+  name "rock 10 cm(297)"
+}Rock10cmCustom {
+  translation -41.4230489515 0 46.2423441072
+  rotation 0 -1 0 6.04336599429
+  name "rock 10 cm(298)"
+}Rock10cmCustom {
+  translation -42.6698879462 0 -25.3256244857
+  rotation 0 -1 0 6.20081814217
+  name "rock 10 cm(299)"
+}Rock10cmCustom {
+  translation 33.464029166 0 -44.0296444763
+  rotation 0 -1 0 0.432907156534
+  name "rock 10 cm(300)"
+}Rock10cmCustom {
+  translation -24.1878272338 0 19.0234359382
+  rotation 0 -1 0 4.75782262131
+  name "rock 10 cm(301)"
+}Rock10cmCustom {
+  translation 14.5555620779 0 -15.4643961153
+  rotation 0 -1 0 6.04965413726
+  name "rock 10 cm(302)"
+}Rock10cmCustom {
+  translation -33.4759427367 0 35.0756297214
+  rotation 0 -1 0 3.29558997017
+  name "rock 10 cm(303)"
+}Rock10cmCustom {
+  translation -48.5979353813 0 -23.3384854009
+  rotation 0 -1 0 1.82680071006
+  name "rock 10 cm(304)"
+}Rock10cmCustom {
+  translation -20.8764181585 0 43.0884795937
+  rotation 0 -1 0 5.47216720796
+  name "rock 10 cm(305)"
+}Rock10cmCustom {
+  translation -35.8210741414 0 -40.1577419807
+  rotation 0 -1 0 2.90137476846
+  name "rock 10 cm(306)"
+}Rock10cmCustom {
+  translation -35.2389910161 0 22.3094362413
+  rotation 0 -1 0 3.83358661446
+  name "rock 10 cm(307)"
+}Rock10cmCustom {
+  translation -9.00715356417 0 34.1213407012
+  rotation 0 -1 0 6.17261626593
+  name "rock 10 cm(308)"
+}Rock10cmCustom {
+  translation -8.80026398329 0 24.5307086558
+  rotation 0 -1 0 3.85059084153
+  name "rock 10 cm(309)"
+}Rock10cmCustom {
+  translation -22.4232897982 0 -8.87433590984
+  rotation 0 -1 0 0.0746035446119
+  name "rock 10 cm(310)"
+}Rock10cmCustom {
+  translation 2.45685184434 0 23.5506369945
+  rotation 0 -1 0 5.73918860358
+  name "rock 10 cm(311)"
+}Rock10cmCustom {
+  translation -11.9999833066 0 -22.5867849826
+  rotation 0 -1 0 4.91948195311
+  name "rock 10 cm(312)"
+}Rock10cmCustom {
+  translation 43.7273250056 0 10.9264383634
+  rotation 0 -1 0 0.823110619705
+  name "rock 10 cm(313)"
+}Rock10cmCustom {
+  translation 18.1508352721 0 -17.9884733127
+  rotation 0 -1 0 1.04218723416
+  name "rock 10 cm(314)"
+}Rock10cmCustom {
+  translation -3.18346918005 0 -41.1427398946
+  rotation 0 -1 0 3.40710893074
+  name "rock 10 cm(315)"
+}Rock10cmCustom {
+  translation 40.310210534 0 -32.3665980421
+  rotation 0 -1 0 4.81635818962
+  name "rock 10 cm(316)"
+}Rock10cmCustom {
+  translation -48.0503923537 0 -42.5193501896
+  rotation 0 -1 0 4.31503986407
+  name "rock 10 cm(317)"
+}Rock10cmCustom {
+  translation -7.77278840929 0 33.2052349029
+  rotation 0 -1 0 5.17756238843
+  name "rock 10 cm(318)"
+}Rock10cmCustom {
+  translation -48.9716361154 0 0.155864549788
+  rotation 0 -1 0 5.60920308467
+  name "rock 10 cm(319)"
+}Rock10cmCustom {
+  translation -9.92627065756 0 -48.733451869
+  rotation 0 -1 0 0.891021249445
+  name "rock 10 cm(320)"
+}Rock10cmCustom {
+  translation 26.6081372062 0 -23.609822592
+  rotation 0 -1 0 0.726053120051
+  name "rock 10 cm(321)"
+}Rock10cmCustom {
+  translation 16.2404819541 0 29.0272402869
+  rotation 0 -1 0 6.26030871696
+  name "rock 10 cm(322)"
+}Rock10cmCustom {
+  translation 22.2768760312 0 24.4843683994
+  rotation 0 -1 0 2.93452256812
+  name "rock 10 cm(323)"
+}Rock10cmCustom {
+  translation 16.2548947416 0 20.1376212968
+  rotation 0 -1 0 1.21195745175
+  name "rock 10 cm(324)"
+}Rock10cmCustom {
+  translation -47.3341714386 0 10.8690647956
+  rotation 0 -1 0 4.05453075823
+  name "rock 10 cm(325)"
+}Rock10cmCustom {
+  translation -1.1291901967 0 43.1755883479
+  rotation 0 -1 0 2.4285514586
+  name "rock 10 cm(326)"
+}Rock10cmCustom {
+  translation 45.4376294055 0 -30.5936616449
+  rotation 0 -1 0 5.83303180115
+  name "rock 10 cm(327)"
+}Rock10cmCustom {
+  translation -46.1245289143 0 23.0849061257
+  rotation 0 -1 0 6.21912021102
+  name "rock 10 cm(328)"
+}Rock10cmCustom {
+  translation 3.23418906522 0 -20.7198986309
+  rotation 0 -1 0 0.9090167064
+  name "rock 10 cm(329)"
+}Rock10cmCustom {
+  translation 0.252961400003 0 -30.4367162712
+  rotation 0 -1 0 5.82837802636
+  name "rock 10 cm(330)"
+}Rock10cmCustom {
+  translation 41.3837031185 0 -2.27767828562
+  rotation 0 -1 0 3.92134231386
+  name "rock 10 cm(331)"
+}Rock10cmCustom {
+  translation -32.2361242552 0 16.18384109
+  rotation 0 -1 0 2.47581685458
+  name "rock 10 cm(332)"
+}Rock10cmCustom {
+  translation 11.1206607554 0 26.1474899883
+  rotation 0 -1 0 0.582796348349
+  name "rock 10 cm(333)"
+}Rock10cmCustom {
+  translation 33.8519399412 0 -8.00766248393
+  rotation 0 -1 0 1.91900426681
+  name "rock 10 cm(334)"
+}Rock10cmCustom {
+  translation -7.38648532386 0 12.3357442878
+  rotation 0 -1 0 4.75200264385
+  name "rock 10 cm(335)"
+}Rock10cmCustom {
+  translation 44.6530068014 0 -9.19093238969
+  rotation 0 -1 0 0.177669361178
+  name "rock 10 cm(336)"
+}Rock10cmCustom {
+  translation 33.4739065671 0 -39.5757942219
+  rotation 0 -1 0 2.42582342622
+  name "rock 10 cm(337)"
+}Rock10cmCustom {
+  translation 41.015816947 0 28.0978119139
+  rotation 0 -1 0 1.25263533483
+  name "rock 10 cm(338)"
+}Rock10cmCustom {
+  translation 48.2635782311 0 41.7516679414
+  rotation 0 -1 0 2.37657294456
+  name "rock 10 cm(339)"
+}Rock10cmCustom {
+  translation 47.110672871 0 39.0602140311
+  rotation 0 -1 0 2.90131929249
+  name "rock 10 cm(340)"
+}Rock10cmCustom {
+  translation -45.9156585712 0 48.8779032185
+  rotation 0 -1 0 2.70455663319
+  name "rock 10 cm(341)"
+}Rock10cmCustom {
+  translation 40.9925062452 0 24.0386875411
+  rotation 0 -1 0 1.09593398573
+  name "rock 10 cm(342)"
+}Rock10cmCustom {
+  translation 11.2786186868 0 -30.0739699033
+  rotation 0 -1 0 4.18826337351
+  name "rock 10 cm(343)"
+}Rock10cmCustom {
+  translation 0.911497573944 0 28.1142186176
+  rotation 0 -1 0 3.17956137494
+  name "rock 10 cm(344)"
+}Rock10cmCustom {
+  translation -36.1648680195 0 -5.07419252929
+  rotation 0 -1 0 4.57005589363
+  name "rock 10 cm(345)"
+}Rock10cmCustom {
+  translation 8.98257167888 0 40.1242039326
+  rotation 0 -1 0 1.62726759017
+  name "rock 10 cm(346)"
+}Rock10cmCustom {
+  translation 12.6783830544 0 22.1306696705
+  rotation 0 -1 0 1.71956816424
+  name "rock 10 cm(347)"
+}Rock10cmCustom {
+  translation -8.48634226768 0 -37.1567714752
+  rotation 0 -1 0 1.57132722883
+  name "rock 10 cm(348)"
+}Rock10cmCustom {
+  translation 33.3194122345 0 -38.9580711164
+  rotation 0 -1 0 2.63472416263
+  name "rock 10 cm(349)"
+}Rock10cmCustom {
+  translation 7.1295899939 0 16.6740221861
+  rotation 0 -1 0 0.176781622404
+  name "rock 10 cm(350)"
+}Rock10cmCustom {
+  translation 0.0573105412497 0 1.43412166412
+  rotation 0 -1 0 1.42125668157
+  name "rock 10 cm(351)"
+}Rock10cmCustom {
+  translation 29.9652474393 0 -10.5175623767
+  rotation 0 -1 0 0.207668632263
+  name "rock 10 cm(352)"
+}Rock10cmCustom {
+  translation -8.61245557735 0 -41.0822839509
+  rotation 0 -1 0 1.25793164062
+  name "rock 10 cm(353)"
+}Rock10cmCustom {
+  translation -44.9684616332 0 34.1614878987
+  rotation 0 -1 0 3.62912870983
+  name "rock 10 cm(354)"
+}Rock10cmCustom {
+  translation 33.7119711112 0 34.7274923045
+  rotation 0 -1 0 5.11619263936
+  name "rock 10 cm(355)"
+}Rock10cmCustom {
+  translation -49.0232780854 0 33.3592932455
+  rotation 0 -1 0 1.53427403483
+  name "rock 10 cm(356)"
+}Rock10cmCustom {
+  translation -12.7601522401 0 -0.109111411536
+  rotation 0 -1 0 1.09175563434
+  name "rock 10 cm(357)"
+}Rock10cmCustom {
+  translation 18.9664545421 0 -16.8007597238
+  rotation 0 -1 0 1.58579481618
+  name "rock 10 cm(358)"
+}Rock10cmCustom {
+  translation -3.23042001666 0 32.945232803
+  rotation 0 -1 0 0.255976288771
+  name "rock 10 cm(359)"
+}Rock10cmCustom {
+  translation 43.3311183239 0 6.81288795429
+  rotation 0 -1 0 2.34987686949
+  name "rock 10 cm(360)"
+}Rock10cmCustom {
+  translation 3.20634326378 0 17.3152822612
+  rotation 0 -1 0 0.805338398703
+  name "rock 10 cm(361)"
+}Rock10cmCustom {
+  translation -40.2086478021 0 19.1391013803
+  rotation 0 -1 0 3.50360242863
+  name "rock 10 cm(362)"
+}Rock10cmCustom {
+  translation -33.4413208823 0 -22.565135379
+  rotation 0 -1 0 0.413929753096
+  name "rock 10 cm(363)"
+}Rock10cmCustom {
+  translation -6.63670336244 0 -6.99504820278
+  rotation 0 -1 0 5.30916888225
+  name "rock 10 cm(364)"
+}Rock10cmCustom {
+  translation -37.4200916676 0 -0.812339024728
+  rotation 0 -1 0 5.45658778993
+  name "rock 10 cm(365)"
+}Rock10cmCustom {
+  translation -21.2445206543 0 -26.2363086006
+  rotation 0 -1 0 1.99908001607
+  name "rock 10 cm(366)"
+}Rock10cmCustom {
+  translation -33.4412648524 0 -47.1321751537
+  rotation 0 -1 0 1.55958820089
+  name "rock 10 cm(367)"
+}Rock10cmCustom {
+  translation 37.0633142568 0 -24.3724190735
+  rotation 0 -1 0 0.0923751389704
+  name "rock 10 cm(368)"
+}Rock10cmCustom {
+  translation -37.5072820748 0 -25.128741162
+  rotation 0 -1 0 4.56647642717
+  name "rock 10 cm(369)"
+}Rock10cmCustom {
+  translation 18.4508339728 0 33.8039045436
+  rotation 0 -1 0 0.350841890634
+  name "rock 10 cm(370)"
+}Rock10cmCustom {
+  translation -32.9225580964 0 1.49966373015
+  rotation 0 -1 0 4.15190188612
+  name "rock 10 cm(371)"
+}Rock10cmCustom {
+  translation -45.642243906 0 -15.3139564706
+  rotation 0 -1 0 5.05277255098
+  name "rock 10 cm(372)"
+}Rock10cmCustom {
+  translation -11.4122785314 0 -36.2652069861
+  rotation 0 -1 0 0.389914052847
+  name "rock 10 cm(373)"
+}Rock10cmCustom {
+  translation -38.2887333174 0 24.8704803514
+  rotation 0 -1 0 4.76973208545
+  name "rock 10 cm(374)"
+}Rock10cmCustom {
+  translation -36.3199785343 0 -23.0241629954
+  rotation 0 -1 0 5.00193787573
+  name "rock 10 cm(375)"
+}Rock10cmCustom {
+  translation 10.4593262194 0 -44.8733476036
+  rotation 0 -1 0 5.3061725802
+  name "rock 10 cm(376)"
+}Rock10cmCustom {
+  translation 19.6104704915 0 32.6089571825
+  rotation 0 -1 0 1.45569824537
+  name "rock 10 cm(377)"
+}Rock10cmCustom {
+  translation -32.5787892858 0 26.9366461316
+  rotation 0 -1 0 4.01964218981
+  name "rock 10 cm(378)"
+}Rock10cmCustom {
+  translation 7.14212699866 0 -25.4214632711
+  rotation 0 -1 0 0.925279647092
+  name "rock 10 cm(379)"
+}Rock10cmCustom {
+  translation 33.8078855437 0 -38.5158635014
+  rotation 0 -1 0 6.08082513459
+  name "rock 10 cm(380)"
+}Rock10cmCustom {
+  translation 8.99485859036 0 13.3386562844
+  rotation 0 -1 0 3.27828726674
+  name "rock 10 cm(381)"
+}Rock10cmCustom {
+  translation 40.2896624847 0 48.1981844458
+  rotation 0 -1 0 3.16744037085
+  name "rock 10 cm(382)"
+}Rock10cmCustom {
+  translation 43.74021656 0 -9.91233361479
+  rotation 0 -1 0 5.73337109329
+  name "rock 10 cm(383)"
+}Rock10cmCustom {
+  translation 24.5998448565 0 -20.0224174094
+  rotation 0 -1 0 0.903796550535
+  name "rock 10 cm(384)"
+}Rock10cmCustom {
+  translation -26.4669580666 0 -40.3190220643
+  rotation 0 -1 0 0.115456107527
+  name "rock 10 cm(385)"
+}Rock10cmCustom {
+  translation 49.2544142365 0 -46.3603484364
+  rotation 0 -1 0 3.10896714517
+  name "rock 10 cm(386)"
+}Rock10cmCustom {
+  translation 32.8139219981 0 21.5908439756
+  rotation 0 -1 0 6.19025231443
+  name "rock 10 cm(387)"
+}Rock10cmCustom {
+  translation -3.90308620002 0 5.42072143757
+  rotation 0 -1 0 4.41603632112
+  name "rock 10 cm(388)"
+}Rock10cmCustom {
+  translation 17.5567718605 0 -31.2461461576
+  rotation 0 -1 0 0.14079824741
+  name "rock 10 cm(389)"
+}Rock10cmCustom {
+  translation 24.0490551731 0 5.01674518015
+  rotation 0 -1 0 4.64495652739
+  name "rock 10 cm(390)"
+}Rock10cmCustom {
+  translation 10.4501095857 0 32.3225577807
+  rotation 0 -1 0 0.149634765713
+  name "rock 10 cm(391)"
+}Rock10cmCustom {
+  translation -34.5181985842 0 4.0268151437
+  rotation 0 -1 0 4.19611268949
+  name "rock 10 cm(392)"
+}Rock10cmCustom {
+  translation 24.8930288156 0 0.0919685506369
+  rotation 0 -1 0 3.25911311494
+  name "rock 10 cm(393)"
+}Rock10cmCustom {
+  translation 45.9622493015 0 -35.2206907078
+  rotation 0 -1 0 5.98622646717
+  name "rock 10 cm(394)"
+}Rock10cmCustom {
+  translation 47.4193096877 0 -1.60262527299
+  rotation 0 -1 0 3.01059250979
+  name "rock 10 cm(395)"
+}Rock10cmCustom {
+  translation -36.4777354637 0 -25.1352285589
+  rotation 0 -1 0 4.16746938303
+  name "rock 10 cm(396)"
+}Rock10cmCustom {
+  translation 1.21871197179 0 15.8599678579
+  rotation 0 -1 0 5.60086679183
+  name "rock 10 cm(397)"
+}Rock10cmCustom {
+  translation 48.2632558481 0 -30.8074265002
+  rotation 0 -1 0 0.941416426813
+  name "rock 10 cm(398)"
+}Rock10cmCustom {
+  translation -10.1849336454 0 -19.8746354974
+  rotation 0 -1 0 2.9609588736
+  name "rock 10 cm(399)"
+}Rock10cmCustom {
+  translation -13.4375923954 0 20.1034823707
+  rotation 0 -1 0 5.86303410683
+  name "rock 10 cm(400)"
+}Rock10cmCustom {
+  translation 19.6453582904 0 37.3339446129
+  rotation 0 -1 0 1.19142057485
+  name "rock 10 cm(401)"
+}Rock10cmCustom {
+  translation 31.4432976338 0 -14.8622601425
+  rotation 0 -1 0 0.556769682847
+  name "rock 10 cm(402)"
+}Rock10cmCustom {
+  translation 2.35126350893 0 -11.2436539296
+  rotation 0 -1 0 3.62786688745
+  name "rock 10 cm(403)"
+}Rock10cmCustom {
+  translation -46.2910216125 0 46.0535718301
+  rotation 0 -1 0 0.196183801725
+  name "rock 10 cm(404)"
+}Rock10cmCustom {
+  translation 14.6478507105 0 -41.031239151
+  rotation 0 -1 0 4.54326923516
+  name "rock 10 cm(405)"
+}Rock10cmCustom {
+  translation -20.1985996565 0 -34.69878127
+  rotation 0 -1 0 4.90325903523
+  name "rock 10 cm(406)"
+}Rock10cmCustom {
+  translation -23.6399567421 0 33.9995638091
+  rotation 0 -1 0 2.39456598415
+  name "rock 10 cm(407)"
+}Rock10cmCustom {
+  translation -25.5063472682 0 -4.89044444093
+  rotation 0 -1 0 1.62570824147
+  name "rock 10 cm(408)"
+}Rock10cmCustom {
+  translation -36.310839743 0 30.9258258793
+  rotation 0 -1 0 3.53679333972
+  name "rock 10 cm(409)"
+}Rock10cmCustom {
+  translation 33.1858149211 0 -45.0980881936
+  rotation 0 -1 0 6.11610105775
+  name "rock 10 cm(410)"
+}Rock10cmCustom {
+  translation -21.1939633773 0 22.2942857345
+  rotation 0 -1 0 0.260537700212
+  name "rock 10 cm(411)"
+}Rock10cmCustom {
+  translation -49.2443706453 0 32.1347340488
+  rotation 0 -1 0 5.21674701345
+  name "rock 10 cm(412)"
+}Rock10cmCustom {
+  translation -3.11945357041 0 8.51006039679
+  rotation 0 -1 0 2.38547046616
+  name "rock 10 cm(413)"
+}Rock10cmCustom {
+  translation -28.7196574255 0 12.4501756835
+  rotation 0 -1 0 3.8668912941
+  name "rock 10 cm(414)"
+}Rock10cmCustom {
+  translation 21.3479455587 0 -39.3217033423
+  rotation 0 -1 0 1.68491388458
+  name "rock 10 cm(415)"
+}Rock10cmCustom {
+  translation -33.1681726393 0 -18.3983810864
+  rotation 0 -1 0 2.6973413381
+  name "rock 10 cm(416)"
+}Rock10cmCustom {
+  translation 30.2018536722 0 -38.8776687957
+  rotation 0 -1 0 4.66103928524
+  name "rock 10 cm(417)"
+}Rock10cmCustom {
+  translation 17.8391697809 0 2.51257978829
+  rotation 0 -1 0 3.48351983008
+  name "rock 10 cm(418)"
+}Rock10cmCustom {
+  translation 38.4730316283 0 -14.4710400111
+  rotation 0 -1 0 4.2491709542
+  name "rock 10 cm(419)"
+}Rock10cmCustom {
+  translation -7.23264447396 0 41.929516508
+  rotation 0 -1 0 6.03044992461
+  name "rock 10 cm(420)"
+}Rock10cmCustom {
+  translation 32.0608258368 0 -45.8545943756
+  rotation 0 -1 0 5.74826356178
+  name "rock 10 cm(421)"
+}Rock10cmCustom {
+  translation -45.7328971045 0 1.69513461574
+  rotation 0 -1 0 3.95833021201
+  name "rock 10 cm(422)"
+}Rock10cmCustom {
+  translation 41.0274876955 0 -45.7688046687
+  rotation 0 -1 0 0.133715305132
+  name "rock 10 cm(423)"
+}Rock10cmCustom {
+  translation 17.1234181134 0 -15.0749084588
+  rotation 0 -1 0 3.34725783485
+  name "rock 10 cm(424)"
+}Rock10cmCustom {
+  translation -34.7125996147 0 8.05390273081
+  rotation 0 -1 0 6.07531794989
+  name "rock 10 cm(425)"
+}Rock10cmCustom {
+  translation -31.4859952095 0 7.3331794672
+  rotation 0 -1 0 6.07210045144
+  name "rock 10 cm(426)"
+}Rock10cmCustom {
+  translation 39.8818768807 0 27.2726438908
+  rotation 0 -1 0 0.162488449605
+  name "rock 10 cm(427)"
+}Rock10cmCustom {
+  translation 28.7280815278 0 18.6128612261
+  rotation 0 -1 0 3.19916104029
+  name "rock 10 cm(428)"
+}Rock10cmCustom {
+  translation 38.9796541428 0 32.1880378126
+  rotation 0 -1 0 2.82712169707
+  name "rock 10 cm(429)"
+}Rock10cmCustom {
+  translation 15.9552938961 0 -9.72242561534
+  rotation 0 -1 0 6.21248530245
+  name "rock 10 cm(430)"
+}Rock10cmCustom {
+  translation -14.253148599 0 47.8598448319
+  rotation 0 -1 0 3.5897320081
+  name "rock 10 cm(431)"
+}Rock10cmCustom {
+  translation -35.7864022872 0 42.75086266
+  rotation 0 -1 0 4.29148887732
+  name "rock 10 cm(432)"
+}Rock10cmCustom {
+  translation 40.1951515007 0 27.4837588908
+  rotation 0 -1 0 0.868996646247
+  name "rock 10 cm(433)"
+}Rock10cmCustom {
+  translation 47.7305934926 0 5.91254849353
+  rotation 0 -1 0 5.5222346995
+  name "rock 10 cm(434)"
+}Rock10cmCustom {
+  translation -18.9495631736 0 48.0551567013
+  rotation 0 -1 0 2.5576588692
+  name "rock 10 cm(435)"
+}Rock10cmCustom {
+  translation 2.49653437944 0 -43.1528562389
+  rotation 0 -1 0 0.067153203384
+  name "rock 10 cm(436)"
+}Rock10cmCustom {
+  translation 16.4799312139 0 47.8016673859
+  rotation 0 -1 0 5.86943881141
+  name "rock 10 cm(437)"
+}Rock10cmCustom {
+  translation -43.9383542532 0 -18.0300445334
+  rotation 0 -1 0 1.96950966422
+  name "rock 10 cm(438)"
+}Rock10cmCustom {
+  translation 20.1808269593 0 6.9044441725
+  rotation 0 -1 0 4.45528467586
+  name "rock 10 cm(439)"
+}Rock10cmCustom {
+  translation 21.890423692 0 -13.4859404576
+  rotation 0 -1 0 0.0580775389092
+  name "rock 10 cm(440)"
+}Rock10cmCustom {
+  translation 31.7585103876 0 12.5886282559
+  rotation 0 -1 0 0.151244054269
+  name "rock 10 cm(441)"
+}Rock10cmCustom {
+  translation 6.00585488418 0 -49.5199335911
+  rotation 0 -1 0 2.44046893497
+  name "rock 10 cm(442)"
+}Rock10cmCustom {
+  translation 24.342358481 0 -28.3593080881
+  rotation 0 -1 0 0.907701212357
+  name "rock 10 cm(443)"
+}Rock10cmCustom {
+  translation 0.510317180936 0 5.85702406914
+  rotation 0 -1 0 5.00376611561
+  name "rock 10 cm(444)"
+}Rock10cmCustom {
+  translation -10.2636865327 0 10.2084400322
+  rotation 0 -1 0 4.58573589973
+  name "rock 10 cm(445)"
+}Rock10cmCustom {
+  translation -18.8903918692 0 -36.9920541434
+  rotation 0 -1 0 4.79135555528
+  name "rock 10 cm(446)"
+}Rock10cmCustom {
+  translation -8.11145522483 0 -26.1880489109
+  rotation 0 -1 0 0.645857224258
+  name "rock 10 cm(447)"
+}Rock10cmCustom {
+  translation -10.7744924887 0 -9.1939947467
+  rotation 0 -1 0 5.68760559519
+  name "rock 10 cm(448)"
+}Rock10cmCustom {
+  translation 17.9840979032 0 12.205118479
+  rotation 0 -1 0 1.36126631909
+  name "rock 10 cm(449)"
+}Rock10cmCustom {
+  translation -10.1732034454 0 -17.7717226006
+  rotation 0 -1 0 5.59357254611
+  name "rock 10 cm(450)"
+}Rock10cmCustom {
+  translation -42.08962792 0 18.3015940513
+  rotation 0 -1 0 4.07481181051
+  name "rock 10 cm(451)"
+}Rock10cmCustom {
+  translation -16.2339327811 0 -19.0588319389
+  rotation 0 -1 0 0.469649216255
+  name "rock 10 cm(452)"
+}Rock10cmCustom {
+  translation -27.902890931 0 19.0001896781
+  rotation 0 -1 0 5.06939677332
+  name "rock 10 cm(453)"
+}Rock10cmCustom {
+  translation -36.977662873 0 -35.1847657685
+  rotation 0 -1 0 1.46548171056
+  name "rock 10 cm(454)"
+}Rock10cmCustom {
+  translation 46.1400460754 0 33.136924719
+  rotation 0 -1 0 1.50514978065
+  name "rock 10 cm(455)"
+}Rock10cmCustom {
+  translation -42.2713390267 0 42.5437318194
+  rotation 0 -1 0 2.95755331411
+  name "rock 10 cm(456)"
+}Rock10cmCustom {
+  translation 39.6184889077 0 7.51795906517
+  rotation 0 -1 0 5.60379683233
+  name "rock 10 cm(457)"
+}Rock10cmCustom {
+  translation 44.7733138609 0 -45.4815817735
+  rotation 0 -1 0 4.65123613065
+  name "rock 10 cm(458)"
+}Rock10cmCustom {
+  translation -21.3651973124 0 -1.71905133438
+  rotation 0 -1 0 1.12173454029
+  name "rock 10 cm(459)"
+}Rock10cmCustom {
+  translation -43.2984337419 0 8.09824911593
+  rotation 0 -1 0 5.71411787102
+  name "rock 10 cm(460)"
+}Rock10cmCustom {
+  translation 19.4210680244 0 -48.2278778614
+  rotation 0 -1 0 2.0234999719
+  name "rock 10 cm(461)"
+}Rock10cmCustom {
+  translation 28.0252793268 0 47.0874326003
+  rotation 0 -1 0 0.532318620202
+  name "rock 10 cm(462)"
+}Rock10cmCustom {
+  translation 33.4943552883 0 34.9754723485
+  rotation 0 -1 0 4.24233464832
+  name "rock 10 cm(463)"
+}Rock10cmCustom {
+  translation -29.0005005527 0 -20.4197253792
+  rotation 0 -1 0 0.467235458418
+  name "rock 10 cm(464)"
+}Rock10cmCustom {
+  translation 44.2220616349 0 32.6469558445
+  rotation 0 -1 0 3.13493859425
+  name "rock 10 cm(465)"
+}Rock10cmCustom {
+  translation -39.965515961 0 48.9978823264
+  rotation 0 -1 0 2.75693488497
+  name "rock 10 cm(466)"
+}Rock10cmCustom {
+  translation 48.1241962525 0 31.6919973002
+  rotation 0 -1 0 3.03530317261
+  name "rock 10 cm(467)"
+}Rock10cmCustom {
+  translation 8.60998501888 0 17.6082096178
+  rotation 0 -1 0 2.67967729997
+  name "rock 10 cm(468)"
+}Rock10cmCustom {
+  translation -38.5808154443 0 -46.4097144213
+  rotation 0 -1 0 3.31916888896
+  name "rock 10 cm(469)"
+}Rock10cmCustom {
+  translation -46.7775663285 0 -49.7691720844
+  rotation 0 -1 0 5.40843966243
+  name "rock 10 cm(470)"
+}Rock10cmCustom {
+  translation -47.3713110824 0 25.3982534444
+  rotation 0 -1 0 2.52284191126
+  name "rock 10 cm(471)"
+}Rock10cmCustom {
+  translation 28.6852928464 0 8.53492550229
+  rotation 0 -1 0 0.638574003234
+  name "rock 10 cm(472)"
+}Rock10cmCustom {
+  translation 32.3487269072 0 10.0145670265
+  rotation 0 -1 0 3.07015013343
+  name "rock 10 cm(473)"
+}Rock10cmCustom {
+  translation -38.5367198483 0 -4.10629550907
+  rotation 0 -1 0 2.07409535707
+  name "rock 10 cm(474)"
+}Rock10cmCustom {
+  translation -1.36672178238 0 33.0215899983
+  rotation 0 -1 0 4.98920919498
+  name "rock 10 cm(475)"
+}Rock10cmCustom {
+  translation 18.5901427786 0 20.1229079282
+  rotation 0 -1 0 6.05495432016
+  name "rock 10 cm(476)"
+}Rock10cmCustom {
+  translation -22.6056148261 0 48.1580548116
+  rotation 0 -1 0 3.74593258317
+  name "rock 10 cm(477)"
+}Rock10cmCustom {
+  translation -18.9890042565 0 48.4303849141
+  rotation 0 -1 0 6.07636771057
+  name "rock 10 cm(478)"
+}Rock10cmCustom {
+  translation -14.6474725426 0 34.4193764669
+  rotation 0 -1 0 0.228826369495
+  name "rock 10 cm(479)"
+}Rock10cmCustom {
+  translation -25.9090405483 0 -20.4842083389
+  rotation 0 -1 0 5.0869806476
+  name "rock 10 cm(480)"
+}Rock10cmCustom {
+  translation -21.884675375 0 -9.89484448525
+  rotation 0 -1 0 4.75709935151
+  name "rock 10 cm(481)"
+}Rock10cmCustom {
+  translation -10.0434912057 0 11.4211704851
+  rotation 0 -1 0 4.32456922051
+  name "rock 10 cm(482)"
+}Rock10cmCustom {
+  translation 35.0948179488 0 30.3187279839
+  rotation 0 -1 0 4.37921541139
+  name "rock 10 cm(483)"
+}Rock10cmCustom {
+  translation 48.4630358214 0 -37.6681000182
+  rotation 0 -1 0 5.74423528427
+  name "rock 10 cm(484)"
+}Rock10cmCustom {
+  translation 25.1215899576 0 13.0767089721
+  rotation 0 -1 0 5.82795070093
+  name "rock 10 cm(485)"
+}Rock10cmCustom {
+  translation -19.918915051 0 33.9805456734
+  rotation 0 -1 0 0.189724139489
+  name "rock 10 cm(486)"
+}Rock10cmCustom {
+  translation -40.3149268499 0 14.6656471158
+  rotation 0 -1 0 4.87185142329
+  name "rock 10 cm(487)"
+}Rock10cmCustom {
+  translation 18.7377592066 0 -10.7684954929
+  rotation 0 -1 0 5.224600646
+  name "rock 10 cm(488)"
+}Rock10cmCustom {
+  translation -6.55807543442 0 47.7397875879
+  rotation 0 -1 0 5.07509053992
+  name "rock 10 cm(489)"
+}Rock10cmCustom {
+  translation -5.23909883675 0 -35.9971822939
+  rotation 0 -1 0 5.76022268263
+  name "rock 10 cm(490)"
+}Rock10cmCustom {
+  translation -16.576185225 0 15.8985892507
+  rotation 0 -1 0 5.81464588975
+  name "rock 10 cm(491)"
+}Rock10cmCustom {
+  translation 22.9938087156 0 -3.55880628058
+  rotation 0 -1 0 3.03371210909
+  name "rock 10 cm(492)"
+}Rock10cmCustom {
+  translation -0.0552338879051 0 -39.2132771329
+  rotation 0 -1 0 2.74788184532
+  name "rock 10 cm(493)"
+}Rock10cmCustom {
+  translation 49.8726321111 0 -24.0331896636
+  rotation 0 -1 0 5.76981075866
+  name "rock 10 cm(494)"
+}Rock10cmCustom {
+  translation -8.96401019319 0 -9.30078039561
+  rotation 0 -1 0 0.466117054391
+  name "rock 10 cm(495)"
+}Rock10cmCustom {
+  translation -26.8620341068 0 44.2320722641
+  rotation 0 -1 0 2.74373704487
+  name "rock 10 cm(496)"
+}Rock10cmCustom {
+  translation 48.7515501513 0 3.88752910936
+  rotation 0 -1 0 6.13484068676
+  name "rock 10 cm(497)"
+}Rock10cmCustom {
+  translation 18.614167854 0 3.42887536883
+  rotation 0 -1 0 0.765086094836
+  name "rock 10 cm(498)"
+}Rock10cmCustom {
+  translation -9.71880808818 0 -26.3152344289
+  rotation 0 -1 0 2.10474218589
+  name "rock 10 cm(499)"
+}Rock10cmCustom {
+  translation 5.89276774659 0 30.6719271885
+  rotation 0 -1 0 6.14574327337
+  name "rock 10 cm(500)"
+}Rock10cmCustom {
+  translation 3.33847947193 0 25.4375311797
+  rotation 0 -1 0 2.09130646779
+  name "rock 10 cm(501)"
+}Rock10cmCustom {
+  translation 15.1797480688 0 44.3738444586
+  rotation 0 -1 0 3.22123030835
+  name "rock 10 cm(502)"
+}Rock10cmCustom {
+  translation 16.7628733057 0 42.4818193542
+  rotation 0 -1 0 5.34285409613
+  name "rock 10 cm(503)"
+}Rock10cmCustom {
+  translation 23.9323892968 0 48.9784611445
+  rotation 0 -1 0 0.232535117486
+  name "rock 10 cm(504)"
+}Rock10cmCustom {
+  translation 33.6901007769 0 -23.1466090778
+  rotation 0 -1 0 1.42424178078
+  name "rock 10 cm(505)"
+}Rock10cmCustom {
+  translation -32.9895526692 0 -39.6180304164
+  rotation 0 -1 0 0.470499459192
+  name "rock 10 cm(506)"
+}Rock10cmCustom {
+  translation 7.16152920786 0 23.8116599558
+  rotation 0 -1 0 0.859015525359
+  name "rock 10 cm(507)"
+}Rock10cmCustom {
+  translation 24.7822387859 0 -33.2124447359
+  rotation 0 -1 0 2.56957770981
+  name "rock 10 cm(508)"
+}Rock10cmCustom {
+  translation -48.3761369722 0 39.7426559547
+  rotation 0 -1 0 4.86038384941
+  name "rock 10 cm(509)"
+}Rock10cmCustom {
+  translation 48.3788954855 0 32.5298216658
+  rotation 0 -1 0 0.120809885792
+  name "rock 10 cm(510)"
+}Rock10cmCustom {
+  translation 27.0618730985 0 29.6132902304
+  rotation 0 -1 0 1.87490356971
+  name "rock 10 cm(511)"
+}Rock10cmCustom {
+  translation -31.3841302369 0 23.6201546732
+  rotation 0 -1 0 5.43277495335
+  name "rock 10 cm(512)"
+}Rock10cmCustom {
+  translation 22.7557013851 0 -8.63857498605
+  rotation 0 -1 0 3.00159649766
+  name "rock 10 cm(513)"
+}Rock10cmCustom {
+  translation -45.7639435737 0 49.6720474166
+  rotation 0 -1 0 1.79588490311
+  name "rock 10 cm(514)"
+}Rock10cmCustom {
+  translation 44.9117522951 0 45.8810611013
+  rotation 0 -1 0 1.34793796501
+  name "rock 10 cm(515)"
+}Rock10cmCustom {
+  translation -27.7576341099 0 3.7695586297
+  rotation 0 -1 0 3.74581101268
+  name "rock 10 cm(516)"
+}Rock10cmCustom {
+  translation -42.2345505873 0 22.7322450415
+  rotation 0 -1 0 4.01967036519
+  name "rock 10 cm(517)"
+}Rock10cmCustom {
+  translation 7.27262949384 0 0.541548903818
+  rotation 0 -1 0 5.45876104994
+  name "rock 10 cm(518)"
+}Rock10cmCustom {
+  translation -49.0179154332 0 17.4746896531
+  rotation 0 -1 0 5.36333102792
+  name "rock 10 cm(519)"
+}Rock10cmCustom {
+  translation -12.9286326804 0 22.1792555578
+  rotation 0 -1 0 5.05186248555
+  name "rock 10 cm(520)"
+}Rock10cmCustom {
+  translation -0.35515058543 0 1.37574438552
+  rotation 0 -1 0 5.42658343235
+  name "rock 10 cm(521)"
+}Rock10cmCustom {
+  translation 44.9397051314 0 -25.505893263
+  rotation 0 -1 0 6.27101093061
+  name "rock 10 cm(522)"
+}Rock10cmCustom {
+  translation 20.1039780072 0 -9.98782758851
+  rotation 0 -1 0 3.79601382319
+  name "rock 10 cm(523)"
+}Rock10cmCustom {
+  translation 22.0308648837 0 27.9836700343
+  rotation 0 -1 0 3.17439008764
+  name "rock 10 cm(524)"
+}Rock10cmCustom {
+  translation -41.8136451977 0 -26.8223510969
+  rotation 0 -1 0 3.97393484548
+  name "rock 10 cm(525)"
+}Rock10cmCustom {
+  translation -27.0374454367 0 -19.3153311289
+  rotation 0 -1 0 5.42889485066
+  name "rock 10 cm(526)"
+}Rock10cmCustom {
+  translation -36.9283218919 0 -4.25195262779
+  rotation 0 -1 0 5.08955884937
+  name "rock 10 cm(527)"
+}Rock10cmCustom {
+  translation -19.5169093796 0 -41.337133382
+  rotation 0 -1 0 3.37102723421
+  name "rock 10 cm(528)"
+}Rock10cmCustom {
+  translation 32.3708383134 0 -7.55039652097
+  rotation 0 -1 0 3.44413490972
+  name "rock 10 cm(529)"
+}Rock10cmCustom {
+  translation -25.0735406911 0 48.0830943809
+  rotation 0 -1 0 5.54182973749
+  name "rock 10 cm(530)"
+}Rock10cmCustom {
+  translation 9.58329823585 0 -37.0744466281
+  rotation 0 -1 0 4.55663490208
+  name "rock 10 cm(531)"
+}Rock10cmCustom {
+  translation -34.3754984738 0 46.0267454946
+  rotation 0 -1 0 1.75607322007
+  name "rock 10 cm(532)"
+}Rock10cmCustom {
+  translation -12.3774953381 0 -23.8097207263
+  rotation 0 -1 0 1.25173818775
+  name "rock 10 cm(533)"
+}Rock10cmCustom {
+  translation 45.1062748179 0 -4.67992538742
+  rotation 0 -1 0 2.84193547711
+  name "rock 10 cm(534)"
+}Rock10cmCustom {
+  translation 7.62425613866 0 -32.5936996994
+  rotation 0 -1 0 6.24867360361
+  name "rock 10 cm(535)"
+}Rock10cmCustom {
+  translation 25.445562386 0 29.6108455873
+  rotation 0 -1 0 5.6113669181
+  name "rock 10 cm(536)"
+}Rock10cmCustom {
+  translation 2.92099804853 0 8.12568284312
+  rotation 0 -1 0 6.03965380029
+  name "rock 10 cm(537)"
+}Rock10cmCustom {
+  translation 41.1778084418 0 -5.30106607462
+  rotation 0 -1 0 2.0769398554
+  name "rock 10 cm(538)"
+}Rock10cmCustom {
+  translation -13.198271412 0 1.02874622427
+  rotation 0 -1 0 0.769301231283
+  name "rock 10 cm(539)"
+}Rock10cmCustom {
+  translation -11.2640244107 0 -33.0557988511
+  rotation 0 -1 0 4.56822518039
+  name "rock 10 cm(540)"
+}Rock10cmCustom {
+  translation 35.5642783359 0 1.36090958094
+  rotation 0 -1 0 6.17978125737
+  name "rock 10 cm(541)"
+}Rock10cmCustom {
+  translation -0.706434599902 0 -29.0452318898
+  rotation 0 -1 0 2.59092044897
+  name "rock 10 cm(542)"
+}Rock10cmCustom {
+  translation 22.6086607573 0 -17.8312925105
+  rotation 0 -1 0 3.45441327099
+  name "rock 10 cm(543)"
+}Rock10cmCustom {
+  translation 11.1098611515 0 48.1750595176
+  rotation 0 -1 0 5.13675718588
+  name "rock 10 cm(544)"
+}Rock10cmCustom {
+  translation -42.2018979678 0 -20.5016475281
+  rotation 0 -1 0 4.20796319225
+  name "rock 10 cm(545)"
+}Rock10cmCustom {
+  translation 46.4352602079 0 33.9843159535
+  rotation 0 -1 0 1.90927034502
+  name "rock 10 cm(546)"
+}Rock10cmCustom {
+  translation 16.2291999354 0 -8.08453474865
+  rotation 0 -1 0 3.80983929711
+  name "rock 10 cm(547)"
+}Rock10cmCustom {
+  translation 28.6565044115 0 11.2668716016
+  rotation 0 -1 0 1.59261968151
+  name "rock 10 cm(548)"
+}Rock10cmCustom {
+  translation 35.9677100847 0 -17.5224160242
+  rotation 0 -1 0 1.67473736332
+  name "rock 10 cm(549)"
+}Rock10cmCustom {
+  translation -28.5319024383 0 18.4421762514
+  rotation 0 -1 0 3.03110994188
+  name "rock 10 cm(550)"
+}Rock10cmCustom {
+  translation -11.6711168473 0 -28.2033720475
+  rotation 0 -1 0 5.01179462034
+  name "rock 10 cm(551)"
+}Rock10cmCustom {
+  translation 2.1138335634 0 -22.0783193778
+  rotation 0 -1 0 6.1688125952
+  name "rock 10 cm(552)"
+}Rock10cmCustom {
+  translation 33.1872794786 0 41.8839426537
+  rotation 0 -1 0 0.402371229313
+  name "rock 10 cm(553)"
+}Rock10cmCustom {
+  translation 28.6795648478 0 20.0966399791
+  rotation 0 -1 0 0.0819749004357
+  name "rock 10 cm(554)"
+}Rock10cmCustom {
+  translation 30.5947260713 0 -14.4112384937
+  rotation 0 -1 0 5.62667298453
+  name "rock 10 cm(555)"
+}Rock10cmCustom {
+  translation 3.82009999039 0 -7.71897549868
+  rotation 0 -1 0 4.46208660815
+  name "rock 10 cm(556)"
+}Rock10cmCustom {
+  translation -0.180339022716 0 -13.3140555974
+  rotation 0 -1 0 0.734576218335
+  name "rock 10 cm(557)"
+}Rock10cmCustom {
+  translation 43.6279128211 0 -12.4033134136
+  rotation 0 -1 0 5.65419030241
+  name "rock 10 cm(558)"
+}Rock10cmCustom {
+  translation -35.0678727894 0 -2.18577486551
+  rotation 0 -1 0 2.83117595827
+  name "rock 10 cm(559)"
+}Rock10cmCustom {
+  translation -13.8215227965 0 -6.2446274298
+  rotation 0 -1 0 6.13136776962
+  name "rock 10 cm(560)"
+}Rock10cmCustom {
+  translation 42.9918675989 0 -43.3024508966
+  rotation 0 -1 0 2.12108196475
+  name "rock 10 cm(561)"
+}Rock10cmCustom {
+  translation 14.8804067586 0 43.0493432497
+  rotation 0 -1 0 0.741978456764
+  name "rock 10 cm(562)"
+}Rock10cmCustom {
+  translation 7.8353728047 0 46.1475598487
+  rotation 0 -1 0 0.786642029793
+  name "rock 10 cm(563)"
+}Rock10cmCustom {
+  translation -37.928366755 0 0.434448793184
+  rotation 0 -1 0 2.66828394959
+  name "rock 10 cm(564)"
+}Rock10cmCustom {
+  translation -16.4664000035 0 -15.4993377324
+  rotation 0 -1 0 0.158907163463
+  name "rock 10 cm(565)"
+}Rock10cmCustom {
+  translation 22.6956779618 0 -37.0666659628
+  rotation 0 -1 0 2.29581654932
+  name "rock 10 cm(566)"
+}Rock10cmCustom {
+  translation 19.9712431045 0 38.9366951721
+  rotation 0 -1 0 5.53635421948
+  name "rock 10 cm(567)"
+}Rock10cmCustom {
+  translation -9.18310925808 0 -20.9838125379
+  rotation 0 -1 0 2.60776617361
+  name "rock 10 cm(568)"
+}Rock10cmCustom {
+  translation -27.4415695216 0 6.51336180388
+  rotation 0 -1 0 3.84238395461
+  name "rock 10 cm(569)"
+}Rock10cmCustom {
+  translation 15.3276335823 0 1.30487924254
+  rotation 0 -1 0 0.551027099505
+  name "rock 10 cm(570)"
+}Rock10cmCustom {
+  translation 47.5539016534 0 4.67829279097
+  rotation 0 -1 0 0.415851535665
+  name "rock 10 cm(571)"
+}Rock10cmCustom {
+  translation -29.308642913 0 38.6136052514
+  rotation 0 -1 0 5.46733920557
+  name "rock 10 cm(572)"
+}Rock10cmCustom {
+  translation -9.46669844657 0 -42.518240452
+  rotation 0 -1 0 4.82115333325
+  name "rock 10 cm(573)"
+}Rock10cmCustom {
+  translation 3.02550777929 0 22.2609073373
+  rotation 0 -1 0 4.83941459253
+  name "rock 10 cm(574)"
+}Rock10cmCustom {
+  translation 30.4754955319 0 -5.55235418342
+  rotation 0 -1 0 6.01895218247
+  name "rock 10 cm(575)"
+}Rock10cmCustom {
+  translation 4.00327705506 0 31.7009719622
+  rotation 0 -1 0 4.50363550042
+  name "rock 10 cm(576)"
+}Rock10cmCustom {
+  translation 45.1205120971 0 7.90646582372
+  rotation 0 -1 0 2.20619635805
+  name "rock 10 cm(577)"
+}Rock10cmCustom {
+  translation -8.61423293166 0 -12.3172777321
+  rotation 0 -1 0 0.234174276589
+  name "rock 10 cm(578)"
+}Rock10cmCustom {
+  translation 37.1876738785 0 -18.0520127445
+  rotation 0 -1 0 3.2135719341
+  name "rock 10 cm(579)"
+}Rock10cmCustom {
+  translation -40.9366540703 0 42.6857668815
+  rotation 0 -1 0 0.72159445788
+  name "rock 10 cm(580)"
+}Rock10cmCustom {
+  translation -6.42422093071 0 12.9413800124
+  rotation 0 -1 0 3.37381172684
+  name "rock 10 cm(581)"
+}Rock10cmCustom {
+  translation 3.04195120978 0 29.6443443848
+  rotation 0 -1 0 6.06419877904
+  name "rock 10 cm(582)"
+}Rock10cmCustom {
+  translation -31.0674882153 0 32.4296581717
+  rotation 0 -1 0 0.0519535547195
+  name "rock 10 cm(583)"
+}Rock10cmCustom {
+  translation 19.9002397837 0 27.4626850491
+  rotation 0 -1 0 2.19950535648
+  name "rock 10 cm(584)"
+}Rock10cmCustom {
+  translation -5.47509396121 0 1.08906023115
+  rotation 0 -1 0 0.0873437388313
+  name "rock 10 cm(585)"
+}Rock10cmCustom {
+  translation -27.6992005605 0 20.5313561456
+  rotation 0 -1 0 2.22034725472
+  name "rock 10 cm(586)"
+}Rock10cmCustom {
+  translation -5.58985252415 0 -36.6906239436
+  rotation 0 -1 0 2.72635399102
+  name "rock 10 cm(587)"
+}Rock10cmCustom {
+  translation 1.42961878407 0 2.77165930207
+  rotation 0 -1 0 1.18561096757
+  name "rock 10 cm(588)"
+}Rock10cmCustom {
+  translation 32.1446014942 0 49.2599063097
+  rotation 0 -1 0 1.18680288316
+  name "rock 10 cm(589)"
+}Rock10cmCustom {
+  translation -7.34002574786 0 36.7903562821
+  rotation 0 -1 0 1.3250319266
+  name "rock 10 cm(590)"
+}Rock10cmCustom {
+  translation 6.59502549372 0 4.78827423216
+  rotation 0 -1 0 3.22728754583
+  name "rock 10 cm(591)"
+}Rock10cmCustom {
+  translation 26.9785418972 0 -28.3544871998
+  rotation 0 -1 0 2.5655244359
+  name "rock 10 cm(592)"
+}Rock10cmCustom {
+  translation 23.3755756594 0 -13.2173816186
+  rotation 0 -1 0 2.75357942585
+  name "rock 10 cm(593)"
+}Rock10cmCustom {
+  translation -40.2172592254 0 26.1072446584
+  rotation 0 -1 0 1.70814000122
+  name "rock 10 cm(594)"
+}Rock10cmCustom {
+  translation 39.48810435 0 30.2517712388
+  rotation 0 -1 0 4.56823264052
+  name "rock 10 cm(595)"
+}Rock10cmCustom {
+  translation -1.52039242624 0 -32.759665187
+  rotation 0 -1 0 3.66891590669
+  name "rock 10 cm(596)"
+}Rock10cmCustom {
+  translation -5.15319988005 0 18.8668634202
+  rotation 0 -1 0 2.81058104023
+  name "rock 10 cm(597)"
+}Rock10cmCustom {
+  translation 16.6984530888 0 37.065578426
+  rotation 0 -1 0 0.879895053761
+  name "rock 10 cm(598)"
+}Rock10cmCustom {
+  translation -17.397728177 0 -41.8928505812
+  rotation 0 -1 0 2.63620714085
+  name "rock 10 cm(599)"
+}Rock10cmCustom {
+  translation 20.5634641708 0 20.2858365236
+  rotation 0 -1 0 3.24995023027
+  name "rock 10 cm(600)"
+}Rock10cmCustom {
+  translation -29.7481890912 0 29.5100711264
+  rotation 0 -1 0 4.79871331455
+  name "rock 10 cm(601)"
+}Rock10cmCustom {
+  translation 34.8718632656 0 -7.95251050196
+  rotation 0 -1 0 2.94005185146
+  name "rock 10 cm(602)"
+}Rock10cmCustom {
+  translation 37.7057438654 0 -3.20392252631
+  rotation 0 -1 0 6.02833723717
+  name "rock 10 cm(603)"
+}Rock10cmCustom {
+  translation 3.54166717273 0 -40.7306246902
+  rotation 0 -1 0 0.402120156445
+  name "rock 10 cm(604)"
+}Rock10cmCustom {
+  translation -43.0393230728 0 -44.4412327567
+  rotation 0 -1 0 4.94607905674
+  name "rock 10 cm(605)"
+}Rock10cmCustom {
+  translation -14.3876682313 0 9.77078771356
+  rotation 0 -1 0 1.03554631305
+  name "rock 10 cm(606)"
+}Rock10cmCustom {
+  translation -43.8898297466 0 -4.02313256216
+  rotation 0 -1 0 5.18964024261
+  name "rock 10 cm(607)"
+}Rock10cmCustom {
+  translation -0.45138876148 0 -3.29538125083
+  rotation 0 -1 0 3.37737836234
+  name "rock 10 cm(608)"
+}Rock10cmCustom {
+  translation 1.42695894269 0 -15.1321202456
+  rotation 0 -1 0 0.982358224685
+  name "rock 10 cm(609)"
+}Rock10cmCustom {
+  translation -29.5812450806 0 41.2034991994
+  rotation 0 -1 0 1.93025533121
+  name "rock 10 cm(610)"
+}Rock10cmCustom {
+  translation -33.7840242018 0 26.3635536588
+  rotation 0 -1 0 5.27338383969
+  name "rock 10 cm(611)"
+}Rock10cmCustom {
+  translation 36.1731462072 0 -6.56909309093
+  rotation 0 -1 0 3.90246287839
+  name "rock 10 cm(612)"
+}Rock10cmCustom {
+  translation -42.6675603537 0 26.1543070893
+  rotation 0 -1 0 1.08166086949
+  name "rock 10 cm(613)"
+}Rock10cmCustom {
+  translation -23.2583094703 0 -41.1925440305
+  rotation 0 -1 0 4.36050845704
+  name "rock 10 cm(614)"
+}Rock10cmCustom {
+  translation -33.0923736296 0 6.33183011583
+  rotation 0 -1 0 2.83542227609
+  name "rock 10 cm(615)"
+}Rock10cmCustom {
+  translation 49.0522496309 0 -15.84898419
+  rotation 0 -1 0 0.00617639493231
+  name "rock 10 cm(616)"
+}Rock10cmCustom {
+  translation -13.701279773 0 -38.6255322663
+  rotation 0 -1 0 0.163781632624
+  name "rock 10 cm(617)"
+}Rock10cmCustom {
+  translation -28.1480097412 0 49.4609084716
+  rotation 0 -1 0 5.78014494976
+  name "rock 10 cm(618)"
+}Rock10cmCustom {
+  translation -30.3028054311 0 15.2119900164
+  rotation 0 -1 0 1.24377442639
+  name "rock 10 cm(619)"
+}Rock10cmCustom {
+  translation 42.5885371077 0 -41.1709147825
+  rotation 0 -1 0 4.78005141021
+  name "rock 10 cm(620)"
+}Rock10cmCustom {
+  translation -21.2880716749 0 9.40830160773
+  rotation 0 -1 0 6.17908194169
+  name "rock 10 cm(621)"
+}Rock10cmCustom {
+  translation -6.62959961444 0 17.6414864737
+  rotation 0 -1 0 1.76804727446
+  name "rock 10 cm(622)"
+}Rock10cmCustom {
+  translation -22.9265801711 0 21.3817182655
+  rotation 0 -1 0 1.35854728385
+  name "rock 10 cm(623)"
+}Rock10cmCustom {
+  translation 21.1535683722 0 -15.2557538256
+  rotation 0 -1 0 6.12731683504
+  name "rock 10 cm(624)"
+}Rock10cmCustom {
+  translation 39.6069091694 0 -10.2280337918
+  rotation 0 -1 0 3.31190482321
+  name "rock 10 cm(625)"
+}Rock10cmCustom {
+  translation 16.1812636506 0 46.6998252395
+  rotation 0 -1 0 4.2038269284
+  name "rock 10 cm(626)"
+}Rock10cmCustom {
+  translation 28.7567011068 0 -19.7381126145
+  rotation 0 -1 0 4.05851922466
+  name "rock 10 cm(627)"
+}Rock10cmCustom {
+  translation 10.8552664871 0 18.3109509017
+  rotation 0 -1 0 2.71503095809
+  name "rock 10 cm(628)"
+}Rock10cmCustom {
+  translation -18.2871778563 0 48.5076972162
+  rotation 0 -1 0 5.43454739731
+  name "rock 10 cm(629)"
+}Rock10cmCustom {
+  translation 30.9033330421 0 -49.152969094
+  rotation 0 -1 0 5.61355704767
+  name "rock 10 cm(630)"
+}Rock10cmCustom {
+  translation 28.1640677847 0 -38.4272356936
+  rotation 0 -1 0 2.89529039501
+  name "rock 10 cm(631)"
+}Rock10cmCustom {
+  translation 30.853429786 0 34.518362064
+  rotation 0 -1 0 3.87867145253
+  name "rock 10 cm(632)"
+}Rock10cmCustom {
+  translation 38.729797707 0 -43.1058294367
+  rotation 0 -1 0 2.30737831595
+  name "rock 10 cm(633)"
+}Rock10cmCustom {
+  translation -29.0934391192 0 39.1066983587
+  rotation 0 -1 0 0.823064304676
+  name "rock 10 cm(634)"
+}Rock10cmCustom {
+  translation -30.4629684853 0 -29.5320681061
+  rotation 0 -1 0 4.9388955417
+  name "rock 10 cm(635)"
+}Rock10cmCustom {
+  translation -37.1952298532 0 31.2248130721
+  rotation 0 -1 0 4.79677063431
+  name "rock 10 cm(636)"
+}Rock10cmCustom {
+  translation -30.6473043977 0 -22.6314790357
+  rotation 0 -1 0 1.26159537658
+  name "rock 10 cm(637)"
+}Rock10cmCustom {
+  translation -48.809658134 0 -37.6549343008
+  rotation 0 -1 0 4.12341780677
+  name "rock 10 cm(638)"
+}Rock10cmCustom {
+  translation 37.370633289 0 -10.6424948586
+  rotation 0 -1 0 1.53585224191
+  name "rock 10 cm(639)"
+}Rock10cmCustom {
+  translation -27.9482497757 0 -30.1992275505
+  rotation 0 -1 0 1.69201704174
+  name "rock 10 cm(640)"
+}Rock10cmCustom {
+  translation 31.1065023076 0 21.1974641751
+  rotation 0 -1 0 4.65405252368
+  name "rock 10 cm(641)"
+}Rock10cmCustom {
+  translation -4.3414250686 0 32.0645410187
+  rotation 0 -1 0 4.57877783767
+  name "rock 10 cm(642)"
+}Rock10cmCustom {
+  translation 28.6822269763 0 16.6586918403
+  rotation 0 -1 0 1.5572576966
+  name "rock 10 cm(643)"
+}Rock10cmCustom {
+  translation 8.15997140085 0 -30.0920538131
+  rotation 0 -1 0 3.71950309959
+  name "rock 10 cm(644)"
+}Rock10cmCustom {
+  translation 35.2287576739 0 -30.8519756524
+  rotation 0 -1 0 2.31790840636
+  name "rock 10 cm(645)"
+}Rock10cmCustom {
+  translation 2.18236268053 0 -18.0148991525
+  rotation 0 -1 0 3.48678168899
+  name "rock 10 cm(646)"
+}Rock10cmCustom {
+  translation 41.7865918886 0 -29.1407403031
+  rotation 0 -1 0 4.72408738956
+  name "rock 10 cm(647)"
+}Rock10cmCustom {
+  translation 10.4667575575 0 -18.4119928617
+  rotation 0 -1 0 3.34916233498
+  name "rock 10 cm(648)"
+}Rock10cmCustom {
+  translation -6.34446741098 0 27.5801320865
+  rotation 0 -1 0 0.928939148107
+  name "rock 10 cm(649)"
+}Rock10cmCustom {
+  translation 46.4939752845 0 44.262661827
+  rotation 0 -1 0 3.07231169357
+  name "rock 10 cm(650)"
+}Rock10cmCustom {
+  translation -22.4708138627 0 24.9298815036
+  rotation 0 -1 0 5.84616099017
+  name "rock 10 cm(651)"
+}Rock10cmCustom {
+  translation -46.2771691789 0 7.03384973633
+  rotation 0 -1 0 2.83739880229
+  name "rock 10 cm(652)"
+}Rock10cmCustom {
+  translation 38.8252191498 0 -12.2239393168
+  rotation 0 -1 0 0.311038139539
+  name "rock 10 cm(653)"
+}Rock10cmCustom {
+  translation -9.16374059728 0 42.9487214124
+  rotation 0 -1 0 5.3205061069
+  name "rock 10 cm(654)"
+}Rock10cmCustom {
+  translation -45.9324053685 0 -24.931317722
+  rotation 0 -1 0 4.88592008606
+  name "rock 10 cm(655)"
+}Rock10cmCustom {
+  translation 24.7111746903 0 37.5647139079
+  rotation 0 -1 0 0.869542062767
+  name "rock 10 cm(656)"
+}Rock10cmCustom {
+  translation 34.0151243043 0 16.8085218098
+  rotation 0 -1 0 0.182777054691
+  name "rock 10 cm(657)"
+}Rock10cmCustom {
+  translation -20.8850673885 0 -5.96003993051
+  rotation 0 -1 0 0.799179054435
+  name "rock 10 cm(658)"
+}Rock10cmCustom {
+  translation 31.6023745684 0 1.44258946445
+  rotation 0 -1 0 2.72846973032
+  name "rock 10 cm(659)"
+}Rock10cmCustom {
+  translation -24.8841404767 0 -48.7132310906
+  rotation 0 -1 0 5.10692843536
+  name "rock 10 cm(660)"
+}Rock10cmCustom {
+  translation -2.47134325696 0 32.174996936
+  rotation 0 -1 0 0.373355154416
+  name "rock 10 cm(661)"
+}Rock10cmCustom {
+  translation -5.07403001771 0 42.4849755257
+  rotation 0 -1 0 4.93069165966
+  name "rock 10 cm(662)"
+}Rock10cmCustom {
+  translation -2.43488945945 0 -33.0875748899
+  rotation 0 -1 0 1.20042424627
+  name "rock 10 cm(663)"
+}Rock10cmCustom {
+  translation -8.49003377746 0 -40.6878741478
+  rotation 0 -1 0 5.83054096572
+  name "rock 10 cm(664)"
+}Rock10cmCustom {
+  translation 9.27953639848 0 -12.5686091587
+  rotation 0 -1 0 4.1208528323
+  name "rock 10 cm(665)"
+}Rock10cmCustom {
+  translation -25.5194997723 0 -20.5363310209
+  rotation 0 -1 0 2.09320784555
+  name "rock 10 cm(666)"
+}Rock10cmCustom {
+  translation 39.272837113 0 41.5743836645
+  rotation 0 -1 0 2.26910789861
+  name "rock 10 cm(667)"
+}Rock10cmCustom {
+  translation -43.2669833374 0 -2.45064794155
+  rotation 0 -1 0 2.0987116883
+  name "rock 10 cm(668)"
+}Rock10cmCustom {
+  translation -5.46088727209 0 -38.7449457521
+  rotation 0 -1 0 4.56098001883
+  name "rock 10 cm(669)"
+}Rock10cmCustom {
+  translation 13.2411627558 0 48.1197114702
+  rotation 0 -1 0 0.35953506799
+  name "rock 10 cm(670)"
+}Rock10cmCustom {
+  translation 47.9011155861 0 17.2727711377
+  rotation 0 -1 0 1.02942021664
+  name "rock 10 cm(671)"
+}Rock10cmCustom {
+  translation 17.3508833028 0 9.39793840581
+  rotation 0 -1 0 0.459249304882
+  name "rock 10 cm(672)"
+}Rock10cmCustom {
+  translation -13.5156488221 0 -44.7836952409
+  rotation 0 -1 0 0.0150917625961
+  name "rock 10 cm(673)"
+}Rock10cmCustom {
+  translation -13.3807042952 0 41.3151249376
+  rotation 0 -1 0 0.31290766113
+  name "rock 10 cm(674)"
+}Rock10cmCustom {
+  translation -34.9390053498 0 39.3069130779
+  rotation 0 -1 0 1.29478193771
+  name "rock 10 cm(675)"
+}Rock10cmCustom {
+  translation 16.5968128561 0 -36.1573370313
+  rotation 0 -1 0 1.33791368427
+  name "rock 10 cm(676)"
+}Rock10cmCustom {
+  translation -27.5334973673 0 -1.73529571279
+  rotation 0 -1 0 1.12840839137
+  name "rock 10 cm(677)"
+}Rock10cmCustom {
+  translation 38.8224147443 0 45.0363874881
+  rotation 0 -1 0 2.64928235253
+  name "rock 10 cm(678)"
+}Rock10cmCustom {
+  translation 15.2555473961 0 9.92205586216
+  rotation 0 -1 0 1.10561175248
+  name "rock 10 cm(679)"
+}Rock10cmCustom {
+  translation -29.0171903813 0 -33.7691612032
+  rotation 0 -1 0 1.65426280566
+  name "rock 10 cm(680)"
+}Rock10cmCustom {
+  translation -20.8349094946 0 -13.0712954835
+  rotation 0 -1 0 5.85186990094
+  name "rock 10 cm(681)"
+}Rock10cmCustom {
+  translation 35.4427896068 0 31.2819246025
+  rotation 0 -1 0 6.1940604225
+  name "rock 10 cm(682)"
+}Rock10cmCustom {
+  translation 0.256333025712 0 -33.2693503258
+  rotation 0 -1 0 1.72901108664
+  name "rock 10 cm(683)"
+}Rock10cmCustom {
+  translation -43.1164994571 0 5.14083935894
+  rotation 0 -1 0 2.08641006887
+  name "rock 10 cm(684)"
+}Rock10cmCustom {
+  translation 36.7844901438 0 -12.3498253781
+  rotation 0 -1 0 1.00616483396
+  name "rock 10 cm(685)"
+}Rock10cmCustom {
+  translation 34.3090201546 0 -21.04740997
+  rotation 0 -1 0 3.66373119604
+  name "rock 10 cm(686)"
+}Rock10cmCustom {
+  translation -47.1342077422 0 27.9724166043
+  rotation 0 -1 0 4.49669196651
+  name "rock 10 cm(687)"
+}Rock10cmCustom {
+  translation -30.7078788431 0 -49.5181946142
+  rotation 0 -1 0 5.14665043001
+  name "rock 10 cm(688)"
+}Rock10cmCustom {
+  translation 41.782663545 0 21.0725422316
+  rotation 0 -1 0 0.515455114532
+  name "rock 10 cm(689)"
+}Rock10cmCustom {
+  translation -8.64024160506 0 30.8095520429
+  rotation 0 -1 0 4.58739359361
+  name "rock 10 cm(690)"
+}Rock10cmCustom {
+  translation 16.1188554533 0 -24.7515788802
+  rotation 0 -1 0 1.98037811217
+  name "rock 10 cm(691)"
+}Rock10cmCustom {
+  translation 43.3230362254 0 46.836498554
+  rotation 0 -1 0 2.62365156713
+  name "rock 10 cm(692)"
+}Rock10cmCustom {
+  translation -16.0323036356 0 -5.87951361041
+  rotation 0 -1 0 0.141656809325
+  name "rock 10 cm(693)"
+}Rock10cmCustom {
+  translation -47.9094715132 0 -28.3030308748
+  rotation 0 -1 0 3.55874460694
+  name "rock 10 cm(694)"
+}Rock10cmCustom {
+  translation -19.0423859359 0 37.7943599219
+  rotation 0 -1 0 3.5509954812
+  name "rock 10 cm(695)"
+}Rock10cmCustom {
+  translation -20.981554791 0 37.0888871249
+  rotation 0 -1 0 1.57698374737
+  name "rock 10 cm(696)"
+}Rock10cmCustom {
+  translation 15.5803645321 0 45.0329155107
+  rotation 0 -1 0 5.68638692326
+  name "rock 10 cm(697)"
+}Rock10cmCustom {
+  translation 42.2636671063 0 48.6211616767
+  rotation 0 -1 0 2.00527573157
+  name "rock 10 cm(698)"
+}Rock10cmCustom {
+  translation 5.99399252463 0 42.5066079786
+  rotation 0 -1 0 2.61535153338
+  name "rock 10 cm(699)"
+}Rock10cmCustom {
+  translation 19.6531107021 0 48.3548845477
+  rotation 0 -1 0 3.12945950392
+  name "rock 10 cm(700)"
+}Rock10cmCustom {
+  translation 2.10371235648 0 -47.2474127511
+  rotation 0 -1 0 5.53247107034
+  name "rock 10 cm(701)"
+}Rock10cmCustom {
+  translation 16.337677111 0 -34.309404344
+  rotation 0 -1 0 6.16054783614
+  name "rock 10 cm(702)"
+}Rock10cmCustom {
+  translation 34.285089104 0 -26.8921136887
+  rotation 0 -1 0 0.703822166723
+  name "rock 10 cm(703)"
+}Rock10cmCustom {
+  translation -5.03361338058 0 14.7672770003
+  rotation 0 -1 0 0.49363363545
+  name "rock 10 cm(704)"
+}Rock10cmCustom {
+  translation -38.04678113 0 22.4162262715
+  rotation 0 -1 0 2.72333413451
+  name "rock 10 cm(705)"
+}Rock10cmCustom {
+  translation 30.1050682628 0 16.4740615657
+  rotation 0 -1 0 4.99800522477
+  name "rock 10 cm(706)"
+}Rock10cmCustom {
+  translation 43.2879073834 0 -14.7502768424
+  rotation 0 -1 0 2.87412568545
+  name "rock 10 cm(707)"
+}Rock10cmCustom {
+  translation -31.5229989793 0 8.95037662996
+  rotation 0 -1 0 0.817445230781
+  name "rock 10 cm(708)"
+}Rock10cmCustom {
+  translation -35.614450325 0 -6.0206148422
+  rotation 0 -1 0 2.74640268961
+  name "rock 10 cm(709)"
+}Rock10cmCustom {
+  translation -6.78582210219 0 -3.50517105695
+  rotation 0 -1 0 5.16383191998
+  name "rock 10 cm(710)"
+}Rock10cmCustom {
+  translation 42.4258907057 0 -7.93752991862
+  rotation 0 -1 0 5.32464698787
+  name "rock 10 cm(711)"
+}Rock10cmCustom {
+  translation -14.719490644 0 31.7375777984
+  rotation 0 -1 0 1.06911222852
+  name "rock 10 cm(712)"
+}Rock10cmCustom {
+  translation 20.8939633859 0 30.3090462651
+  rotation 0 -1 0 3.95939658787
+  name "rock 10 cm(713)"
+}Rock10cmCustom {
+  translation -39.0546379495 0 44.2393318096
+  rotation 0 -1 0 4.96899685704
+  name "rock 10 cm(714)"
+}Rock10cmCustom {
+  translation -43.2199974557 0 32.2470139388
+  rotation 0 -1 0 4.14409029924
+  name "rock 10 cm(715)"
+}Rock10cmCustom {
+  translation 15.7328416074 0 -49.4062514809
+  rotation 0 -1 0 4.59342134057
+  name "rock 10 cm(716)"
+}Rock10cmCustom {
+  translation 36.0922936286 0 -1.76042448767
+  rotation 0 -1 0 4.05955978007
+  name "rock 10 cm(717)"
+}Rock10cmCustom {
+  translation -34.3634070879 0 -2.62517279143
+  rotation 0 -1 0 4.69080625393
+  name "rock 10 cm(718)"
+}Rock10cmCustom {
+  translation 35.4692994395 0 -1.38896125988
+  rotation 0 -1 0 2.85355516221
+  name "rock 10 cm(719)"
+}Rock10cmCustom {
+  translation 20.2906492425 0 -9.04940997405
+  rotation 0 -1 0 4.8159165379
+  name "rock 10 cm(720)"
+}Rock10cmCustom {
+  translation -43.7199997921 0 24.9680160755
+  rotation 0 -1 0 3.22821565144
+  name "rock 10 cm(721)"
+}Rock10cmCustom {
+  translation -28.0042394296 0 40.3405950484
+  rotation 0 -1 0 3.14869444379
+  name "rock 10 cm(722)"
+}Rock10cmCustom {
+  translation 35.1327851882 0 37.0074234313
+  rotation 0 -1 0 0.64447497874
+  name "rock 10 cm(723)"
+}Rock10cmCustom {
+  translation 31.6142277467 0 -38.3825408875
+  rotation 0 -1 0 2.99652880768
+  name "rock 10 cm(724)"
+}Rock10cmCustom {
+  translation 25.9060145698 0 -42.3446409044
+  rotation 0 -1 0 5.00476921806
+  name "rock 10 cm(725)"
+}Rock10cmCustom {
+  translation -30.8044380148 0 -12.7585685375
+  rotation 0 -1 0 5.73633283492
+  name "rock 10 cm(726)"
+}Rock10cmCustom {
+  translation -47.9903036229 0 -34.9581245638
+  rotation 0 -1 0 1.79779408984
+  name "rock 10 cm(727)"
+}Rock10cmCustom {
+  translation 1.15578583129 0 47.7471769357
+  rotation 0 -1 0 1.70564381435
+  name "rock 10 cm(728)"
+}Rock10cmCustom {
+  translation 46.0418440805 0 -49.0530068618
+  rotation 0 -1 0 4.1360802409
+  name "rock 10 cm(729)"
+}Rock10cmCustom {
+  translation -41.7166431402 0 -18.320924539
+  rotation 0 -1 0 2.34902841228
+  name "rock 10 cm(730)"
+}Rock10cmCustom {
+  translation -23.4006300121 0 -43.9755669624
+  rotation 0 -1 0 3.22963738794
+  name "rock 10 cm(731)"
+}Rock10cmCustom {
+  translation -1.87571671818 0 12.6705892035
+  rotation 0 -1 0 0.132861011065
+  name "rock 10 cm(732)"
+}Rock10cmCustom {
+  translation 18.7645346393 0 -16.1584278516
+  rotation 0 -1 0 5.755352331
+  name "rock 10 cm(733)"
+}Rock10cmCustom {
+  translation -29.5003766663 0 17.1713168627
+  rotation 0 -1 0 1.28693601087
+  name "rock 10 cm(734)"
+}Rock10cmCustom {
+  translation -44.7864907979 0 -5.12467372853
+  rotation 0 -1 0 1.14271135554
+  name "rock 10 cm(735)"
+}Rock10cmCustom {
+  translation 25.5859259287 0 -7.69072867161
+  rotation 0 -1 0 1.73770143532
+  name "rock 10 cm(736)"
+}Rock10cmCustom {
+  translation -22.8443682455 0 0.552413685486
+  rotation 0 -1 0 1.32721320778
+  name "rock 10 cm(737)"
+}Rock10cmCustom {
+  translation -13.8862089106 0 -0.0276605555426
+  rotation 0 -1 0 1.51471895443
+  name "rock 10 cm(738)"
+}Rock10cmCustom {
+  translation -8.76670613665 0 46.7923733031
+  rotation 0 -1 0 5.05434768485
+  name "rock 10 cm(739)"
+}Rock10cmCustom {
+  translation 38.6080571097 0 -19.7164707471
+  rotation 0 -1 0 3.32308062146
+  name "rock 10 cm(740)"
+}Rock10cmCustom {
+  translation 11.528656291 0 33.3702212133
+  rotation 0 -1 0 1.57804224204
+  name "rock 10 cm(741)"
+}Rock10cmCustom {
+  translation 23.0810639008 0 -18.8283190497
+  rotation 0 -1 0 5.54377313821
+  name "rock 10 cm(742)"
+}Rock10cmCustom {
+  translation 11.7453370761 0 -33.8973672225
+  rotation 0 -1 0 5.0945528506
+  name "rock 10 cm(743)"
+}Rock10cmCustom {
+  translation -14.0758275453 0 -45.2418325756
+  rotation 0 -1 0 5.67169654625
+  name "rock 10 cm(744)"
+}Rock10cmCustom {
+  translation 33.6324231708 0 -37.9209830353
+  rotation 0 -1 0 1.54140789513
+  name "rock 10 cm(745)"
+}Rock10cmCustom {
+  translation -10.4007598012 0 16.9945843811
+  rotation 0 -1 0 3.60842963553
+  name "rock 10 cm(746)"
+}Rock10cmCustom {
+  translation -28.1491653648 0 0.480953744731
+  rotation 0 -1 0 2.82509930207
+  name "rock 10 cm(747)"
+}Rock10cmCustom {
+  translation 12.9320104433 0 -25.7692676445
+  rotation 0 -1 0 6.21226551463
+  name "rock 10 cm(748)"
+}Rock10cmCustom {
+  translation 26.2514592617 0 -27.9170519696
+  rotation 0 -1 0 6.01369387745
+  name "rock 10 cm(749)"
+}Rock10cmCustom {
+  translation 14.3706212422 0 -42.6866918006
+  rotation 0 -1 0 0.23654173359
+  name "rock 10 cm(750)"
+}Rock10cmCustom {
+  translation 10.8316364565 0 22.4746350504
+  rotation 0 -1 0 1.76848480866
+  name "rock 10 cm(751)"
+}Rock10cmCustom {
+  translation -4.29523920133 0 -26.5192705497
+  rotation 0 -1 0 0.780803768979
+  name "rock 10 cm(752)"
+}Rock10cmCustom {
+  translation 12.4580723052 0 -6.40102589549
+  rotation 0 -1 0 1.51205657025
+  name "rock 10 cm(753)"
+}Rock10cmCustom {
+  translation 12.8975957535 0 -42.5125447483
+  rotation 0 -1 0 5.07942207523
+  name "rock 10 cm(754)"
+}Rock10cmCustom {
+  translation 40.9461666794 0 47.0657334311
+  rotation 0 -1 0 3.35202293795
+  name "rock 10 cm(755)"
+}Rock10cmCustom {
+  translation 5.0258737414 0 34.190418159
+  rotation 0 -1 0 4.6991042116
+  name "rock 10 cm(756)"
+}Rock10cmCustom {
+  translation -29.89585505 0 13.3811794066
+  rotation 0 -1 0 4.51353189325
+  name "rock 10 cm(757)"
+}Rock10cmCustom {
+  translation 3.4013807829 0 46.8116657361
+  rotation 0 -1 0 3.36031673948
+  name "rock 10 cm(758)"
+}Rock10cmCustom {
+  translation 32.8872072943 0 4.14760261864
+  rotation 0 -1 0 3.39127193884
+  name "rock 10 cm(759)"
+}Rock10cmCustom {
+  translation -8.83366604109 0 17.1703244601
+  rotation 0 -1 0 3.3483757119
+  name "rock 10 cm(760)"
+}Rock10cmCustom {
+  translation 5.41036724288 0 -15.806500914
+  rotation 0 -1 0 0.783003542014
+  name "rock 10 cm(761)"
+}Rock10cmCustom {
+  translation 23.1162183982 0 6.64457868031
+  rotation 0 -1 0 0.576618927452
+  name "rock 10 cm(762)"
+}Rock10cmCustom {
+  translation 18.6981978831 0 -12.1749304195
+  rotation 0 -1 0 3.76539806222
+  name "rock 10 cm(763)"
+}Rock10cmCustom {
+  translation 30.8891135572 0 36.5817553772
+  rotation 0 -1 0 2.55795927463
+  name "rock 10 cm(764)"
+}Rock10cmCustom {
+  translation -44.2419349265 0 26.5253443849
+  rotation 0 -1 0 1.99501482574
+  name "rock 10 cm(765)"
+}Rock10cmCustom {
+  translation 25.6787408769 0 39.4865994305
+  rotation 0 -1 0 6.14980425497
+  name "rock 10 cm(766)"
+}Rock10cmCustom {
+  translation -36.791650272 0 -35.2350478797
+  rotation 0 -1 0 3.73498933991
+  name "rock 10 cm(767)"
+}Rock10cmCustom {
+  translation 43.5567375683 0 -4.06493711279
+  rotation 0 -1 0 0.0355471612617
+  name "rock 10 cm(768)"
+}Rock10cmCustom {
+  translation 43.8498626579 0 3.4527636501
+  rotation 0 -1 0 4.00097230218
+  name "rock 10 cm(769)"
+}Rock10cmCustom {
+  translation 37.5221134865 0 -46.8413973587
+  rotation 0 -1 0 2.84896957561
+  name "rock 10 cm(770)"
+}Rock10cmCustom {
+  translation -39.8072072751 0 18.7881432942
+  rotation 0 -1 0 0.516944772627
+  name "rock 10 cm(771)"
+}Rock10cmCustom {
+  translation 48.6932967117 0 -36.4314726605
+  rotation 0 -1 0 5.34208411672
+  name "rock 10 cm(772)"
+}Rock10cmCustom {
+  translation -34.0718856569 0 42.1863224737
+  rotation 0 -1 0 1.13059472721
+  name "rock 10 cm(773)"
+}Rock10cmCustom {
+  translation -4.53757592812 0 4.31355082791
+  rotation 0 -1 0 0.936679180368
+  name "rock 10 cm(774)"
+}Rock10cmCustom {
+  translation 49.5756601659 0 46.0472155687
+  rotation 0 -1 0 5.16602145965
+  name "rock 10 cm(775)"
+}Rock10cmCustom {
+  translation -40.1911231146 0 -49.5494908492
+  rotation 0 -1 0 4.88649888948
+  name "rock 10 cm(776)"
+}Rock10cmCustom {
+  translation -20.7478117225 0 14.4012360684
+  rotation 0 -1 0 3.34000720802
+  name "rock 10 cm(777)"
+}Rock10cmCustom {
+  translation -25.0781196952 0 -13.097241618
+  rotation 0 -1 0 1.45753104839
+  name "rock 10 cm(778)"
+}Rock10cmCustom {
+  translation 15.4381418544 0 41.4969845627
+  rotation 0 -1 0 1.57160429176
+  name "rock 10 cm(779)"
+}Rock10cmCustom {
+  translation -34.1981328044 0 -1.680394284
+  rotation 0 -1 0 2.18437346778
+  name "rock 10 cm(780)"
+}Rock10cmCustom {
+  translation -26.9978053354 0 -31.3813135838
+  rotation 0 -1 0 4.76748603114
+  name "rock 10 cm(781)"
+}Rock10cmCustom {
+  translation 21.7425982174 0 -31.3500815025
+  rotation 0 -1 0 6.28291456902
+  name "rock 10 cm(782)"
+}Rock10cmCustom {
+  translation 45.6154936369 0 37.3756630184
+  rotation 0 -1 0 3.79581192932
+  name "rock 10 cm(783)"
+}Rock10cmCustom {
+  translation -10.6378157848 0 0.214992564053
+  rotation 0 -1 0 1.24237382427
+  name "rock 10 cm(784)"
+}Rock10cmCustom {
+  translation 38.9623693801 0 48.8453393873
+  rotation 0 -1 0 5.19204149959
+  name "rock 10 cm(785)"
+}Rock10cmCustom {
+  translation 8.65563837279 0 -4.19364582756
+  rotation 0 -1 0 2.28305701651
+  name "rock 10 cm(786)"
+}Rock10cmCustom {
+  translation -47.4265687354 0 -26.6395352035
+  rotation 0 -1 0 2.64161586739
+  name "rock 10 cm(787)"
+}Rock10cmCustom {
+  translation -42.1056243412 0 -48.5630745595
+  rotation 0 -1 0 0.336950064171
+  name "rock 10 cm(788)"
+}Rock10cmCustom {
+  translation 37.6420784811 0 -41.1510705798
+  rotation 0 -1 0 2.28590061475
+  name "rock 10 cm(789)"
+}Rock10cmCustom {
+  translation -32.9164387276 0 -8.63335708187
+  rotation 0 -1 0 3.9380545435
+  name "rock 10 cm(790)"
+}Rock10cmCustom {
+  translation -22.9671246868 0 -0.334203477128
+  rotation 0 -1 0 6.00192566763
+  name "rock 10 cm(791)"
+}Rock10cmCustom {
+  translation 25.2116795953 0 0.145367080387
+  rotation 0 -1 0 5.31991999732
+  name "rock 10 cm(792)"
+}Rock10cmCustom {
+  translation 5.52903524989 0 21.765818385
+  rotation 0 -1 0 1.93487410228
+  name "rock 10 cm(793)"
+}Rock10cmCustom {
+  translation 45.8006889826 0 33.789757917
+  rotation 0 -1 0 5.08772073843
+  name "rock 10 cm(794)"
+}Rock10cmCustom {
+  translation 46.5146865473 0 -45.5131682479
+  rotation 0 -1 0 3.57637515595
+  name "rock 10 cm(795)"
+}Rock10cmCustom {
+  translation 8.9651944856 0 41.2540676071
+  rotation 0 -1 0 4.29377882546
+  name "rock 10 cm(796)"
+}Rock10cmCustom {
+  translation -49.686901331 0 26.7529274323
+  rotation 0 -1 0 5.65331096776
+  name "rock 10 cm(797)"
+}Rock10cmCustom {
+  translation -23.226638887 0 -27.4221081776
+  rotation 0 -1 0 5.97613757813
+  name "rock 10 cm(798)"
+}Rock10cmCustom {
+  translation 7.70712460555 0 -43.9322634982
+  rotation 0 -1 0 2.82303523
+  name "rock 10 cm(799)"
+}Rock10cmCustom {
+  translation -27.8919011413 0 -36.7987115066
+  rotation 0 -1 0 4.46807233682
+  name "rock 10 cm(800)"
+}Rock10cmCustom {
+  translation 29.8619378146 0 45.3112422559
+  rotation 0 -1 0 5.57659963113
+  name "rock 10 cm(801)"
+}Rock10cmCustom {
+  translation 1.50002905849 0 -3.76890482551
+  rotation 0 -1 0 1.43675819644
+  name "rock 10 cm(802)"
+}Rock10cmCustom {
+  translation 23.7389691845 0 -36.145798163
+  rotation 0 -1 0 3.56547454559
+  name "rock 10 cm(803)"
+}Rock10cmCustom {
+  translation 39.7712083473 0 -34.0909468943
+  rotation 0 -1 0 0.630586437991
+  name "rock 10 cm(804)"
+}Rock10cmCustom {
+  translation -2.20473465767 0 41.038921783
+  rotation 0 -1 0 0.852735100065
+  name "rock 10 cm(805)"
+}Rock10cmCustom {
+  translation 19.3321147244 0 8.40419142986
+  rotation 0 -1 0 5.00859483902
+  name "rock 10 cm(806)"
+}Rock10cmCustom {
+  translation -30.6084665245 0 -20.8688209754
+  rotation 0 -1 0 4.9190751789
+  name "rock 10 cm(807)"
+}Rock10cmCustom {
+  translation -20.680860414 0 34.2859298962
+  rotation 0 -1 0 5.5350038148
+  name "rock 10 cm(808)"
+}Rock10cmCustom {
+  translation 36.4829555745 0 17.1237185232
+  rotation 0 -1 0 2.66193167725
+  name "rock 10 cm(809)"
+}Rock10cmCustom {
+  translation -37.9097874938 0 -42.2126624686
+  rotation 0 -1 0 0.935989681336
+  name "rock 10 cm(810)"
+}Rock10cmCustom {
+  translation -34.4981023645 0 8.80696235425
+  rotation 0 -1 0 5.3250646151
+  name "rock 10 cm(811)"
+}Rock10cmCustom {
+  translation -27.0574751287 0 -21.09348957
+  rotation 0 -1 0 1.00165198381
+  name "rock 10 cm(812)"
+}Rock10cmCustom {
+  translation 33.5386037107 0 -41.4702861759
+  rotation 0 -1 0 0.249492717578
+  name "rock 10 cm(813)"
+}Rock10cmCustom {
+  translation 34.1962656147 0 -38.999409436
+  rotation 0 -1 0 3.28959426062
+  name "rock 10 cm(814)"
+}Rock10cmCustom {
+  translation -42.2616157556 0 -23.3604646326
+  rotation 0 -1 0 5.7435761412
+  name "rock 10 cm(815)"
+}Rock10cmCustom {
+  translation 30.0976420464 0 46.7839554843
+  rotation 0 -1 0 0.150593552831
+  name "rock 10 cm(816)"
+}Rock10cmCustom {
+  translation -6.66952080323 0 21.9505045827
+  rotation 0 -1 0 1.98921698464
+  name "rock 10 cm(817)"
+}Rock10cmCustom {
+  translation -7.31460831923 0 16.8500539752
+  rotation 0 -1 0 0.201819987284
+  name "rock 10 cm(818)"
+}Rock10cmCustom {
+  translation 2.50168586845 0 11.0767352119
+  rotation 0 -1 0 0.700842637383
+  name "rock 10 cm(819)"
+}Rock10cmCustom {
+  translation -14.1805958985 0 -49.2825819949
+  rotation 0 -1 0 6.05791029854
+  name "rock 10 cm(820)"
+}Rock10cmCustom {
+  translation 48.3263054187 0 -11.9298737684
+  rotation 0 -1 0 1.00983228323
+  name "rock 10 cm(821)"
+}Rock10cmCustom {
+  translation 34.5842955477 0 23.8125990637
+  rotation 0 -1 0 1.10010253472
+  name "rock 10 cm(822)"
+}Rock10cmCustom {
+  translation 49.6894409232 0 40.5691328818
+  rotation 0 -1 0 2.47306540885
+  name "rock 10 cm(823)"
+}Rock10cmCustom {
+  translation -34.3712587541 0 29.8677865853
+  rotation 0 -1 0 5.39999688738
+  name "rock 10 cm(824)"
+}Rock10cmCustom {
+  translation -29.6764557329 0 44.6987483221
+  rotation 0 -1 0 4.13349877437
+  name "rock 10 cm(825)"
+}Rock10cmCustom {
+  translation 40.1298210891 0 9.75613804605
+  rotation 0 -1 0 3.89054221255
+  name "rock 10 cm(826)"
+}Rock10cmCustom {
+  translation -12.9964472955 0 7.13285117734
+  rotation 0 -1 0 0.778056689971
+  name "rock 10 cm(827)"
+}Rock10cmCustom {
+  translation -34.7435814334 0 49.615568094
+  rotation 0 -1 0 2.08658179323
+  name "rock 10 cm(828)"
+}Rock10cmCustom {
+  translation 17.5387203164 0 -22.5379083905
+  rotation 0 -1 0 1.88420800818
+  name "rock 10 cm(829)"
+}Rock10cmCustom {
+  translation -48.7699529178 0 -25.4778128294
+  rotation 0 -1 0 3.12645141117
+  name "rock 10 cm(830)"
+}Rock10cmCustom {
+  translation 28.8869345133 0 32.8635974514
+  rotation 0 -1 0 2.14596538932
+  name "rock 10 cm(831)"
+}Rock10cmCustom {
+  translation -47.4726979605 0 13.2851623967
+  rotation 0 -1 0 0.436368800896
+  name "rock 10 cm(832)"
+}Rock10cmCustom {
+  translation -45.4934052992 0 4.10996840997
+  rotation 0 -1 0 4.27934658518
+  name "rock 10 cm(833)"
+}Rock10cmCustom {
+  translation -4.68707710682 0 34.7851845474
+  rotation 0 -1 0 5.552620839
+  name "rock 10 cm(834)"
+}Rock10cmCustom {
+  translation -46.7641098829 0 27.5114804792
+  rotation 0 -1 0 1.87378159239
+  name "rock 10 cm(835)"
+}Rock10cmCustom {
+  translation -15.1250325759 0 -10.8058743082
+  rotation 0 -1 0 1.13387875786
+  name "rock 10 cm(836)"
+}Rock10cmCustom {
+  translation 49.0224841338 0 1.98490949322
+  rotation 0 -1 0 1.57681841275
+  name "rock 10 cm(837)"
+}Rock10cmCustom {
+  translation -39.4689617427 0 -36.3138441289
+  rotation 0 -1 0 1.33123043051
+  name "rock 10 cm(838)"
+}Rock10cmCustom {
+  translation -36.1169172415 0 43.1344775186
+  rotation 0 -1 0 4.12329283758
+  name "rock 10 cm(839)"
+}Rock10cmCustom {
+  translation -23.5872141594 0 -37.7371812826
+  rotation 0 -1 0 0.332746495322
+  name "rock 10 cm(840)"
+}Rock10cmCustom {
+  translation -49.8664272164 0 10.0600300737
+  rotation 0 -1 0 5.49203781441
+  name "rock 10 cm(841)"
+}Rock10cmCustom {
+  translation -6.86404174024 0 -17.3885792493
+  rotation 0 -1 0 4.48174991364
+  name "rock 10 cm(842)"
+}Rock10cmCustom {
+  translation 26.1632631295 0 19.9893122228
+  rotation 0 -1 0 1.47547153017
+  name "rock 10 cm(843)"
+}Rock10cmCustom {
+  translation -25.0977077198 0 -7.9067004947
+  rotation 0 -1 0 4.39039540764
+  name "rock 10 cm(844)"
+}Rock10cmCustom {
+  translation -42.4892484784 0 -30.2164342366
+  rotation 0 -1 0 5.80004031399
+  name "rock 10 cm(845)"
+}Rock10cmCustom {
+  translation 46.8956384034 0 33.1339875805
+  rotation 0 -1 0 3.09328409642
+  name "rock 10 cm(846)"
+}Rock10cmCustom {
+  translation -39.4699413728 0 3.87633225393
+  rotation 0 -1 0 2.28496516573
+  name "rock 10 cm(847)"
+}Rock10cmCustom {
+  translation 16.7784214073 0 -19.37466905
+  rotation 0 -1 0 1.85789118972
+  name "rock 10 cm(848)"
+}Rock10cmCustom {
+  translation -42.5950457884 0 -41.8368646176
+  rotation 0 -1 0 5.04451532819
+  name "rock 10 cm(849)"
+}Rock10cmCustom {
+  translation 11.9846062223 0 42.1728928099
+  rotation 0 -1 0 2.59243406896
+  name "rock 10 cm(850)"
+}Rock10cmCustom {
+  translation -6.17680791302 0 -49.2169486481
+  rotation 0 -1 0 4.67905830911
+  name "rock 10 cm(851)"
+}Rock10cmCustom {
+  translation -31.0428296701 0 24.954596886
+  rotation 0 -1 0 4.44901702005
+  name "rock 10 cm(852)"
+}Rock10cmCustom {
+  translation -36.5337201632 0 -19.7917069868
+  rotation 0 -1 0 1.31881882617
+  name "rock 10 cm(853)"
+}Rock10cmCustom {
+  translation 2.90485860449 0 41.4672368799
+  rotation 0 -1 0 2.81347061669
+  name "rock 10 cm(854)"
+}Rock10cmCustom {
+  translation 20.4891398441 0 -26.333261796
+  rotation 0 -1 0 4.3762254419
+  name "rock 10 cm(855)"
+}Rock10cmCustom {
+  translation -20.4946356449 0 10.4459092735
+  rotation 0 -1 0 6.2641400651
+  name "rock 10 cm(856)"
+}Rock10cmCustom {
+  translation 32.4704023864 0 -31.8444223417
+  rotation 0 -1 0 0.780301799276
+  name "rock 10 cm(857)"
+}Rock10cmCustom {
+  translation -18.6750863719 0 2.49384933084
+  rotation 0 -1 0 6.21322373391
+  name "rock 10 cm(858)"
+}Rock10cmCustom {
+  translation 19.5133341857 0 -14.5226261612
+  rotation 0 -1 0 3.94375435713
+  name "rock 10 cm(859)"
+}Rock10cmCustom {
+  translation -49.1822605317 0 6.08844050275
+  rotation 0 -1 0 0.228729764017
+  name "rock 10 cm(860)"
+}Rock10cmCustom {
+  translation -43.7520308963 0 46.0712112627
+  rotation 0 -1 0 4.48798524648
+  name "rock 10 cm(861)"
+}Rock10cmCustom {
+  translation -24.1898144744 0 32.5966480462
+  rotation 0 -1 0 0.261688722281
+  name "rock 10 cm(862)"
+}Rock10cmCustom {
+  translation -32.6020425478 0 -21.5534520513
+  rotation 0 -1 0 3.36356703664
+  name "rock 10 cm(863)"
+}Rock10cmCustom {
+  translation 27.1172843781 0 -30.8677013415
+  rotation 0 -1 0 0.21442506499
+  name "rock 10 cm(864)"
+}Rock10cmCustom {
+  translation -13.8247780769 0 0.411310385427
+  rotation 0 -1 0 1.19854926208
+  name "rock 10 cm(865)"
+}Rock10cmCustom {
+  translation -3.17378563408 0 1.15541324674
+  rotation 0 -1 0 1.51824112002
+  name "rock 10 cm(866)"
+}Rock10cmCustom {
+  translation -13.0831109228 0 44.0785162595
+  rotation 0 -1 0 1.26009117088
+  name "rock 10 cm(867)"
+}Rock10cmCustom {
+  translation 21.2166127046 0 -13.6068789923
+  rotation 0 -1 0 4.69431732251
+  name "rock 10 cm(868)"
+}Rock10cmCustom {
+  translation -43.3977848301 0 7.39090489967
+  rotation 0 -1 0 1.43815472905
+  name "rock 10 cm(869)"
+}Rock10cmCustom {
+  translation 48.5755447938 0 -44.0286184549
+  rotation 0 -1 0 5.06827470522
+  name "rock 10 cm(870)"
+}Rock10cmCustom {
+  translation 26.8267428171 0 -18.2036762026
+  rotation 0 -1 0 0.079025614755
+  name "rock 10 cm(871)"
+}Rock10cmCustom {
+  translation -33.3100269454 0 -6.33968437096
+  rotation 0 -1 0 4.48755887318
+  name "rock 10 cm(872)"
+}Rock10cmCustom {
+  translation 36.4003455323 0 -49.1355194771
+  rotation 0 -1 0 1.77305666629
+  name "rock 10 cm(873)"
+}Rock10cmCustom {
+  translation -7.67672853337 0 -18.2188253768
+  rotation 0 -1 0 0.0647039664655
+  name "rock 10 cm(874)"
+}Rock10cmCustom {
+  translation 11.371080956 0 20.9847723373
+  rotation 0 -1 0 2.3190803307
+  name "rock 10 cm(875)"
+}Rock10cmCustom {
+  translation 38.817275249 0 39.6620324647
+  rotation 0 -1 0 2.88004840731
+  name "rock 10 cm(876)"
+}Rock10cmCustom {
+  translation -28.9865413464 0 -16.0929672832
+  rotation 0 -1 0 3.02340211515
+  name "rock 10 cm(877)"
+}Rock10cmCustom {
+  translation 29.8000035814 0 -8.25338322842
+  rotation 0 -1 0 3.6919327763
+  name "rock 10 cm(878)"
+}Rock10cmCustom {
+  translation 30.9379697213 0 -14.1173532535
+  rotation 0 -1 0 1.05242946177
+  name "rock 10 cm(879)"
+}Rock10cmCustom {
+  translation -13.0776004908 0 -19.1565129839
+  rotation 0 -1 0 4.34372103543
+  name "rock 10 cm(880)"
+}Rock10cmCustom {
+  translation 22.6412231341 0 31.2731841313
+  rotation 0 -1 0 4.42143686008
+  name "rock 10 cm(881)"
+}Rock10cmCustom {
+  translation -43.0178891619 0 -13.4202199277
+  rotation 0 -1 0 1.46398170239
+  name "rock 10 cm(882)"
+}Rock10cmCustom {
+  translation 26.653286943 0 -35.4217675569
+  rotation 0 -1 0 2.08895878681
+  name "rock 10 cm(883)"
+}Rock10cmCustom {
+  translation -44.8066792035 0 39.3958468393
+  rotation 0 -1 0 3.43136165808
+  name "rock 10 cm(884)"
+}Rock10cmCustom {
+  translation 30.4255868333 0 10.1949384961
+  rotation 0 -1 0 1.20884178506
+  name "rock 10 cm(885)"
+}Rock10cmCustom {
+  translation -19.4900228831 0 6.20516504267
+  rotation 0 -1 0 0.263060264215
+  name "rock 10 cm(886)"
+}Rock10cmCustom {
+  translation -43.3884828156 0 3.25597837886
+  rotation 0 -1 0 3.45158636621
+  name "rock 10 cm(887)"
+}Rock10cmCustom {
+  translation 24.0572511383 0 -42.2527184333
+  rotation 0 -1 0 6.02901114595
+  name "rock 10 cm(888)"
+}Rock10cmCustom {
+  translation -26.6794105929 0 -48.8134897379
+  rotation 0 -1 0 2.4985140962
+  name "rock 10 cm(889)"
+}Rock10cmCustom {
+  translation -7.77422894371 0 9.02175145838
+  rotation 0 -1 0 0.650227377596
+  name "rock 10 cm(890)"
+}Rock10cmCustom {
+  translation 36.3646868602 0 14.6625390529
+  rotation 0 -1 0 0.729571111265
+  name "rock 10 cm(891)"
+}Rock10cmCustom {
+  translation -7.33430194483 0 -12.4080810801
+  rotation 0 -1 0 3.41176425403
+  name "rock 10 cm(892)"
+}Rock10cmCustom {
+  translation -38.0481724587 0 32.9296943876
+  rotation 0 -1 0 3.05114569214
+  name "rock 10 cm(893)"
+}Rock10cmCustom {
+  translation -12.2254665806 0 -24.2130012667
+  rotation 0 -1 0 0.991485265132
+  name "rock 10 cm(894)"
+}Rock10cmCustom {
+  translation 1.20678921017 0 10.6634493756
+  rotation 0 -1 0 1.46090315429
+  name "rock 10 cm(895)"
+}Rock10cmCustom {
+  translation -1.16283983758 0 13.0052850775
+  rotation 0 -1 0 0.891904012826
+  name "rock 10 cm(896)"
+}Rock10cmCustom {
+  translation 22.5057727556 0 15.7132883308
+  rotation 0 -1 0 2.75206619161
+  name "rock 10 cm(897)"
+}Rock10cmCustom {
+  translation -47.6587602342 0 -19.2789394311
+  rotation 0 -1 0 5.01693747986
+  name "rock 10 cm(898)"
+}Rock10cmCustom {
+  translation -36.6664555921 0 27.4378863742
+  rotation 0 -1 0 5.32108613174
+  name "rock 10 cm(899)"
+}Rock10cmCustom {
+  translation -28.4528511153 0 -34.3380792294
+  rotation 0 -1 0 3.78877038376
+  name "rock 10 cm(900)"
+}Rock10cmCustom {
+  translation 5.45719956226 0 15.6701510942
+  rotation 0 -1 0 0.00205380290355
+  name "rock 10 cm(901)"
+}Rock10cmCustom {
+  translation -21.2480081223 0 -2.46625788115
+  rotation 0 -1 0 2.64447059038
+  name "rock 10 cm(902)"
+}Rock10cmCustom {
+  translation 6.1269898929 0 -10.4943580371
+  rotation 0 -1 0 0.747558041761
+  name "rock 10 cm(903)"
+}Rock10cmCustom {
+  translation -39.4164633854 0 27.187257364
+  rotation 0 -1 0 2.44182594695
+  name "rock 10 cm(904)"
+}Rock10cmCustom {
+  translation -12.4081039643 0 -12.1693242122
+  rotation 0 -1 0 5.79979953188
+  name "rock 10 cm(905)"
+}Rock10cmCustom {
+  translation 2.70757110761 0 43.2484100172
+  rotation 0 -1 0 1.79297130167
+  name "rock 10 cm(906)"
+}Rock10cmCustom {
+  translation -27.6105658295 0 26.7024274397
+  rotation 0 -1 0 0.442747371749
+  name "rock 10 cm(907)"
+}Rock10cmCustom {
+  translation -3.81876400767 0 -48.2382303039
+  rotation 0 -1 0 0.055858948154
+  name "rock 10 cm(908)"
+}Rock10cmCustom {
+  translation -40.2741366656 0 7.59090649402
+  rotation 0 -1 0 0.12566527955
+  name "rock 10 cm(909)"
+}Rock10cmCustom {
+  translation -14.2232670487 0 41.9488158295
+  rotation 0 -1 0 1.8187416888
+  name "rock 10 cm(910)"
+}Rock10cmCustom {
+  translation -19.816717091 0 25.9705052051
+  rotation 0 -1 0 1.85534851201
+  name "rock 10 cm(911)"
+}Rock10cmCustom {
+  translation -43.7234057437 0 7.08134135593
+  rotation 0 -1 0 2.9511244774
+  name "rock 10 cm(912)"
+}Rock10cmCustom {
+  translation 8.63921792105 0 -25.7557291714
+  rotation 0 -1 0 1.82672381539
+  name "rock 10 cm(913)"
+}Rock10cmCustom {
+  translation 48.8898805534 0 15.3020028659
+  rotation 0 -1 0 4.31785599637
+  name "rock 10 cm(914)"
+}Rock10cmCustom {
+  translation -0.555530290681 0 -5.52783008364
+  rotation 0 -1 0 6.06469462717
+  name "rock 10 cm(915)"
+}Rock10cmCustom {
+  translation -49.122195595 0 -20.3847065484
+  rotation 0 -1 0 1.94763867182
+  name "rock 10 cm(916)"
+}Rock10cmCustom {
+  translation 38.0822099984 0 49.7875075967
+  rotation 0 -1 0 4.23954707626
+  name "rock 10 cm(917)"
+}Rock10cmCustom {
+  translation 3.49885848608 0 14.1625367647
+  rotation 0 -1 0 0.189559364403
+  name "rock 10 cm(918)"
+}Rock10cmCustom {
+  translation 35.6386439199 0 2.70265089135
+  rotation 0 -1 0 4.06693746501
+  name "rock 10 cm(919)"
+}Rock10cmCustom {
+  translation 10.9721685495 0 40.5378362449
+  rotation 0 -1 0 0.994687836576
+  name "rock 10 cm(920)"
+}Rock10cmCustom {
+  translation 1.50380765671 0 -11.3467203657
+  rotation 0 -1 0 5.30730744007
+  name "rock 10 cm(921)"
+}Rock10cmCustom {
+  translation -28.1091852027 0 -4.90654801565
+  rotation 0 -1 0 4.36724762726
+  name "rock 10 cm(922)"
+}Rock10cmCustom {
+  translation 42.1558734876 0 16.1395582536
+  rotation 0 -1 0 2.97539750166
+  name "rock 10 cm(923)"
+}Rock10cmCustom {
+  translation 25.3127183078 0 10.5012343808
+  rotation 0 -1 0 1.60780049405
+  name "rock 10 cm(924)"
+}Rock10cmCustom {
+  translation -13.9121628094 0 -19.2907014568
+  rotation 0 -1 0 3.2496382485
+  name "rock 10 cm(925)"
+}Rock10cmCustom {
+  translation 17.5806450282 0 -26.0900698797
+  rotation 0 -1 0 0.894529017178
+  name "rock 10 cm(926)"
+}Rock10cmCustom {
+  translation -9.19148629253 0 -26.6546855541
+  rotation 0 -1 0 4.57481237461
+  name "rock 10 cm(927)"
+}Rock10cmCustom {
+  translation -19.1520315327 0 -15.2303218362
+  rotation 0 -1 0 2.32405425251
+  name "rock 10 cm(928)"
+}Rock10cmCustom {
+  translation -28.633952003 0 49.9604225772
+  rotation 0 -1 0 5.62702512108
+  name "rock 10 cm(929)"
+}Rock10cmCustom {
+  translation -26.2537481259 0 -9.5183615464
+  rotation 0 -1 0 6.20418347899
+  name "rock 10 cm(930)"
+}Rock10cmCustom {
+  translation 21.6939561316 0 -38.5968914598
+  rotation 0 -1 0 4.22707879269
+  name "rock 10 cm(931)"
+}Rock10cmCustom {
+  translation 33.9293953855 0 21.0669132617
+  rotation 0 -1 0 1.8771355687
+  name "rock 10 cm(932)"
+}Rock10cmCustom {
+  translation 34.4651161555 0 -46.1500469646
+  rotation 0 -1 0 4.9587634184
+  name "rock 10 cm(933)"
+}Rock10cmCustom {
+  translation -18.6388030314 0 -26.2454762504
+  rotation 0 -1 0 3.70968923954
+  name "rock 10 cm(934)"
+}Rock10cmCustom {
+  translation -48.8106811782 0 3.94592957005
+  rotation 0 -1 0 3.56014182858
+  name "rock 10 cm(935)"
+}Rock10cmCustom {
+  translation 0.152983144705 0 -41.4257553402
+  rotation 0 -1 0 3.2473789112
+  name "rock 10 cm(936)"
+}Rock10cmCustom {
+  translation -36.7652018674 0 -8.03211431739
+  rotation 0 -1 0 3.01888031597
+  name "rock 10 cm(937)"
+}Rock10cmCustom {
+  translation 40.2268775041 0 18.179429671
+  rotation 0 -1 0 1.63912652296
+  name "rock 10 cm(938)"
+}Rock10cmCustom {
+  translation 34.5920002927 0 -7.03241168559
+  rotation 0 -1 0 0.338696942872
+  name "rock 10 cm(939)"
+}Rock10cmCustom {
+  translation -45.1124219068 0 -2.94150963526
+  rotation 0 -1 0 3.46871715592
+  name "rock 10 cm(940)"
+}Rock10cmCustom {
+  translation -45.5808149551 0 15.8655875643
+  rotation 0 -1 0 0.564967319933
+  name "rock 10 cm(941)"
+}Rock10cmCustom {
+  translation -45.8448273723 0 49.1552474062
+  rotation 0 -1 0 1.0438805163
+  name "rock 10 cm(942)"
+}Rock10cmCustom {
+  translation -19.0576222649 0 30.0211029644
+  rotation 0 -1 0 0.803816223232
+  name "rock 10 cm(943)"
+}Rock10cmCustom {
+  translation 40.1677136857 0 11.2304686715
+  rotation 0 -1 0 3.16936500118
+  name "rock 10 cm(944)"
+}Rock10cmCustom {
+  translation 11.4622725133 0 -48.6350022491
+  rotation 0 -1 0 5.89553905308
+  name "rock 10 cm(945)"
+}Rock10cmCustom {
+  translation -28.8912128055 0 -42.1524489994
+  rotation 0 -1 0 2.2959116323
+  name "rock 10 cm(946)"
+}Rock10cmCustom {
+  translation 42.3794653163 0 34.6845615212
+  rotation 0 -1 0 2.1172215998
+  name "rock 10 cm(947)"
+}Rock10cmCustom {
+  translation 18.7185032755 0 16.468898869
+  rotation 0 -1 0 4.11884514322
+  name "rock 10 cm(948)"
+}Rock10cmCustom {
+  translation 43.6504207776 0 -1.30263343113
+  rotation 0 -1 0 3.07199186912
+  name "rock 10 cm(949)"
+}Rock10cmCustom {
+  translation 20.4380490392 0 33.7226768011
+  rotation 0 -1 0 2.44834919155
+  name "rock 10 cm(950)"
+}Rock10cmCustom {
+  translation 24.8914668164 0 -14.6443254052
+  rotation 0 -1 0 0.10925713901
+  name "rock 10 cm(951)"
+}Rock10cmCustom {
+  translation -18.4661227917 0 -32.9512607734
+  rotation 0 -1 0 0.594513484972
+  name "rock 10 cm(952)"
+}Rock10cmCustom {
+  translation -9.14585410158 0 -3.57487337686
+  rotation 0 -1 0 2.834696819
+  name "rock 10 cm(953)"
+}Rock10cmCustom {
+  translation 29.4642328326 0 11.0461474457
+  rotation 0 -1 0 4.60482155855
+  name "rock 10 cm(954)"
+}Rock10cmCustom {
+  translation -25.53831575 0 -39.1877882254
+  rotation 0 -1 0 2.08762639538
+  name "rock 10 cm(955)"
+}Rock10cmCustom {
+  translation -9.9714736017 0 -21.5385406465
+  rotation 0 -1 0 2.45033978332
+  name "rock 10 cm(956)"
+}Rock10cmCustom {
+  translation -23.6975685809 0 47.3915901961
+  rotation 0 -1 0 0.245238819288
+  name "rock 10 cm(957)"
+}Rock10cmCustom {
+  translation 13.3335872455 0 22.2290693973
+  rotation 0 -1 0 1.14496608455
+  name "rock 10 cm(958)"
+}Rock10cmCustom {
+  translation 9.93487130382 0 -18.2150093198
+  rotation 0 -1 0 1.87033268461
+  name "rock 10 cm(959)"
+}Rock10cmCustom {
+  translation -13.0551449231 0 27.2516790775
+  rotation 0 -1 0 6.0940781817
+  name "rock 10 cm(960)"
+}Rock10cmCustom {
+  translation -21.0144326886 0 33.7923328891
+  rotation 0 -1 0 2.12220605643
+  name "rock 10 cm(961)"
+}Rock10cmCustom {
+  translation 15.2767496572 0 -35.6522351002
+  rotation 0 -1 0 2.26665160091
+  name "rock 10 cm(962)"
+}Rock10cmCustom {
+  translation 39.9939708966 0 -5.02830114348
+  rotation 0 -1 0 5.16332879318
+  name "rock 10 cm(963)"
+}Rock10cmCustom {
+  translation 1.52115132176 0 -20.798459642
+  rotation 0 -1 0 0.268819930646
+  name "rock 10 cm(964)"
+}Rock10cmCustom {
+  translation -34.8169179348 0 -44.6442825171
+  rotation 0 -1 0 0.520070697827
+  name "rock 10 cm(965)"
+}Rock10cmCustom {
+  translation 43.9894860969 0 -4.94530112437
+  rotation 0 -1 0 3.99877761548
+  name "rock 10 cm(966)"
+}Rock10cmCustom {
+  translation -38.670646822 0 -24.7177326406
+  rotation 0 -1 0 0.847215275622
+  name "rock 10 cm(967)"
+}Rock10cmCustom {
+  translation 38.8767594383 0 46.4244802963
+  rotation 0 -1 0 0.401216546886
+  name "rock 10 cm(968)"
+}Rock10cmCustom {
+  translation 47.6528668314 0 42.425736779
+  rotation 0 -1 0 3.55205114144
+  name "rock 10 cm(969)"
+}Rock10cmCustom {
+  translation 43.4620650957 0 -38.5189759914
+  rotation 0 -1 0 6.23308431151
+  name "rock 10 cm(970)"
+}Rock10cmCustom {
+  translation 1.79285127346 0 29.726207523
+  rotation 0 -1 0 2.22815310837
+  name "rock 10 cm(971)"
+}Rock10cmCustom {
+  translation 40.4656709766 0 -35.3545122747
+  rotation 0 -1 0 1.37182347563
+  name "rock 10 cm(972)"
+}Rock10cmCustom {
+  translation 29.7365618603 0 33.0198018724
+  rotation 0 -1 0 3.85292031624
+  name "rock 10 cm(973)"
+}Rock10cmCustom {
+  translation 30.4426704134 0 16.6108217884
+  rotation 0 -1 0 1.80308373778
+  name "rock 10 cm(974)"
+}Rock10cmCustom {
+  translation -41.962442156 0 -17.7558611692
+  rotation 0 -1 0 0.58724321302
+  name "rock 10 cm(975)"
+}Rock10cmCustom {
+  translation -32.8351790836 0 39.6318941518
+  rotation 0 -1 0 2.75460694623
+  name "rock 10 cm(976)"
+}Rock10cmCustom {
+  translation 32.9669689023 0 49.14042159
+  rotation 0 -1 0 1.91821329035
+  name "rock 10 cm(977)"
+}Rock10cmCustom {
+  translation 27.0551024223 0 19.7600835574
+  rotation 0 -1 0 1.25077282938
+  name "rock 10 cm(978)"
+}Rock10cmCustom {
+  translation 24.5516401843 0 -34.4087817898
+  rotation 0 -1 0 2.8284929941
+  name "rock 10 cm(979)"
+}Rock10cmCustom {
+  translation 3.14246241319 0 -2.32565901069
+  rotation 0 -1 0 4.6030914624
+  name "rock 10 cm(980)"
+}Rock10cmCustom {
+  translation 9.43241673698 0 -7.33352491844
+  rotation 0 -1 0 4.8361211185
+  name "rock 10 cm(981)"
+}Rock10cmCustom {
+  translation 23.0130217107 0 -4.34398560876
+  rotation 0 -1 0 6.23025691927
+  name "rock 10 cm(982)"
+}Rock10cmCustom {
+  translation 11.0538717596 0 12.9041958457
+  rotation 0 -1 0 4.29109015354
+  name "rock 10 cm(983)"
+}Rock10cmCustom {
+  translation -14.0119246976 0 -11.4426446852
+  rotation 0 -1 0 1.83176484003
+  name "rock 10 cm(984)"
+}Rock10cmCustom {
+  translation -11.0307515051 0 -10.4288998072
+  rotation 0 -1 0 2.64296309895
+  name "rock 10 cm(985)"
+}Rock10cmCustom {
+  translation 2.16230089194 0 18.5937500457
+  rotation 0 -1 0 5.20213420849
+  name "rock 10 cm(986)"
+}Rock10cmCustom {
+  translation 13.8276572826 0 40.1220172568
+  rotation 0 -1 0 3.08477005802
+  name "rock 10 cm(987)"
+}Rock10cmCustom {
+  translation -11.3303576065 0 8.48169622351
+  rotation 0 -1 0 0.0168808115536
+  name "rock 10 cm(988)"
+}Rock10cmCustom {
+  translation -21.121880167 0 2.58096095379
+  rotation 0 -1 0 1.4978388348
+  name "rock 10 cm(989)"
+}Rock10cmCustom {
+  translation 48.6025023901 0 40.5047670942
+  rotation 0 -1 0 4.6779504036
+  name "rock 10 cm(990)"
+}Rock10cmCustom {
+  translation -45.1707083695 0 32.4660650046
+  rotation 0 -1 0 4.34844877516
+  name "rock 10 cm(991)"
+}Rock10cmCustom {
+  translation 33.4132658686 0 -40.5056281556
+  rotation 0 -1 0 0.409816753452
+  name "rock 10 cm(992)"
+}Rock10cmCustom {
+  translation -24.4514164767 0 17.601938137
+  rotation 0 -1 0 3.55064198848
+  name "rock 10 cm(993)"
+}Rock10cmCustom {
+  translation -18.4348429658 0 -26.7148905217
+  rotation 0 -1 0 4.11189781812
+  name "rock 10 cm(994)"
+}Rock10cmCustom {
+  translation -6.43156534528 0 -17.0010223605
+  rotation 0 -1 0 1.40944701785
+  name "rock 10 cm(995)"
+}Rock10cmCustom {
+  translation -14.8846389936 0 30.8160564052
+  rotation 0 -1 0 3.94282026471
+  name "rock 10 cm(996)"
+}Rock10cmCustom {
+  translation -49.3036660361 0 -44.5227471497
+  rotation 0 -1 0 5.65391545994
+  name "rock 10 cm(997)"
+}Rock10cmCustom {
+  translation -30.1426493303 0 -0.726470477524
+  rotation 0 -1 0 1.45677418852
+  name "rock 10 cm(998)"
+}Rock10cmCustom {
+  translation 9.96452644032 0 0.763820575604
+  rotation 0 -1 0 5.57139152544
+  name "rock 10 cm(999)"
+}
