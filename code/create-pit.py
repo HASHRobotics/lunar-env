@@ -21,6 +21,21 @@ def in_hull(p, hull):
                 hull = Delaunay(hull)
         return hull.find_simplex(p)>=0
 
+def createGridCoordinates(start_x, start_y, end_x, end_y):
+        x = np.arange(start_x,end_x+1)
+        y = np.arange(start_y,end_y+1)
+
+        xtiled = np.tile(x, (y.shape[0],1))
+        ytiled = np.tile(y, (x.shape[0],1))
+
+        coords = np.stack((xtiled,ytiled.T),axis=2)
+        return coords.reshape(-1,2)
+
+def findPtsInHull(hull_points, start_x, start_y, end_x, end_y):
+        coords = createGridCoordinates(start_x, start_y, end_x, end_y)
+        inside = in_hull(coords, hull_points)
+        return coords[np.where(inside==True)]
+        
 if __name__ == "__main__":
     corners = 80#sys.argv[1]datada
     approx_radius = 25#sys.argv[2]
