@@ -1,11 +1,10 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
 """supervisor_controller controller."""
 
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
 
 from controller import Supervisor, Robot
-
 from scipy.io import loadmat
 import numpy as np
 
@@ -39,7 +38,7 @@ dir_sunlight = -spice_data['U_sun_point_me']
 
 rotation_matrix = np.array([[1,0,0],[0,0,-1],[0,1,0]])
 
-dir_sunlight = rotation_matrix@dir_sunlight
+dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
 
 num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
