@@ -23,9 +23,22 @@ import rospy
 from std_msgs.msg import Float64
 from controller import Robot, Camera, Keyboard
 import os
+import math
+from nav_msgs.msg import Odometry
+import tf
+from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
 
 SPEED_UNIT = 0.0628
 INCR = 10
+ENCODER_UNIT = 159.23
+
+#TODO: Change variables for pioneer 3AT
+axis_wheel_ratio = 1
+scaling_factor = 1
+wheel_diameter_left = 0.222
+wheel_diameter_right = 0.222
+increments_per_tour = 10
+
 
 class CustomRobotClass:
 
@@ -86,20 +99,101 @@ class CustomRobotClass:
             self.currspeed = r
             print("Speed",l,r)
 
-# class Odometry:
+class OdometryClass:
 
-#     def __init__(self)
+    def __init__(self):
+        # Configuration
+        self.wheel_distance = 0
+        self.wheel_conversion_left = 0
+        self.wheel_conversion_right = 0
 
+        # State
+        self.pos_left_prev = 0
+        self.pos_right_prev = 0
+
+        # Result
+        self.x = 0
+        self.y = 0
+        self.theta = 0
 
 
 class RosNode:
     def __init__(self):
         self.right_encoder_publisher = rospy.Publisher('rwheel', Float64, queue_size=10)
         self.left_encoder_publisher = rospy.Publisher('lwheel', Float64, queue_size=10)
+        self.odometry_publisher = rospy.Publisher('odometry', Odometry, queue_size=100)
 
+    def publish_odometry(self, odometry):
+        odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
+        current_time = rospy.Time.now()
+        self.broadcast_transform(odometry)
+        odom = Odometry()
+        odom.header.stamp = current_time
+        odom.header.frame_id = "odom"
+
+        odom.pose.pose = Pose(Point(odometry.x, odometry.y, 0.), Quaternion(*odom_quat))
+        odom.child_frame_id = "base_link"
+        self.odometry_publisher.publish(odom)
+
+
+    def broadcast_transform(self, odometry):
+        current_time = rospy.Time.now()
+        odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
+        odom_broadcaster = tf.TransformBroadcaster()
+        #TODO: WHat is the base link here ?
+        odom_broadcaster.sendTransform(
+            (odometry.x, odometry.y, 0.),
+            odom_quat,
+            current_time,
+            "base_link",
+            "odom"
+        )
+
+
+def odometry_start_pos(odometry, pos_left, pos_right):
+    odometry.x = 0
+    odometry.y = 0
+    odometry.theta = 0
+
+    odometry.pos_left_prev = pos_left
+    odometry.pos_right_prev = pos_right
+
+    odometry.wheel_distance = axis_wheel_ratio*scaling_factor*(wheel_diameter_left + wheel_diameter_right)/2
+    odometry.wheel_conversion_left = wheel_diameter_left * scaling_factor * math.pi / increments_per_tour
+    odometry.wheel_conversion_right = wheel_diameter_right * scaling_factor * math.pi / increments_per_tour
+    return odometry
+
+def odometry_track_step_pose(odometry, pos_left, pos_right):
+    delta_pos_left = pos_left - odometry.pos_left_prev;
+    delta_pos_right = pos_right - odometry.pos_right_prev;
+
+    delta_left = delta_pos_left * odometry.wheel_conversion_left
+    delta_right = delta_pos_right * odometry.wheel_conversion_right
+    delta_theta = (delta_right - delta_left) / odometry.wheel_distance
+    theta2 = odometry.theta + delta_theta * 0.5;
+    delta_x = (delta_left + delta_right) * 0.5 * math.cos(theta2)
+    delta_y = (delta_left + delta_right) * 0.5 * math.sin(theta2)
+
+    odometry.x += delta_x
+    odometry.y += delta_y
+    odometry.theta += delta_theta
+    if odometry.theta > math.pi:
+        odometry.theta -= 2*math.pi
+    if odometry.theta < -math.pi:
+        odometry.theta += 2*math.pi
+
+    odometry.pos_left_prev = pos_left;
+    odometry.pos_right_prev = pos_right;
+
+    return odometry
 
 
 def run_robot(ros_node, robot):
+    odometry = OdometryClass()
+
+    pos_left = ENCODER_UNIT*robot.leftpositionsensor.getValue()
+    pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
+    odometry = odometry_start_pos(odometry, pos_left, pos_right)
     while custom_robot.step() != -1 and not rospy.is_shutdown():
         l = robot.curlspeed
         r = robot.currspeed
@@ -121,6 +215,11 @@ def run_robot(ros_node, robot):
         ros_node.left_encoder_publisher.publish(robot.leftpositionsensor.getValue())
         # for wheel in robot.wheels:
             # wheel.setVelocity(-5)
+
+        pos_left = ENCODER_UNIT*robot.leftpositionsensor.getValue()
+        pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
+        odometry = odometry_track_step_pose(odometry, pos_left, pos_right)
+        ros_node.publish_odometry(odometry)
 
 
 # def callback(data):
