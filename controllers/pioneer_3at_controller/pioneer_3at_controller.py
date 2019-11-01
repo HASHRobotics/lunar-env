@@ -116,6 +116,66 @@ class OdometryClass:
         self.y = 0
         self.theta = 0
 
+class OdometryGotoClass:
+    def __init__(self):
+        self.speed_min = 1
+        self.goal_x = 0
+        self.goal_y = 0
+        self.goal_theta = 0
+        self.speed_left = 0
+        self.speed_right = 0
+        self.atgoal = 1
+
+    def set_goal(self, x, y, theta):
+        self.goal_x = x
+        self.goal_y = y
+        self.goal_theta = theta
+        self.atgoal = 0
+
+    def step(self, odometry):
+        cur_position = [odometry.x, odometry.y, odometry.theta]
+        goal_position = [self.goal_x, self.goal_y, self.goal_theta]
+
+        dx = goal_position[0] - cur_position[0]
+        dy = goal_position[1] - cur_position[1]
+
+        # Gain parameters
+        k_rho = 1.2
+        k_alpha = 1.5
+        k_beta = -0.35
+
+        v_adapt = 1000/0.13
+        w_adapt = 2000/ (270 * math.pi/180)
+
+        rho_c = math.sqrt(dx*dx + dy*dy)
+        alpha_c = math.atan2(dy, dx) - cur_position[2]
+        while alpha_c > math.pi:
+            alpha_c = alpha_c - 2 * math.pi;
+        while alpha_c < -math.pi:
+            alpha_c = alpha_c + 2 * math.pi;
+
+        beta_c = -cur_position[2] - alpha_c
+        while alpha_c > math.pi:
+            beta_c = beta_c - 2 * math.pi;
+        while alpha_c < -math.pi:
+            beta_c = beta_c + 2 * math.pi;
+
+        # Control Law
+        v_c = k_rho * rho_c
+        w_c = k_alpha * alpha_c + k_beta * beta_c
+
+        # Robot units
+        v_e = v_c * v_adapt
+        w_e = w_c * w_adapt
+
+
+        speed_left = (v_e - w_e/2)
+        speed_right = (v_e + w_e/2)
+
+        if (speed_right == 0 and speed_left == 0) or rho_c < 0.002:
+            self.atgoal = 1
+
+        return [speed_left, speed_right]
 
 class RosNode:
     def __init__(self):
@@ -187,6 +247,16 @@ def odometry_track_step_pose(odometry, pos_left, pos_right):
 
     return odometry
 
+def goto_position(x,y,theta, odometry, robot):
+    odometrygoto = OdometryGotoClass()
+    odometrygoto.set_goal(x, y, theta)
+    while odometrygoto.atgoal == 0:
+        pos_left = ENCODER_UNIT*robot.leftpositionsensor.getValue()
+        pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
+        odometry = odometry_track_step_pose(odometry, pos_left, pos_right)
+        [speed_left, speed_right] = odometrygoto.step(odometry)
+        robot.set_speed(speed_left, speed_right)
+
 
 def run_robot(ros_node, robot):
     odometry = OdometryClass()
@@ -220,6 +290,8 @@ def run_robot(ros_node, robot):
         pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
         odometry = odometry_track_step_pose(odometry, pos_left, pos_right)
         ros_node.publish_odometry(odometry)
+        # Go to Position
+        goto_position(0, 0.2, math.pi, odometry, robot);
 
 
 # def callback(data):
@@ -227,6 +299,7 @@ def run_robot(ros_node, robot):
 #     global message
 #     message = 'Received velocity value: ' + str(data.data)
 #     velocity = data.data
+
 
 # print('Subscribing to "motor" topic')
 # rospy.Subscriber('motor', Float64, callback)
