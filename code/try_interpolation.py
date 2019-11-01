@@ -1,5 +1,7 @@
 import numpy as np
+import createpit
 from scipy.interpolate import RectBivariateSpline
+import scipy.spatial as scispa
 
 
 if __name__ == "__main__":
@@ -15,6 +17,23 @@ if __name__ == "__main__":
 	x_res = np.arange(0,1300,current_step/resolution_increase)
 	y_res = np.arange(0,1300,current_step/resolution_increase)
 	z_res = spline(x_res, y_res)
+
+	center = [x_res.shape[0]/2,y_res.shape[0]/2]
+
+	x_pit, y_pit = createpit.get_pit_coordinates()
+	x_pit = x_pit + center[0]
+	y_pit = y_pit + center[1]
+	pit = np.transpose(np.vstack((x_pit,y_pit)))
+	# pit_hull = scispa.ConvexHull(pit)
+
+	x_max = int(np.ceil(max(x_pit)))
+	x_min = int(np.floor(min(x_pit)))
+	y_max = int(np.ceil(max(y_pit)))
+	y_min = int(np.floor(min(y_pit)))
+
+	pit_interior = createpit.findPtsInHull(pit, x_min, y_min, x_max, y_max)
+	import pdb; pdb.set_trace()
+	z_res[pit_interior[:,0], pit_interior[:,1]] = -80
 
 	print(z_res.shape)
 
