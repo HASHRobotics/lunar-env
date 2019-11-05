@@ -50,19 +50,19 @@ class CustomRobotClass:
 
 
         # Initialize sensors
-        # metacamera = robot.getCamera("MultiSense S21 meta camera")
-        # leftcamera = robot.getCamera("MultiSense S21 left camera")
-        # rightcamera = robot.getCamera("MultiSense S21 right camera")
-        # rangeFinder = robot.getRangeFinder("MultiSense S21 meta range finder")
+        metacamera = self.robot.getCamera("MultiSense S21 meta camera")
+        leftcamera = self.robot.getCamera("MultiSense S21 left camera")
+        rightcamera = self.robot.getCamera("MultiSense S21 right camera")
+        rangeFinder = self.robot.getRangeFinder("MultiSense S21 meta range finder")
         self.leftpositionsensor = self.robot.getPositionSensor('back left wheel sensor')
         self.rightpositionsensor = self.robot.getPositionSensor('back right wheel sensor')
         self.keyboard = Keyboard()
 
         # Enable sensors
-        # metacamera.enable(timeStep)
-        # leftcamera.enable(timeStep)
-        # rightcamera.enable(timeStep)
-        # rangeFinder.enable(timeStep)
+        metacamera.enable(self.timeStep)
+        leftcamera.enable(self.timeStep)
+        rightcamera.enable(self.timeStep)
+        rangeFinder.enable(self.timeStep)
         self.leftpositionsensor.enable(self.time_step)
         self.rightpositionsensor.enable(self.time_step)
         self.keyboard.enable(self.time_step)
