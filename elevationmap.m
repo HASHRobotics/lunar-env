@@ -15,9 +15,19 @@ close all
 % flatten_heightmap = reshape(heightmap, [1, r*c]);
 % csvwrite('heightmap.csv',flatten_heightmap);
 
-t = Tiff('worlds/NAC_DTM_TSILKVSKIY2_CLRSHADE_20170911_164042.tif', 'r');
-imageData = read(t);
-[r, c] = size(imageData);
-flatten_heightmap = reshape(imageData, [1, r*c]);
-csvwrite('heightmap.csv',flatten_heightmap);
+% t = Tiff('worlds/NAC_DTM_TSILKVSKIY2_CLRSHADE_20170911_164042.tif', 'r');
+% imageData = read(t);
+% [r, c] = size(imageData);
+% flatten_heightmap = reshape(imageData, [1, r*c]);
+% csvwrite('heightmap.csv',flatten_heightmap);
+
+ localmap = csvread("globalmap.csv");
+ I = mat2gray(localmap);
+ Igrad = imgradient(I)
+ BM = (Igrad >= 0 & Igrad < 0.09);
+ imshow(BM)
+ 
+ 
+ 
+ 
 
