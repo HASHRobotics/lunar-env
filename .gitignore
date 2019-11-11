@@ -1,2 +1,6 @@
 *.wbproj
 *.cache
+__pycache__
+*.csv
+*.mat
+

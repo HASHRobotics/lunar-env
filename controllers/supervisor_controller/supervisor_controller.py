@@ -4,9 +4,43 @@
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
 
-from controller import Supervisor, Robot
+import rospy
+import tf
+
+from controller import Supervisor
 from scipy.io import loadmat
 import numpy as np
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
+
+
+rospy.init_node('supervisor_controller', anonymous=True)
+odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
+
+def publish_odometry(position, orientation, velocity, angular_velocity):
+    current_time = rospy.Time.now()
+    broadcast_transform(position, orientation)
+
+    odom = Odometry()
+    odom.header.stamp = current_time
+    odom.header.frame_id = "odom"
+
+    odom.pose.pose = Pose(Point(*position), Quaternion(*orientation))
+    odom.twist.twist = Twist(Vector3(*velocity), Vector3(*angular_velocity))
+    odom.child_frame_id = "base_link"
+    odometry_publisher.publish(odom)
+
+
+def broadcast_transform(position, orientation):
+    current_time = rospy.Time.now()
+    odom_broadcaster = tf.TransformBroadcaster()
+    odom_broadcaster.sendTransform(
+        position,
+        orientation,
+        current_time,
+        "base_link",
+        "odom"
+    )
 
 # import time
 TIME_STEP = 32
@@ -24,15 +58,16 @@ children = root.getField("children")
 n = children.getCount()
 for i in range(n):
     name = children.getMFNode(i).getTypeName()
-    print(name)
     if(name == "DirectionalLight"):
         light_node_index = i
-        break
+    elif(name == "Pioneer3at"):
+        pioneer_3_at_index = i
 
 
 light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
+robot_node = children.getMFNode(pioneer_3_at_index)
 spice_data = loadmat("../../data/moon_rel_positions.mat")
 dir_sunlight = -spice_data['U_sun_point_me']
 
@@ -44,16 +79,24 @@ num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
-    direction_field.setSFVec3f((dir_sunlight[:,num_loops]).tolist())
-    num_loops += 1
-    if(num_loops == dir_sunlight.shape[1]):
-        print("Done with one day")
-        break
-        
+    if num_loops <= dir_sunlight.shape[1]:
+        direction_field.setSFVec3f((dir_sunlight[:,num_loops]).tolist())
+        num_loops += 1
+        if(num_loops == dir_sunlight.shape[1]):
+            print("Done with one day")
+    position = robot_node.getPosition()
+    orientation = np.array(robot_node.getOrientation()).reshape(3,3)
+    orientation = np.hstack((np.vstack((orientation, np.zeros((1,3)))), np.array([[0,0,0,1]]).T))
+    orientation = tf.transformations.quaternion_from_matrix(orientation)
+    velocity = robot_node.getVelocity()
+    publish_odometry(position, orientation, velocity[0:3], velocity[3:6])
+
+
+
     # print((Robot)self_robot.getTime())
-    # 
-    
-# 
+    #
+
+#
 # time = Supervisor.getTime()
 # print(time)
 # time.sleep(5)
