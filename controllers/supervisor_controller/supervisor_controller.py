@@ -79,12 +79,16 @@ num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
-    if num_loops <= dir_sunlight.shape[1]:
+    # print(num_loops, dir_sunlight.shape)
+    if num_loops < dir_sunlight.shape[1]:
         direction_field.setSFVec3f((dir_sunlight[:,num_loops]).tolist())
         num_loops += 1
         if(num_loops == dir_sunlight.shape[1]):
             print("Done with one day")
     position = robot_node.getPosition()
+    position = np.array([x for x in position]).reshape((1,3))
+    position = np.matmul(position, rotation_matrix)[0]
+    position[1] = -position[1]
     orientation = np.array(robot_node.getOrientation()).reshape(3,3)
     orientation = np.hstack((np.vstack((orientation, np.zeros((1,3)))), np.array([[0,0,0,1]]).T))
     orientation = tf.transformations.quaternion_from_matrix(orientation)
