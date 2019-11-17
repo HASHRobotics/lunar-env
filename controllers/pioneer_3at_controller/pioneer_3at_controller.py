@@ -317,7 +317,7 @@ def run_robot(ros_node, robot):
         pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
         odometry.odometry_track_step_pose(pos_left, pos_right)
 
-        ros_node.publish_odometry(odometry)
+        # ros_node.publish_odometry(odometry)
         # Go to Position
         # goto_position(0, 0.2, math.pi, odometry, robot);
 

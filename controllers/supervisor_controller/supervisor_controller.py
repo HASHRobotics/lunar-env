@@ -86,11 +86,11 @@ while(supervisor.step(TIME_STEP)!=-1):
         if(num_loops == dir_sunlight.shape[1]):
             print("Done with one day")
     position = robot_node.getPosition()
-    position = np.array([x for x in position]).reshape((1,3))
-    position = np.matmul(position, rotation_matrix)[0]
-    position[1] = -position[1]
-    position[2] = 0
     orientation = np.array(robot_node.getOrientation()).reshape(3,3)
+
+    orientation = np.matmul(orientation,np.array([[0,0,1],[0,1,0], [-1,0,0]])) # y 90
+    orientation = np.matmul(orientation,np.array([[1,0,0],[0,0,1], [0,-1,0]])) # x -90
+
     orientation = np.hstack((np.vstack((orientation, np.zeros((1,3)))), np.array([[0,0,0,1]]).T))
     orientation = tf.transformations.quaternion_from_matrix(orientation)
     velocity = robot_node.getVelocity()
