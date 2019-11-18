@@ -79,8 +79,10 @@ num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
-    if num_loops <= dir_sunlight.shape[1]:
-        direction_field.setSFVec3f((dir_sunlight[:,num_loops]).tolist())
+    if num_loops < dir_sunlight.shape[1]:
+        direction_ = (dir_sunlight[:,num_loops]).tolist()
+        direction_[1]=-0.5
+        direction_field.setSFVec3f(direction_)
         num_loops += 1
         if(num_loops == dir_sunlight.shape[1]):
             print("Done with one day")

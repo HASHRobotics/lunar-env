@@ -70,7 +70,7 @@ PROTO CustomMultiSenseS21 [
           translation 0 0 -0.05
           name %{= '"' .. fields.name.value .. ' meta range finder"'}%
           fieldOfView IS cameraFieldOfView
-          minRange 1.5
+          minRange 0.01
           maxRange IS rangeFinderMaxRange
           width IS cameraWidth
           height IS cameraHeight
