@@ -12,10 +12,12 @@ from scipy.io import loadmat
 import numpy as np
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
-
+from std_msgs.msg import Float32
 
 rospy.init_node('supervisor_controller', anonymous=True)
 odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
+
+show_rock_distances = rospy.get_param('show_rock_distances', 0)
 
 def publish_odometry(position, orientation, velocity, angular_velocity):
     current_time = rospy.Time.now()
@@ -68,12 +70,16 @@ light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
-spice_data = loadmat("../../data/moon_rel_positions.mat")
-dir_sunlight = -spice_data['U_sun_point_me']
+spice_data = loadmat("/home/hash/Documents/global-planner/data/moon_rel_positions_-87_-8.mat")
+dir_sunlight = spice_data['U_sun_point_enu']
 
-rotation_matrix = np.array([[1,0,0],[0,0,-1],[0,1,0]])
+rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
+
+if(show_rock_distances):
+    rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info.npy")
+    rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
 num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
@@ -81,7 +87,7 @@ while(supervisor.step(TIME_STEP)!=-1):
     # print("Changing light source now")
     if num_loops < dir_sunlight.shape[1]:
         direction_ = (dir_sunlight[:,num_loops]).tolist()
-        direction_[1]=-0.5
+        # direction_[1]=-0.5
         direction_field.setSFVec3f(direction_)
         num_loops += 1
         if(num_loops == dir_sunlight.shape[1]):
@@ -96,6 +102,11 @@ while(supervisor.step(TIME_STEP)!=-1):
     velocity = robot_node.getVelocity()
     publish_odometry(position, orientation, velocity[0:3], velocity[3:6])
 
+    if(show_rock_distances):
+        current_robot_position = np.array(robot_node.getPosition()).flatten()
+        robot_rock_distances = np.sqrt(np.sum((rock_pos[:,:2] - current_robot_position[[0,2]])**2, axis=1))*2 #+ rock_pos[:,2]/2 + 0.25
+        min_robot_rock_distance = robot_rock_distances.min()
+        rock_dist_publisher.publish(min_robot_rock_distance)
 
 
     # print((Robot)self_robot.getTime())

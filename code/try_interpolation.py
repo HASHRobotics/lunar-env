@@ -18,12 +18,12 @@ class LunarMap:
 		self.spline = RectBivariateSpline(self.x,self.y,self.z)
 
 	def change_resolution(self, resolution):
-		x_res = np.arange(0,self.side_len,self.current_step/resolution)
-		y_res = np.arange(0,self.side_len,self.current_step/resolution)
+		x_res = np.arange(0,self.side_len,float(self.current_step)/resolution)
+		y_res = np.arange(0,self.side_len,float(self.current_step)/resolution)
 		z_res = self.spline(x_res, y_res)
 
 		center = [x_res.shape[0]/2,y_res.shape[0]/2]
-		x_pit, y_pit = createpit.get_pit_coordinates(self.current_step/resolution)
+		x_pit, y_pit = createpit.get_pit_coordinates(float(self.current_step)/resolution)
 		x_pit = x_pit + center[0]
 		y_pit = y_pit + center[1]
 		pit = np.transpose(np.vstack((x_pit,y_pit)))
