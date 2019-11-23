@@ -26,6 +26,7 @@ def parse_arguments():
     parser.add_argument('--xhighlimit', dest='xhighlimit', type=int, default=800, help="Higher x limit")
     parser.add_argument('--zlowlimit', dest='zlowlimit', type=int, default=-800, help="Lower z limit")
     parser.add_argument('--zhighlimit', dest='zhighlimit', type=int, default=800, help="Higher z limit")
+    parser.add_argument('--density', dest='density', type=float, default=0.005, help="Density of rocks /m2")
     parser.add_argument('--numrocks', dest='numrocks', type=int, default=10000, help="Total number of rocks")
     return parser.parse_args()
 

@@ -37,10 +37,10 @@ def findPtsInHull(hull_points, start_x, start_y, end_x, end_y):
         inside = in_hull(coords, hull_points)
         return coords[np.where(inside==True)]
 
-def get_pit_coordinates():
+def get_pit_coordinates(resolution=1):
 # if __name__ == "__main__":
     corners = 300#sys.argv[1]datada
-    approx_radius = 25#sys.argv[2]
+    approx_radius = 25/resolution#sys.argv[2]
 
     total_radius_delta = 0.2*approx_radius
     adjecent_delta = 0.1*approx_radius
