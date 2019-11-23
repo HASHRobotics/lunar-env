@@ -51,7 +51,10 @@ if __name__ == "__main__":
 	ys = np.arange(0,lunarmap.side_len, lunarmap.current_step/10)
 	zs = highres_spline(xs,ys)
 
-	np.savetxt("code/height_webots.txt", zs.reshape(-1), delimiter=",", newline=",")
-	np.savetxt("code/height_highres.txt", z.reshape(-1), delimiter=",", newline=",")
-	np.save("code/pitedges.npy", pit)
-	np.savez("code/detail_map.npz", x=x, y=y, z=z, side_len=lunarmap.side_len)
+	# Convert to meters
+	pit = pit/2
+
+	np.savetxt("data/height_webots.txt", zs.reshape(-1), delimiter=",", newline=",")
+	np.savetxt("data/height_highres.txt", z.reshape(-1), delimiter=",", newline=",")
+	np.save("data/pitedges.npy", pit)
+	np.savez("data/detail_map.npz", x=x, y=y, z=z, side_len=lunarmap.side_len)
