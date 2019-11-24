@@ -17,6 +17,7 @@ Gx = zeros(side_length, side_length);
 Gy = zeros(side_length, side_length);
 
 first_quadrant = heightmap(1:side_length/2,1:side_length/2);
+
 [Gx1, Gy1] = imgradientxy(first_quadrant, 'intermediate');
 Gx(1:side_length/2, 1:side_length/2) = Gx1;
 Gy(1:side_length/2, 1:side_length/2) = Gy1;
@@ -37,11 +38,12 @@ fourth_quadrant = heightmap(side_length/2+1:end, side_length/2+1:end);
 flipped_fourth_quadrant = flip(fourth_quadrant,1);
 flipped_fourth_quadrant = flip(flipped_fourth_quadrant,2);
 [Gx4, Gy4] = imgradientxy(flipped_fourth_quadrant, 'intermediate');
-
 flipped_Gx4 = flip(Gx4,1);
 Gx(side_length/2+1:end, side_length/2+1:end) = flip(flipped_Gx4,2);
 flipped_Gy4 = flip(Gy4,1);
 Gy(side_length/2+1:end, side_length/2+1:end) = flip(flipped_Gy4,2);
+
+
 
 [Gmag, Gdir] = imgradient(Gx,Gy);
 Gmag = mat2gray(Gmag);
