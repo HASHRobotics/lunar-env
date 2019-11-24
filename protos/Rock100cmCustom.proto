@@ -6,9 +6,9 @@
 PROTO Rock100cmCustom [
   field SFVec3f    translation       0 0 0
   field SFRotation rotation          0 1 0 0
-  field SFString   name             "rock 17 cm"
+  field SFString   name             "rock 100 cm"
   field MFString   texture          "textures/rock.jpg"  # Defines the texture used for the rock.
-  field SFFloat    density            3270 # Defines the density of the rock.
+  field SFFloat    density            30 # Defines the density of the rock.
   field SFBool     locked           FALSE                     # Is `Solid.locked`.
 ]
 {
@@ -45,7 +45,7 @@ PROTO Rock100cmCustom [
       }
     ]
     name IS name
-    model "rock 17 cm"
+    model "rock 100 cm"
     locked IS locked
     boundingObject USE IFS
     physics Physics {
