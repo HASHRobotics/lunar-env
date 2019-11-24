@@ -28,10 +28,15 @@ from nav_msgs.msg import Odometry
 import tf
 from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
 
-SPEED_UNIT = 0.0628
-INCR = 10
+SPEED_UNIT = 9.09
+INCR = 0.01
 ENCODER_UNIT = 159.23
 WHEEL_BASE = 0.25
+MAX_SPEED = 6.4
+TELEOP = 0
+
+left_velocity = 0
+right_velocity = 0
 
 #TODO: Change variables for pioneer 3AT
 axis_wheel_ratio = 1
@@ -39,6 +44,8 @@ scaling_factor = 1
 wheel_diameter_left = 0.222
 wheel_diameter_right = 0.222
 increments_per_tour = 10
+
+
 
 
 class CustomRobotClass:
@@ -57,7 +64,7 @@ class CustomRobotClass:
         self.leftpositionsensor = self.robot.getPositionSensor('back left wheel sensor')
         self.rightpositionsensor = self.robot.getPositionSensor('back right wheel sensor')
         self.keyboard = Keyboard()
-
+        self.pen = self.robot.getPen('pen')
         # Enable sensors
         # metacamera.enable(timeStep)
         # leftcamera.enable(timeStep)
@@ -89,6 +96,7 @@ class CustomRobotClass:
         self.robot.step(self.time_step)
 
     def set_speed(self, l, r):
+        print("Inside set speed", SPEED_UNIT*l, SPEED_UNIT*r)
         if self.prevlspeed !=l or self.prevrspeed != r:
             self.wheels[0].setVelocity(SPEED_UNIT*r)
             self.wheels[1].setVelocity(SPEED_UNIT*l)
@@ -98,7 +106,6 @@ class CustomRobotClass:
             self.prevrspeed = self.currspeed
             self.curlspeed = l
             self.currspeed = r
-            # print("Speed",l,r)
 
 class OdometryClass:
 
@@ -221,40 +228,40 @@ def command_velocity_callback(data):
 
     left_velocity = robot_linear_velocity - 0.5*robot_angular_velocity*WHEEL_BASE
     right_velocity = robot_linear_velocity + 0.5*robot_angular_velocity*WHEEL_BASE
-
+    print("Inside command velocity: left_velocity: {0}, right_velocity: {1}".format(left_velocity, right_velocity))
 
 class RosNode:
     def __init__(self):
         self.right_encoder_publisher = rospy.Publisher('rwheel', Float64, queue_size=10)
         self.left_encoder_publisher = rospy.Publisher('lwheel', Float64, queue_size=10)
-        self.odometry_publisher = rospy.Publisher('odometry', Odometry, queue_size=100)
+        # self.odometry_publisher = rospy.Publisher('odometry', Odometry, queue_size=100)
         rospy.Subscriber('cmd_vel', Twist, command_velocity_callback)
 
-    def publish_odometry(self, odometry):
-        odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
-        current_time = rospy.Time.now()
-        self.broadcast_transform(odometry)
-        odom = Odometry()
-        odom.header.stamp = current_time
-        odom.header.frame_id = "odom"
+    # def publish_odometry(self, odometry):
+    #     odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
+    #     current_time = rospy.Time.now()
+    #     self.broadcast_transform(odometry)
+    #     odom = Odometry()
+    #     odom.header.stamp = current_time
+    #     odom.header.frame_id = "odom"
 
-        odom.pose.pose = Pose(Point(odometry.x, odometry.y, 0.), Quaternion(*odom_quat))
-        odom.child_frame_id = "base_link"
-        self.odometry_publisher.publish(odom)
+    #     odom.pose.pose = Pose(Point(odometry.x, odometry.y, 0.), Quaternion(*odom_quat))
+    #     odom.child_frame_id = "base_link"
+    #     # self.odometry_publisher.publish(odom)
 
 
-    def broadcast_transform(self, odometry):
-        current_time = rospy.Time.now()
-        odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
-        odom_broadcaster = tf.TransformBroadcaster()
-        #TODO: WHat is the base link here ?
-        odom_broadcaster.sendTransform(
-            (odometry.x, odometry.y, 0.),
-            odom_quat,
-            current_time,
-            "base_link",
-            "odom"
-        )
+    # def broadcast_transform(self, odometry):
+    #     current_time = rospy.Time.now()
+    #     odom_quat = tf.transformations.quaternion_from_euler(0, 0, odometry.theta)
+    #     odom_broadcaster = tf.TransformBroadcaster()
+    #     TODO: WHat is the base link here ?
+    #     odom_broadcaster.sendTransform(
+    #         (odometry.x, odometry.y, 0.),
+    #         odom_quat,
+    #         current_time,
+    #         "base_link",
+    #         "odom"
+    #     )
 
 
 # def goto_position(x,y,theta, odometry, robot):
@@ -274,26 +281,35 @@ def run_robot(ros_node, robot):
     odometry = OdometryClass()
     pos_left = ENCODER_UNIT*robot.leftpositionsensor.getValue()
     pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
-    print(robot.leftpositionsensor.getValue(), robot.rightpositionsensor.getValue())
     odometry.odometry_start_pos(pos_left, pos_right)
     while custom_robot.step() != -1 and not rospy.is_shutdown():
-        print("I am here")
-        left_velocity = robot.curlspeed
-        right_velocity = robot.currspeed
-        key = robot.keyboard.getKey()
-        if key == Keyboard.UP:
-            left_velocity += INCR
-            right_velocity += INCR
-        elif key == Keyboard.DOWN:
-            left_velocity -= INCR
-            right_velocity -= INCR
-        elif key == Keyboard.LEFT:
-            right_velocity += INCR
-            left_velocity -= INCR
-        elif key == Keyboard.RIGHT:
-            right_velocity -= INCR
-            left_velocity += INCR
+        if TELEOP:
+            left_velocity = robot.curlspeed
+            right_velocity = robot.currspeed
+            key = robot.keyboard.getKey()
+            if key == Keyboard.UP:
+                if left_velocity < MAX_SPEED:
+                    left_velocity += INCR
+                if right_velocity < MAX_SPEED:
+                    right_velocity += INCR
+            elif key == Keyboard.DOWN:
+                if left_velocity > -MAX_SPEED:
+                    left_velocity -= INCR
+                if right_velocity > -MAX_SPEED:
+                    right_velocity -= INCR
+            elif key == Keyboard.LEFT:
+                if right_velocity < MAX_SPEED:
+                    right_velocity += INCR
+                if left_velocity > -MAX_SPEED:
+                    left_velocity -= INCR
+            elif key == Keyboard.RIGHT:
+                if left_velocity < MAX_SPEED:
+                    left_velocity += INCR
+                if right_velocity > -MAX_SPEED:
+                    right_velocity -= INCR
+        print("left_velocity = {0} and right_velocity = {1}".format(left_velocity, right_velocity))
         robot.set_speed(left_velocity,right_velocity)
+        robot.pen.write(True)
         ros_node.right_encoder_publisher.publish(robot.rightpositionsensor.getValue())
         ros_node.left_encoder_publisher.publish(robot.leftpositionsensor.getValue())
 
@@ -301,7 +317,7 @@ def run_robot(ros_node, robot):
         pos_right = ENCODER_UNIT*robot.rightpositionsensor.getValue()
         odometry.odometry_track_step_pose(pos_left, pos_right)
 
-        ros_node.publish_odometry(odometry)
+        # ros_node.publish_odometry(odometry)
         # Go to Position
         # goto_position(0, 0.2, math.pi, odometry, robot);
 
@@ -318,6 +334,7 @@ def run_robot(ros_node, robot):
 if __name__== "__main__":
     print('Initializing ROS: connecting to ' + os.environ['ROS_MASTER_URI'])
     custom_robot = CustomRobotClass()
+
     custom_robot.step()
     rospy.init_node('webots_controller', anonymous=True)
     ros_node = RosNode()
