@@ -16,14 +16,22 @@ class LunarMap:
 		self.y = np.arange(0,self.side_len,self.current_step)
 		self.z = heights.reshape(self.x.shape[0], self.y.shape[0])
 		self.spline = RectBivariateSpline(self.x,self.y,self.z)
+		self.spline_pit = None
 
 	def change_resolution(self, resolution):
-		x_res = np.arange(0,self.side_len,float(self.current_step)/resolution)
-		y_res = np.arange(0,self.side_len,float(self.current_step)/resolution)
+		x_res = np.arange(0,self.side_len, resolution)
+		y_res = np.arange(0,self.side_len, resolution)
+		z_res = self.spline(x_res, y_res)
+		return x_res, y_res, z_res
+
+	def change_resolution_add_pit(self, resolution):
+		x_res = np.arange(0,self.side_len, resolution)
+		y_res = np.arange(0,self.side_len, resolution)
 		z_res = self.spline(x_res, y_res)
 
 		center = [x_res.shape[0]/2,y_res.shape[0]/2]
-		x_pit, y_pit = createpit.get_pit_coordinates(float(self.current_step)/resolution)
+		x_pit, y_pit = createpit.get_pit_coordinates(resolution)
+		# import pdb; pdb.set_trace()
 		x_pit = x_pit + center[0]
 		y_pit = y_pit + center[1]
 		pit = np.transpose(np.vstack((x_pit,y_pit)))
@@ -38,23 +46,25 @@ class LunarMap:
 		# import pdb; pdb.set_trace()
 		z_res[pit_interior[:,0], pit_interior[:,1]] = -80
 
+		# self.spline = RectBivariateSpline(x_res, y_res, z_res)
+
 		return x_res, y_res, z_res, pit
 
 if __name__ == "__main__":
 	lunarmap = LunarMap()
 	# import pdb; pdb.set_trace()
-	resolution_increase = 40
-	x, y, z, pit = lunarmap.change_resolution(resolution_increase)
+	final_resolution = 0.5 #(meters/pixel)
+	x, y, z, pit = lunarmap.change_resolution_add_pit(final_resolution)
 
 	highres_spline = RectBivariateSpline(x, y, z)
-	xs = np.arange(0,lunarmap.side_len, lunarmap.current_step/10)
-	ys = np.arange(0,lunarmap.side_len, lunarmap.current_step/10)
+	xs = np.arange(0,lunarmap.side_len, 2)
+	ys = np.arange(0,lunarmap.side_len, 2)
 	zs = highres_spline(xs,ys)
-
+	lunarmap.spline_pit = highres_spline
 	# Convert to meters
 	pit = pit/2
-
-	np.savetxt("data/height_webots.txt", zs.reshape(-1), delimiter=",", newline=",")
-	np.savetxt("data/height_highres.txt", z.reshape(-1), delimiter=",", newline=",")
-	np.save("data/pitedges.npy", pit)
-	np.savez("data/detail_map.npz", x=x, y=y, z=z, side_len=lunarmap.side_len)
+	# import pdb; pdb.set_trace()
+	np.savetxt("data/height_webots.csv", zs.reshape(-1), fmt='%10.5f', delimiter=",", newline=",")
+	np.savetxt("data/height_highres.csv", z, fmt='%10.5f', delimiter=",", newline='\n')
+	np.savetxt("data/pitedges.csv", pit, fmt='%10.5f', delimiter=",")
+	# np.savez("data/detail_map.npz", x=x, y=y, z=z, side_len=lunarmap.side_len)
