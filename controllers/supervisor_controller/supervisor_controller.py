@@ -157,7 +157,8 @@ light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
-spice_data = loadmat("data/moon_rel_positions_44_25.mat")
+#spice_data = loadmat("data/moon_rel_positions_44_25.mat")
+spice_data = loadmat("/home/hash/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
 dir_sunlight = spice_data['U_sun_point_enu']
 
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
@@ -191,7 +192,7 @@ while(supervisor.step(TIME_STEP)!=-1):
 
     if(show_rock_distances):
         current_robot_position = np.array(robot_node.getPosition()).flatten()
-        robot_rock_distances = np.sqrt(np.sum((rock_pos[:,:2] - current_robot_position[[0,2]])**2, axis=1))*2 #+ rock_pos[:,2]/2 + 0.25
+        robot_rock_distances = np.sqrt(np.sum((rock_pos[:,:2] - current_robot_position[[0,2]])**2, axis=1)) - (rock_pos[:,2]/2 + 0.25)
         min_robot_rock_distance = robot_rock_distances.min()
         rock_dist_publisher.publish(min_robot_rock_distance)
     publish_error()

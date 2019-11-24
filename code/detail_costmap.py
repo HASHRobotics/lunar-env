@@ -2,10 +2,10 @@ import numpy as np
 
 import try_interpolation as map_interpolation
 
-world_file = open("worlds/custom_lunar_custompit_demo1.wbt","r")
+world_file = open("worlds/FVD_lunar_surface_V4_demo1.wbt","r")
 lunarmap = map_interpolation.LunarMap()
 
-x, y, z, _ = lunarmap.change_resolution(40)
+x, y, z = lunarmap.change_resolution(40)
 
 found_rock_flag = 0
 rock_size = 0
