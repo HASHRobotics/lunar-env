@@ -8,7 +8,7 @@ PROTO Rock40cmCustom [
   field SFRotation rotation         0 1 0 0
   field SFString   name             "rock 40 cm"
   field MFString   texture          "textures/rock.jpg"  # Defines the texture used for the rock.
-  field SFFloat    density            3270 # Defines the density of the rock.
+  field SFFloat    density            30 # Defines the density of the rock.
   field SFBool     locked           FALSE                # Is `Solid.locked`.
 ]
 {

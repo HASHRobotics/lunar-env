@@ -22,10 +22,10 @@ class Rock:
 def parse_arguments():
     # Command-line flags are defined here.
     parser = argparse.ArgumentParser()
-    parser.add_argument('--xlowlimit', dest='xlowlimit', type=int, default=633, help="Lower x limit")
-    parser.add_argument('--xhighlimit', dest='xhighlimit', type=int, default=667, help="Higher x limit")
-    parser.add_argument('--zlowlimit', dest='zlowlimit', type=int, default=633, help="Lower z limit")
-    parser.add_argument('--zhighlimit', dest='zhighlimit', type=int, default=667, help="Higher z limit")
+    parser.add_argument('--xlowlimit', dest='xlowlimit', type=int, default=608, help="Lower x limit")
+    parser.add_argument('--xhighlimit', dest='xhighlimit', type=int, default=692, help="Higher x limit")
+    parser.add_argument('--zlowlimit', dest='zlowlimit', type=int, default=608, help="Lower z limit")
+    parser.add_argument('--zhighlimit', dest='zhighlimit', type=int, default=692, help="Higher z limit")
     parser.add_argument('--density', dest='density', type=float, default=0.005, help="Density of rocks /m2")
     parser.add_argument('--size', dest='s', type=int, default=10, help="Size of rocks /m2")
     # parser.add_argument('--numrocks', dest='numrocks', type=int, default=10000, help="Total number of rocks")
