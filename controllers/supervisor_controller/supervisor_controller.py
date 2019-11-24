@@ -166,14 +166,14 @@ rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
 
 if(show_rock_distances):
-    rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info.npy")
+    rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
 num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
-    if num_loops < dir_sunlight.shape[1]:
+    if num_loops < dir_sunlight.shape[1] and not show_rock_distances:
         direction_ = (dir_sunlight[:,num_loops]).tolist()
         # direction_[1]=-0.5
         direction_field.setSFVec3f(direction_)
