@@ -6,16 +6,97 @@
 
 import rospy
 import tf
+import numpy as np
 
 from controller import Supervisor
-from scipy.io import loadmat
-import numpy as np
-from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
 from std_msgs.msg import Float32
+from math import sqrt, atan2, cos, sin
+from nav_msgs.msg import Odometry
+from std_msgs.msg import Float64
+from scipy.io import loadmat
+from random import random
+
+
+last_odom = None
+pose = [0,0,0]
+a1 = 0
+a2 = 0
+a3 = 0
+a4 = 0
+
 
 rospy.init_node('supervisor_controller', anonymous=True)
 odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
+noisy_odometry_publisher = rospy.Publisher('odometry', Odometry, queue_size=100)
+odometry_error_publisher = rospy.Publisher('odom_error', Float64, queue_size=100)
+
+def publish_noisy_odometry(odom):
+    global last_odom
+    if (last_odom == None):
+        last_odom = odom
+        pose[0] = odom.pose.pose.position.x
+        pose[1] = odom.pose.pose.position.y
+        q = [ odom.pose.pose.orientation.x,
+                odom.pose.pose.orientation.y,
+                odom.pose.pose.orientation.z,
+                odom.pose.pose.orientation.w ]
+
+        (r, p, y) = tf.transformations.euler_from_quaternion(q)
+        pose[2] = y
+    else:
+        dx = odom.pose.pose.position.x - last_odom.pose.pose.position.x
+        dy = odom.pose.pose.position.y - last_odom.pose.pose.position.y
+        trans = sqrt(dx*dx + dy*dy)
+
+        q = [ last_odom.pose.pose.orientation.x,
+            last_odom.pose.orientation.y,
+            last_odom.pose.orientation.z,
+            last_odom.pose.orientation.w ]
+        (r,p, theta1) = tf.transformations.euler_from_quaternion(q)
+
+        q = [ odom.pose.pose.orientation.x,
+        odom.pose.pose.orientation.y,
+        odom.pose.pose.orientation.z,
+        odom.pose.pose.orientation.w ]
+        (r,p, theta2) = tf.transformations.euler_from_quaternion(q)
+
+        rot1 = atan2(dy, dx) - theta1
+        rot2 = theta2-theta1-rot1
+
+        sd_rot1 = a1*abs(rot1) + a2*trans
+        sd_rot2 = a1*abs(rot2) + a2*trans
+        sd_trans = a3*trans + a4*(abs(rot1) + abs(rot2))
+
+        trans +=  np.random.normal(0,sd_trans*sd_trans)
+        rot1 += np.random.normal(0, sd_rot1*sd_rot1)
+        rot2 += np.random.normal(0, sd_rot2*sd_rot2)
+
+        pose[0] += trans*cos(theta1+rot1)
+        pose[1] += trans*sin(theta1+rot1)
+        pose[2] = theta1 + rot1 + rot2
+        last_odom = odom
+
+        noisy_odometry_publisher((pose[0], pose[1],0),
+                                 tf.transformations.quaternion_from_euler(0,0,pose[2]),
+                                 odom.header.stamp,
+                                 'baselink',
+                                 'noisy_odom')
+        broadcast_noisy_transform((pose(0), pose(1), 0), (0,0,pose(2)))
+
+
+def broadcast_noisy_transform(position, orientation):
+    current_time = rospy.Time.now()
+    odom_broadcaster = tf.TransformBroadcaster()
+    odom_broadcaster.sendTransform(
+        position,
+        orientation,
+        current_time,
+        "base_link",
+        "noisy_odom"
+    )
+
+
 
 show_rock_distances = rospy.get_param('show_rock_distances', 0)
 
@@ -32,6 +113,7 @@ def publish_odometry(position, orientation, velocity, angular_velocity):
     odom.child_frame_id = "base_link"
     odometry_publisher.publish(odom)
 
+    # publish_noisy_odometry(odom)
 
 def broadcast_transform(position, orientation):
     current_time = rospy.Time.now()
@@ -43,6 +125,11 @@ def broadcast_transform(position, orientation):
         "base_link",
         "odom"
     )
+
+def publish_error():
+    error = random()
+    odometry_error_publisher.publish(error)
+
 
 # import time
 TIME_STEP = 32
@@ -107,6 +194,8 @@ while(supervisor.step(TIME_STEP)!=-1):
         robot_rock_distances = np.sqrt(np.sum((rock_pos[:,:2] - current_robot_position[[0,2]])**2, axis=1))*2 #+ rock_pos[:,2]/2 + 0.25
         min_robot_rock_distance = robot_rock_distances.min()
         rock_dist_publisher.publish(min_robot_rock_distance)
+    publish_error()
+
 
 
     # print((Robot)self_robot.getTime())
