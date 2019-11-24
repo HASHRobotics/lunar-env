@@ -157,7 +157,7 @@ light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
-spice_data = loadmat("/home/hash/Documents/global-planner/data/moon_rel_positions_-87_-8.mat")
+spice_data = loadmat("data/moon_rel_positions_44_25.mat")
 dir_sunlight = spice_data['U_sun_point_enu']
 
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
