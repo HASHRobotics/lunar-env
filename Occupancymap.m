@@ -7,7 +7,10 @@ gradient_threshold = 0.0017;
 % side_length = round(sqrt(total_length));
 % heightmap = reshape(height, [side_length, side_length]);
 
-heightmap = csvread('height_highres_big_pit_pit_centre.csv');
+% heightmap = csvread('height_highres_big_pit_pit_centre.csv');
+
+heightmap = zeros(8,8);
+heightmap(4:5,4:5) = [-80,-80;-80,-80];
 side_length = size(heightmap,1);
 figure;
 I = mat2gray(heightmap);
