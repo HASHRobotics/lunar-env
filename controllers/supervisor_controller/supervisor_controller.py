@@ -26,12 +26,17 @@ pose = {'x': None,
         'z': None,
         'theta': None}
 
-total_distance = 0
+total_distance = 1
 
 a1 = 0.05
 a2 = 15.0*np.pi/180.0
 a3 = 0.05
 a4 = 0.01
+
+a1 = 0.01
+a2 = 0.01
+a3 = 0.01
+a4 = 0.005
 
 rospy.init_node('supervisor_controller', anonymous=True)
 odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
@@ -92,6 +97,7 @@ def calculate_noisy_odometry(position, orientation):
     global pose
     global noisy_odom
     global total_distance
+    global count
     rpy = tf.transformations.euler_from_matrix(orientation, 'rxyz');
     if (last_odom['x'] == None or last_odom['z'] == None or last_odom['theta'] == None):
         last_odom['x'] = position[0]
@@ -139,10 +145,16 @@ def calculate_noisy_odometry(position, orientation):
         orientation = tf.transformations.quaternion_from_matrix(orientation)
         publish_noisy_odometry([pose['x'], 0.1073, pose['z']], orientation)
 
-        error = sqrt((pose['x'] - position[0])**2 + (pose['z'] - position[2])**2)
-        odometry_error_publisher.publish(error/total_distance)
+        print("Pose: {0} position: {1}".format(pose, position))
+        if pose['x'] or pose['y'] or pose['theta']:
+            error = sqrt((pose['x'] - position[0])**2 + (pose['z'] - position[2])**2)
+        else:
+            error = 0
+        if count % 5 == 0:
+            odometry_error_publisher.publish(error/total_distance)
+            count = 0
 
-
+count = 0
 
 # import time
 TIME_STEP = 32
@@ -171,7 +183,7 @@ direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
 
-spice_data = loadmat("/home/hash/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
+spice_data = loadmat("/home/himil07/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
 dir_sunlight = spice_data['U_sun_point_enu']
 
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
@@ -179,11 +191,12 @@ rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
 
 if(show_rock_distances):
-    rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info_demo1.npy")
+    rock_pos = np.load("/home/himil07/Documents/lunar-env/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
 num_loops = 0
 while(supervisor.step(TIME_STEP)!=-1):
+    count = count + 1
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
     if num_loops < dir_sunlight.shape[1] and not show_rock_distances:
