@@ -182,17 +182,28 @@ if(show_rock_distances):
     rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
-num_loops = 0
+num_loops = 100
+time_count = 0
+illumination_time_step = 700000
+factor = illumination_time_step/TIME_STEP
 while(supervisor.step(TIME_STEP)!=-1):
     # if( num_loops % 125 == 0):
     # print("Changing light source now")
-    if num_loops < dir_sunlight.shape[1] and not show_rock_distances:
-        direction_ = (dir_sunlight[:,num_loops]).tolist()
-        # direction_[1]=-0.5
+    started_illumination = rospy.get_param("/start_illumination", 0)
+    if not started_illumination:
+        direction_ = (dir_sunlight[:,100]).tolist()
         direction_field.setSFVec3f(direction_)
-        num_loops += 1
-        if(num_loops == dir_sunlight.shape[1]):
-            print("Done with one day")
+    if num_loops < dir_sunlight.shape[1] and started_illumination and not show_rock_distances:
+        print("Changing illumination")
+        time_count += 1
+        if(time_count/factor > 1):
+            direction_ = (dir_sunlight[:,num_loops]).tolist()
+            # direction_[1]=-0.5
+            direction_field.setSFVec3f(direction_)
+            num_loops += 1
+            if(num_loops == dir_sunlight.shape[1]):
+                print("Done with one day")
+            time_count=0
     position = robot_node.getPosition()
     position[1] = 0.1073
     orientation = np.array(robot_node.getOrientation()).reshape(3,3)
