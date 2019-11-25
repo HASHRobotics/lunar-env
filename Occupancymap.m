@@ -7,7 +7,10 @@ gradient_threshold = 0.0017;
 % side_length = round(sqrt(total_length));
 % heightmap = reshape(height, [side_length, side_length]);
 
-heightmap = csvread('height_highres_big_pit_pit_centre.csv');
+% heightmap = csvread('height_highres_big_pit_pit_centre.csv');
+
+heightmap = zeros(8,8);
+heightmap(4:5,4:5) = [-80,-80;-80,-80];
 side_length = size(heightmap,1);
 figure;
 I = mat2gray(heightmap);
@@ -53,7 +56,7 @@ local_occupancy_map = ~pit_mask & BM;
 figure;
 imshow(local_occupancy_map)
 imwrite(local_occupancy_map, 'local_occupancy_map.png')
-
+csvwrite('occupancy_local_map.csv', local_occupancy_map);
 
 global_occupancy_map = imresize(local_occupancy_map, 0.1);
 global_heightmap = imresize(heightmap, 0.1);
