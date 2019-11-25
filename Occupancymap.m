@@ -53,7 +53,7 @@ local_occupancy_map = ~pit_mask & BM;
 figure;
 imshow(local_occupancy_map)
 imwrite(local_occupancy_map, 'local_occupancy_map.png')
-
+csvwrite('occupancy_local_map.csv', local_occupancy_map);
 
 global_occupancy_map = imresize(local_occupancy_map, 0.1);
 global_heightmap = imresize(heightmap, 0.1);
