@@ -171,7 +171,7 @@ direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
 
-spice_data = loadmat("/home/himil07/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
+spice_data = loadmat("/home/hash/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
 dir_sunlight = spice_data['U_sun_point_enu']
 
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
@@ -179,7 +179,7 @@ rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
 
 if(show_rock_distances):
-    rock_pos = np.load("/home/himil07/Documents/lunar-env/data/rock_info_demo1.npy")
+    rock_pos = np.load("/home/hash/Documents/lunar-env/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
 num_loops = 0
