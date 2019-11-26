@@ -36,13 +36,14 @@ a4 = 0.01
 a1 = 0.01
 a2 = 0.01
 a3 = 0.01
-a4 = 0.005
+a4 = 0.003
 
 rospy.init_node('supervisor_controller', anonymous=True)
 odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
 noisy_odometry_publisher = rospy.Publisher('noisy_odometry', Odometry, queue_size=100)
 odometry_error_publisher = rospy.Publisher('odom_error', Float64, queue_size=100)
 show_rock_distances = rospy.get_param('show_rock_distances', 0)
+LUNAR_ENV_PATH = rospy.get_param("/lunar_env_path", "/home/hash/Documents/lunar-env")
 
 def publish_odometry(position, orientation, velocity, angular_velocity):
     current_time = rospy.Time.now()
@@ -177,13 +178,12 @@ for i in range(n):
     elif(name == "Pioneer3at"):
         pioneer_3_at_index = i
 
-
 light_node = children.getMFNode(light_node_index)
 direction_field = light_node.getField("direction")
 
 robot_node = children.getMFNode(pioneer_3_at_index)
 
-spice_data = loadmat("/home/himil07/Documents/lunar-env/data/moon_rel_positions_44_25.mat")
+spice_data = loadmat(LUNAR_ENV_PATH+"/data/moon_rel_positions_44_25.mat")
 dir_sunlight = spice_data['U_sun_point_enu']
 
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
@@ -191,7 +191,7 @@ rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
 
 if(show_rock_distances):
-    rock_pos = np.load("/home/himil07/Documents/lunar-env/data/rock_info_demo1.npy")
+    rock_pos = np.load(LUNAR_ENV_PATH+"/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
 num_loops = 100
