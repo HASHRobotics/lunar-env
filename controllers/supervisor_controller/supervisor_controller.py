@@ -7,6 +7,7 @@
 import rospy
 import tf
 import numpy as np
+import math
 
 from controller import Supervisor
 from geometry_msgs.msg import Point, Pose, Quaternion, Twist, Vector3
@@ -17,6 +18,7 @@ from std_msgs.msg import Float64
 from scipy.io import loadmat
 from random import random
 
+from webots_control.srv import WhereToLook
 
 last_odom = {'x': None,
             'z': None,
@@ -40,10 +42,23 @@ a4 = 0.003
 
 rospy.init_node('supervisor_controller', anonymous=True)
 odometry_publisher = rospy.Publisher('odometry_ground_truth', Odometry, queue_size=100)
+where_to_see_publisher = rospy.Publisher('where_to_see', Float32, queue_size=10)
 noisy_odometry_publisher = rospy.Publisher('noisy_odometry', Odometry, queue_size=100)
 odometry_error_publisher = rospy.Publisher('odom_error', Float64, queue_size=100)
 show_rock_distances = rospy.get_param('show_rock_distances', 0)
 LUNAR_ENV_PATH = rospy.get_param("/lunar_env_path", "/home/hash/Documents/lunar-env")
+
+def publish_where_to_see(illum_direction):
+    illu_x_dir = illum_direction[0]
+    illu_z_dir = illum_direction[0]
+
+    where_to_see_x = 650 + 50*(np.sqrt(illu_x_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
+    where_to_see_z = 650 + 50*(np.sqrt(illu_z_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
+
+    yaw = -math.atan2(where_to_see_z-last_odom['z'], where_to_see_x-last_odom['x'])
+
+    where_to_see_publisher.publish(yaw)
+
 
 def publish_odometry(position, orientation, velocity, angular_velocity):
     current_time = rospy.Time.now()
@@ -189,6 +204,7 @@ dir_sunlight = spice_data['U_sun_point_enu']
 rotation_matrix = np.array([[1,0,0],[0,0,1],[0,-1,0]])
 
 dir_sunlight = np.matmul(rotation_matrix,dir_sunlight)
+direction_ = (dir_sunlight[:,100]).tolist()
 
 if(show_rock_distances):
     rock_pos = np.load(LUNAR_ENV_PATH+"/data/rock_info_demo1.npy")
@@ -231,6 +247,7 @@ while(supervisor.step(TIME_STEP)!=-1):
     orientation = tf.transformations.quaternion_from_matrix(orientation)
     velocity = robot_node.getVelocity()
     publish_odometry(position, orientation, velocity[0:3], velocity[3:6])
+    publish_where_to_see(direction_)
 
     if(show_rock_distances):
         current_robot_position = np.array(robot_node.getPosition()).flatten()
