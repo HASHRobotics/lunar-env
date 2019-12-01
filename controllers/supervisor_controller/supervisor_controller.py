@@ -54,7 +54,7 @@ def publish_where_to_see(illum_direction):
 
     where_to_see_x = 650 + 50*(np.sqrt(illu_x_dir*illu_x_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
     where_to_see_z = 650 + 50*(np.sqrt(illu_z_dir*illu_z_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
-    print("I will look at: ",illu_x_dir, illu_z_dir, where_to_see_x, where_to_see_z)
+
     yaw = -math.atan2(where_to_see_z-last_odom['z'], where_to_see_x-last_odom['x'])
 
     where_to_see_publisher.publish(yaw)
@@ -161,7 +161,7 @@ def calculate_noisy_odometry(position, orientation):
         orientation = tf.transformations.quaternion_from_matrix(orientation)
         publish_noisy_odometry([pose['x'], 0.1073, pose['z']], orientation)
 
-        print("Pose: {0} position: {1}".format(pose, position))
+        # print("Pose: {0} position: {1}".format(pose, position))
         if pose['x'] or pose['y'] or pose['theta']:
             error = sqrt((pose['x'] - position[0])**2 + (pose['z'] - position[2])**2)
         else:
@@ -210,10 +210,10 @@ if(show_rock_distances):
     rock_pos = np.load(LUNAR_ENV_PATH+"/data/rock_info_demo1.npy")
     rock_dist_publisher = rospy.Publisher("min_rock_dist", Float32, queue_size=10)
 
-num_loops = 100
+num_loops = 0
 time_count = 0
-illumination_time_step = 700000
-factor = illumination_time_step/TIME_STEP
+illumination_time_step = 700
+factor = illumination_time_step*1000/TIME_STEP
 while(supervisor.step(TIME_STEP)!=-1):
     count = count + 1
     # if( num_loops % 125 == 0):
