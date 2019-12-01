@@ -18,7 +18,7 @@ from std_msgs.msg import Float64
 from scipy.io import loadmat
 from random import random
 
-from webots_control.srv import WhereToLook
+# from webots_control.srv import WhereToLook
 
 last_odom = {'x': None,
             'z': None,
@@ -50,11 +50,11 @@ LUNAR_ENV_PATH = rospy.get_param("/lunar_env_path", "/home/hash/Documents/lunar-
 
 def publish_where_to_see(illum_direction):
     illu_x_dir = illum_direction[0]
-    illu_z_dir = illum_direction[0]
+    illu_z_dir = illum_direction[2]
 
-    where_to_see_x = 650 + 50*(np.sqrt(illu_x_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
-    where_to_see_z = 650 + 50*(np.sqrt(illu_z_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
-
+    where_to_see_x = 650 + 50*(np.sqrt(illu_x_dir*illu_x_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
+    where_to_see_z = 650 + 50*(np.sqrt(illu_z_dir*illu_z_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
+    print("I will look at: ",illu_x_dir, illu_z_dir, where_to_see_x, where_to_see_z)
     yaw = -math.atan2(where_to_see_z-last_odom['z'], where_to_see_x-last_odom['x'])
 
     where_to_see_publisher.publish(yaw)
