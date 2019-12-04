@@ -52,8 +52,8 @@ def publish_where_to_see(illum_direction):
     illu_x_dir = illum_direction[0]
     illu_z_dir = illum_direction[2]
 
-    where_to_see_x = 650 + 50*(np.sqrt(illu_x_dir*illu_x_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
-    where_to_see_z = 650 + 50*(np.sqrt(illu_z_dir*illu_z_dir/(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir)))
+    where_to_see_x = 650 + 50*(illu_x_dir/np.sqrt(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir))
+    where_to_see_z = 650 + 50*(illu_z_dir/np.sqrt(illu_x_dir*illu_x_dir + illu_z_dir*illu_z_dir))
 
     yaw = -math.atan2(where_to_see_z-last_odom['z'], where_to_see_x-last_odom['x'])
 
@@ -226,6 +226,7 @@ while(supervisor.step(TIME_STEP)!=-1):
         print("Changing illumination")
         time_count += 1
         if(time_count/factor > 1):
+            print("Next illumination time step")
             direction_ = (dir_sunlight[:,num_loops]).tolist()
             # direction_[1]=-0.5
             direction_field.setSFVec3f(direction_)
